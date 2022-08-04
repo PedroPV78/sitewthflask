@@ -63,7 +63,7 @@ def register():
 
 @app.route("/edit", methods=["GET", "POST"])
 def editDiario():
-    
+
 
 
 @app.route("/error")
