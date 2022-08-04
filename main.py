@@ -28,7 +28,8 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            mycursor.execute("SELECT login, senha FROM loginInfo WHERE login = '" + username + "' AND senha = '" + password + "'")
+            mycursor.execute(
+                "SELECT login, senha FROM loginInfo WHERE login = '" + username + "' AND senha = '" + password + "'")
             if mycursor.fetchone():
                 res = make_response(redirect(url_for("home")))
                 res.set_cookie("login", base64.b64encode(username.encode('ascii')))
@@ -62,13 +63,8 @@ def register():
 
 
 @app.route("/edit", methods=["GET", "POST"])
-def editDiario():
-
-
-
-@app.route("/error")
-def error():
-    return render_template("error.html")
+def editdiario():
+    return render_template("diario.html")
 
 
 if __name__ == "__main__":
