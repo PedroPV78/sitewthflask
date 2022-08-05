@@ -29,7 +29,7 @@ def login():
         password = request.form["password"]
         if not len(password) == 0:
             mycursor.execute(
-                "SELECT login, senha FROM loginInfo WHERE login = '" + username + "' AND senha = '" + password + "'")
+                "SELECT * FROM loginData WHERE login = '" + username + "' AND senha = '" + password + "'")
             if mycursor.fetchone():
                 res = make_response(redirect(url_for("home")))
                 res.set_cookie("login", base64.b64encode(username.encode('ascii')))
@@ -47,7 +47,7 @@ def register():
     if request.method == 'POST':
         username = request.form["username"]
         password = request.form['password']
-        mycursor.execute("SELECT * FROM loginInfo WHERE login = '" + username + "'")
+        mycursor.execute("SELECT * FROM loginData WHERE login = '" + username + "'")
         if mycursor.fetchone():
             return render_template("register.html", existe=True)
 
