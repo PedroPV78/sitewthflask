@@ -3,10 +3,13 @@
 
 {% block content %}
 
-    <script type="text/javascript" src="../src/posts.json"></script>
+    <script type="text/javascript" src="{{url_for('static', filename='posts.json')}}"></script>
 
     <script type="text/javascript">
-
+        var dadosPosts = JSON.parse(posts)
+        for (var elem of dadosPosts) {
+            console.log(dadosPosts[elem]);
+        }
     </script>
 
 {% endblock %}
