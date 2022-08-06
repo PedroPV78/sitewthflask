@@ -1,27 +1,49 @@
 {% extends "base.html" %}
 {% block title %} Login {% endblock %}
 {% block content %}
-    <form action="" method="post" id="loginform">
-      <div class="form-group">
-        <label for="exampleInputEmail1">Username</label>
-        <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Coloque o username">
-      </div>
-      <div class="form-group">
-        <label for="exampleInputPassword1" >Senha</label>
-        <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Senha">
-      </div>
-      <button type="submit" class="btn btn-primary" value="submit">Logar</button>
-    </form>
+<script>
+  function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
 
-  {% if no %}
-    <div class="alert alert-danger" role="alert">
-      Login Errado
-    </div>
-  {% endif %}
+  if (getCookie('login') != "") {
+    location.href = "/logado"
+  }
+</script>
+<form action="" method="post" id="loginform">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+      placeholder="Coloque o username">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Senha</label>
+    <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Senha">
+  </div>
+  <button type="submit" class="btn btn-primary" value="submit">Logar</button>
+</form>
 
-  {% if len==False %}
-    <div class="alert alert-danger" role="alert">
-      Colque uma senha
-    </div>
-  {% endif %}
+{% if no %}
+<div class="alert alert-danger" role="alert">
+  Login Errado
+</div>
+{% endif %}
+
+{% if len==False %}
+<div class="alert alert-danger" role="alert">
+  Colque uma senha
+</div>
+{% endif %}
 {% endblock %}

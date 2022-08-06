@@ -1,15 +1,19 @@
 import base64
+from dataclasses import dataclass
 from flask import *
 import mysql.connector
 
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Pv831842@",
+    passwd="",
     database="users"
 )
 
 mycursor = db.cursor()
+
+mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
+
 
 app = Flask(__name__)
 
@@ -22,8 +26,7 @@ def home():
 @app.route('/login', methods=["POST", "GET"])
 def login():
     if request.method == "GET":
-        if request.cookies.get('login'):
-            return redirect(url_for("home"))
+        return render_template("login.html")
     if request.method == "POST":
         username = request.form["username"]
         password = request.form["password"]
@@ -41,6 +44,10 @@ def login():
 
     return render_template('login.html')
 
+
+@app.route("/logado")
+def logado():
+    return render_template("logado.html")
 
 @app.route('/register', methods=["GET", 'POST'])
 def register():
