@@ -1,5 +1,4 @@
 import base64
-from dataclasses import dataclass
 from flask import *
 import mysql.connector
 
@@ -71,7 +70,7 @@ def register():
 
 @app.route("/edit", methods=["GET", "POST"])
 def editdiario():
-    return render_template("diario.html")
+    return render_template("editdiario.html")
 
 
 if __name__ == "__main__":
