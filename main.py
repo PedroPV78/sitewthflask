@@ -5,7 +5,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="",
+    passwd="Pv831842@",
     database="users"
 )
 
@@ -70,7 +70,9 @@ def register():
 
 @app.route("/edit", methods=["GET", "POST"])
 def editdiario():
-    return render_template("editdiario.html")
+    mycursor.execute("SELECT * FROM posts")
+    posts = mycursor.fetchall()
+    return render_template("editdiario.html", aaaa=len(posts))
 
 
 if __name__ == "__main__":

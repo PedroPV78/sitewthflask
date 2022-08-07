@@ -1,15 +1,17 @@
-{% extends "base.html" %}
-{% block title %} Editar Diário {% endblock %}
-
+{% extends "base.html" %} 
+{% block title %} Editar Diário {% endblock %} 
 {% block content %}
 
-    <script type="text/javascript" src="{{url_for('static', filename='posts.json')}}"></script>
+    <div id="posts">
+        <!-- button that goes to /addPost -->
+        <a href="/addPost" class="btn btn-primary">Adicionar Post</a>
+        <!-- button that goes to /removePost -->
+        <a href="/removePost" class="btn btn-primary">Remover Post</a>
 
-    <script type="text/javascript">
-        var dadosPosts = JSON.parse(posts)
-        for (var elem of dadosPosts) {
-            console.log(dadosPosts[elem]);
-        }
-    </script>
+        {% for post in range(aaaa) %}
+            <h3>post</h3>
+        {% endfor %}
+    </div>
 
+    
 {% endblock %}
