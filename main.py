@@ -30,12 +30,15 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            mycursor.execute(
-                "SELECT * FROM loginData WHERE login = '" + username + "' AND senha = '" + password + "'")
-            if mycursor.fetchone():
+            sqLogin = "SELECT * FROM loginData WHERE login = '" + username + "' AND senha = '" + password + "'"
+            mycursor.execute(sqLogin)
+            a = mycursor.fetchall()
+            if a:
                 res = make_response(redirect(url_for("home")))
                 res.set_cookie("login", base64.b64encode(username.encode('ascii')))
+                
                 return res
+
         else:
             return render_template("login.html", len=False)
 
@@ -74,5 +77,5 @@ def editdiario():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
     app.run(host="0.0.0.0")
+    app.run()
