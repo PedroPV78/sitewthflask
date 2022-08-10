@@ -1,0 +1,26 @@
+<!-- extends base.html -->
+{% extends "base.html" %}
+
+<!-- block title -->
+{% block title %} Editar Diário {% endblock %}
+
+<!-- block content -->
+{% block content %}
+    <script>
+        // redirect when button with id sub is clicked
+        document.getElementById("sub").addEventListener("click", function() {
+            location.href = "/edit";
+        });
+    </script>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="titulo">Título:</label>
+            <input type="text" class="form-control" id="titulo" name="title">
+        </div>
+        <div class="form-group">
+            <label for="conteudo">Conteúdo:</label>
+            <input type="text" class="form-control" id="conteudo" name="content">
+        </div>
+        <button type="submit" class="btn btn-primary" id="sub">Adicionar</button>
+    </form>
+{% endblock %}

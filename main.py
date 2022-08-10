@@ -1,4 +1,5 @@
 import base64
+from email import contentmanager
 from flask import *
 import mysql.connector
 
@@ -71,12 +72,28 @@ def register():
     return render_template('register.html')
 
 
+@app.route("/calc")
+def calc():
+    return render_template("calc.html")
+
+
 @app.route("/edit", methods=["GET", "POST"])
 def editdiario():
     mycursor.execute("SELECT * FROM posts")
     posts = mycursor.fetchall()
-    return render_template("editdiario.html", aaaa=len(posts))
+    print(posts)
+    return render_template("editdiario.html", aaaa=posts)
 
+
+@app.route("/addPost", methods=["POST", "GET"])
+def addPost():
+    if request.method == "POST":
+        title = request.form["title"]
+        content = request.form["content"]
+        mycursor.execute("INSERT INTO posts(title, content) VALUES ('" + title + "', '" + content + "')")
+        db.commit()
+        return render_template("editdiario.html")
+    return render_template("addPost.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")

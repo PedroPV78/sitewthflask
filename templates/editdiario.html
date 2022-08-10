@@ -3,14 +3,17 @@
 {% block content %}
 
     <div id="posts">
+        {% for post in aaaa %}
+            <h3>Título: {{post[1]}}</h3>
+            <p>Conteúdo: {{post[2]}}</p>
+        {% endfor %}
+        
         <!-- button that goes to /addPost -->
         <a href="/addPost" class="btn btn-primary">Adicionar Post</a>
         <!-- button that goes to /removePost -->
         <a href="/removePost" class="btn btn-primary">Remover Post</a>
 
-        {% for post in range(aaaa) %}
-            <h3>post</h3>
-        {% endfor %}
+        
     </div>
 
     
