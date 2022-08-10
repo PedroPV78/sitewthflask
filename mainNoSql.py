@@ -1,7 +1,15 @@
 import base64
 from flask import *
+import json
 
+f = open('./static/login.json')
 
+data = json.load(f)
+
+for i in data['sla']:
+	print(i)
+
+f.close()
 app = Flask(__name__)
 
 
@@ -18,7 +26,7 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            if username == 'admin' && password == 'admin':
+            if username == 'admin' and password == 'admin':
                 res = make_response(redirect(url_for("home")))
                 res.set_cookie("login", base64.b64encode(username.encode('ascii')))
                 return res
