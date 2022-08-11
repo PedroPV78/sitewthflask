@@ -1,13 +1,12 @@
 import base64
 from flask import *
-
-
+import json
 app = Flask(__name__)
-
 
 @app.route('/', methods=['GET'])
 def home():
     return render_template("homepage.html")
+
 
 
 @app.route('/login', methods=["POST", "GET"])
@@ -18,10 +17,16 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            if username == 'admin' && password == 'admin':
-                res = make_response(redirect(url_for("home")))
-                res.set_cookie("login", base64.b64encode(username.encode('ascii')))
-                return res
+            with open('static\login.json', 'r') as f:
+                for i in f:
+                    a, b = i.split(",")
+                    b = b.strip()
+                    a = a.strip()
+                    if a == username and b == password:
+                        res = make_response(redirect(url_for("home")))
+                        res.set_cookie("login", base64.b64encode(
+                            username.encode('ascii')))
+                        return res
         else:
             return render_template("login.html", len=False)
 

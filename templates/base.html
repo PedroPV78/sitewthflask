@@ -23,12 +23,6 @@
       <li class="nav-item active">
         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="/login">Login</a>
-      </li>
-        <li class="nav-item">
-            <a class="nav-link active" href="" onclick="deleteCookie()">Sair</a>
-        </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Diário da Gisa
@@ -39,6 +33,26 @@
             <a class="dropdown-item disabled" id="coisa"  href="/edit">Editar diário</a>
         </div>
       </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/login">Login</a>
+      </li>
+      
+        <li class="nav-item">
+            <a class="nav-link active" href="" onclick="deleteCookie()">Sair</a>
+        </li>
+      
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span id="perfilName"> Logado como: </span>
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/verPerfil">Ver perfil</a>
+            <a class="dropdown-item" id="coisa"  href="/edit">Editar perfil</a>
+        </div>
+      </li>
+      
     </ul>
   </div>
 </nav>
@@ -65,10 +79,20 @@
             document.cookie = "login=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
         }
 
+        const user = atob(getCookie('login'));
         var coisa = document.getElementById("coisa");
 
-        if (atob(getCookie('login')) == 'gisele' || atob(getCookie('login')) == 'admin') {
+        if (user == 'gisele' || user == 'admin') {
             coisa.setAttribute("class", "dropdown-item");
+        }
+
+        if (getCookie('login')) {
+          var nomePerfil = document.getElementById('perfilName');
+          console.log(getCookie('login'))
+          nomePerfil.innerHTML = "Logado como: " + user;
+        } else {
+          var nomePerfil = document.getElementById('perfilName');
+          nomePerfil.innerHTML = "Faça login para ver o perfil"
         }
     </script>
 
