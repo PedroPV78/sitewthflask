@@ -17,7 +17,7 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 app = Flask(__name__)
 
-
+app.debug = True
 @app.route('/', methods=['GET'])
 def home():
     return render_template("homepage.html")
