@@ -5,7 +5,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Pv831842@",
+    passwd="",
     database="users"
 )
 
@@ -15,6 +15,8 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 
 app = Flask(__name__)
+
+app.debug = 'true'
 
 
 @app.route('/', methods=['GET'])
@@ -86,13 +88,24 @@ def editdiario():
 
 @app.route("/addPost", methods=["POST", "GET"])
 def addPost():
+    if request.method == "GET":
+        return render_template("addPost.html")
     if request.method == "POST":
         title = request.form["title"]
         content = request.form["content"]
-        mycursor.execute("INSERT INTO posts(title, content) VALUES ('" + title + "', '" + content + "')")
-        db.commit()
-        return render_template("editdiario.html")
+        if len(title) == 0 or len(content) == 0:
+            return render_template("addPost.html", len=0)
+        else:
+            mycursor.execute("INSERT INTO posts(title, content) VALUES ('" + title + "', '" + content + "')")
+            db.commit()
+            return render_template("addPost.html")
     return render_template("addPost.html")
+
+
+@app.route("/verPerfil")
+def verPerfil():
+    return render_template("verperfil.html")
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
