@@ -1,4 +1,5 @@
 import base64
+import os
 from flask import *
 import mysql.connector
 
@@ -14,7 +15,7 @@ mycursor = db.cursor()
 mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 
-app = Flask(__name__)
+app = Flask(__name__, static_url_path="/static")
 
 app.debug = True
 
@@ -106,14 +107,30 @@ def addPost():
 
 @app.route("/verPerfil")
 def verPerfil():
-    return render_template("verperfil.html")
-
+    return render_template("verPerfil.html")
+    
 
 @app.route("/remove/<id>")
 def removePost(id):
     mycursor.execute("DELETE FROM posts WHERE postId = " + id)
     db.commit()
     return redirect(url_for("editdiario"))
+
+
+@app.route("/editarPerfil", methods=["GET", "POST"])
+def editarPerfil():
+    if request.method == "GET":
+        return render_template("editarPerfil.html", edit=None)
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
+        if len(password) == 0:
+            return render_template("editarPerfil.html", len=0)
+        else:
+            mycursor.execute("UPDATE loginData SET senha = '" + password + "' WHERE login = '" + username + "'")
+            db.commit()
+            return render_template("editarPerfil.html")
+    return render_template("editarPerfil.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
