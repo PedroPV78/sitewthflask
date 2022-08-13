@@ -35,9 +35,11 @@
     // change the value of the span with the name of the user in the cookie
     if (getCookie('login') == "") {
         location.href = "/login";
-    } else {
+    } else{
         // change span to name of the user in the cookie
         document.getElementById("spanNomeUser").innerHTML = atob(getCookie('login'));
+        // change src of the image to the image of the user in the cookie
+        document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
     }
 
 </script>

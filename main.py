@@ -76,6 +76,7 @@ def register():
     return render_template('register.html')
 
 
+# calculadora
 @app.route("/calc")
 def calc():
     return render_template("calc.html")
@@ -109,7 +110,7 @@ def addPost():
 def verPerfil():
     return render_template("verPerfil.html")
     
-
+# remove o post
 @app.route("/remove/<id>")
 def removePost(id):
     mycursor.execute("DELETE FROM posts WHERE postId = " + id)
@@ -131,6 +132,12 @@ def editarPerfil():
             db.commit()
             return render_template("editarPerfil.html")
     return render_template("editarPerfil.html")
+
+
+@app.route("/diaDosPais")
+def diaDosPais():
+    return render_template("diaDosPais.html")
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
