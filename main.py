@@ -5,7 +5,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="",
+    passwd="Pv831842@",
     database="users"
 )
 
@@ -16,13 +16,11 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 app = Flask(__name__)
 
-<<<<<<< HEAD
 app.debug = True
-=======
+
 app.debug = 'true'
 
 
->>>>>>> bca52428d9bd0915b54ea8684a0a0972b7af4ac6
 @app.route('/', methods=['GET'])
 def home():
     return render_template("homepage.html")
@@ -87,7 +85,7 @@ def editdiario():
     mycursor.execute("SELECT * FROM posts")
     posts = mycursor.fetchall()
     print(posts)
-    return render_template("editdiario.html", aaaa=posts)
+    return render_template("editdiario.html", posts=posts)
 
 
 @app.route("/addPost", methods=["POST", "GET"])
@@ -110,6 +108,12 @@ def addPost():
 def verPerfil():
     return render_template("verperfil.html")
 
+
+@app.route("/remove/<id>")
+def removePost(id):
+    mycursor.execute("DELETE FROM posts WHERE postId = " + id)
+    db.commit()
+    return redirect(url_for("editdiario"))
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")

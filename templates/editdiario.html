@@ -3,15 +3,34 @@
 {% block content %}
 
     <div id="posts">
-        {% for post in aaaa %}
+        {% for post in posts %}
             <h3>Título: {{post[1]}}</h3>
             <p>Conteúdo: {{post[2]}}</p>
+            <!-- button to remove with post id -->
+            <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'">Remover</button>
         {% endfor %}
-        
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <!-- button that goes to /addPost -->
         <a href="/addPost" class="btn btn-primary">Adicionar Post</a>
         <!-- button that goes to /removePost -->
-        <a href="/removePost" class="btn btn-primary">Remover Post</a>
 
         
     </div>
