@@ -1,5 +1,6 @@
 import base64
 import os
+import ssl
 from flask import *
 import mysql.connector
 
@@ -141,4 +142,4 @@ def diaDosPais():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
-    app.run()
+    app.run(ssl_context=('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.cer', '/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.key'))
