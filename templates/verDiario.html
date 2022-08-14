@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+    
+    {% block title %} Diário da Gisele {% endblock %}
+    
+    {% block content %}
+
+        {% for post in posts %}
+            <h3>Título: {{post[1]}}</h3>
+            <p>Conteúdo: {{post[2]}}</p>
+        {% endfor %}
+    
+    {% endblock %}
+

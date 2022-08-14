@@ -91,6 +91,13 @@ def editdiario():
     print(posts)
     return render_template("editdiario.html", posts=posts)
 
+@app.route("/verDiario")
+def verDiario():
+    mycursor.execute("SELECT * FROM posts")
+    posts = mycursor.fetchall()
+    print(posts)
+    return render_template("verDiario.html", posts=posts)
+
 
 @app.route("/addPost", methods=["POST", "GET"])
 def addPost():
@@ -139,6 +146,9 @@ def editarPerfil():
 @app.route("/diaDosPais")
 def diaDosPais():
     return render_template("diaDosPais.html")
+
+
+
 
 
 if __name__ == "__main__":
