@@ -37,8 +37,9 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            sqLogin = "SELECT * FROM loginData WHERE login = '" + username + "' AND senha = '" + password + "'"
+            sqLogin = f"SELECT * FROM loginData WHERE login = '{username}' AND senha = '{password}'"
             mycursor.execute(sqLogin)
+            print(mycursor)
             a = mycursor.fetchall()
             if a:
                 res = make_response(redirect(url_for("home")))
@@ -63,13 +64,11 @@ def register():
     if request.method == 'POST':
         username = request.form["username"]
         password = request.form['password']
-        mycursor.execute("SELECT * FROM loginData WHERE login = '" + username + "'")
+        mycursor.execute(f"SELECT * FROM loginData WHERE login = '{username}'")
         if mycursor.fetchone():
             return render_template("register.html", existe=True)
 
-        sql = """INSERT INTO loginData(
-        login, senha)
-        VALUES ('%s', '%s')""" % (username, password)
+        sql = f"INSERT INTO loginData(login, senha) VALUES ('{username}', '{password}')"
         mycursor.execute(sql)
         db.commit()
         res = make_response(render_template("register.html", login=True))
