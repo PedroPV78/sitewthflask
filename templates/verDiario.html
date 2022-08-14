@@ -3,7 +3,12 @@
 {% block title %} Diário da Gisele {% endblock %}
 
 {% block content %}
-
+<style>
+    /* put backgroud color to a gray */
+    body {
+        background-color: #f5f5f5;
+    }
+</style>
 {% for post in posts %}
 <div class="accordion" id="accordionExample">
     <div class="card">
