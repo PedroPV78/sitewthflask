@@ -36,19 +36,19 @@
             <a class="dropdown-item disabled" id="coisa" href="/edit">Editar diário</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/login" id="loginBtn">Login</a>
-        </li>
+
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <span id="perfilName"> Logado como: </span>
           </a>
-
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/verPerfil" id="bb">Ver perfil</a>
-            <a class="dropdown-item" id="coisa" href="/editarPerfil" id="aa">Editar perfil</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link active" href="/login" id="loginBtn">Login</a>
+        </li>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/verPerfil" id="bb">Ver perfil</a>
+          <a class="dropdown-item" id="coisa" href="/editarPerfil" id="aa">Editar perfil</a>
+        </div>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="" onclick="deleteCookie()" id="btnSair" style="visibility: hidden;">Sair</a>
@@ -80,7 +80,7 @@
     }
 
     // check if cookie 'login' is set
-    
+
     function deleteCookie() {
       document.cookie = "login=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
     }
