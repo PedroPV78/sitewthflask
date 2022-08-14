@@ -67,7 +67,7 @@ def register():
         if mycursor.fetchone():
             return render_template("register.html", existe=True)
 
-        sql = """INSERT INTO loginInfo(
+        sql = """INSERT INTO loginData(
         login, senha)
         VALUES ('%s', '%s')""" % (username, password)
         mycursor.execute(sql)
