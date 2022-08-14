@@ -37,7 +37,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/login">Login</a>
+          <a class="nav-link active" href="/login" id="loginBtn">Login</a>
         </li>
         <li class="nav-item dropdown active">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
@@ -105,7 +105,10 @@
       nomePerfil.innerHTML = "Faça login para ver o perfil"
     }
 
-    
+    // if cookie is set, set loginBtn to invisible
+    if (getCookie('login')) {
+      document.getElementById('loginBtn').style.visibility = 'hidden';
+    }
   </script>
 
   {% block content %}
