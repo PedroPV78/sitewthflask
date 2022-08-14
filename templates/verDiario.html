@@ -1,13 +1,27 @@
 {% extends "base.html" %}
-    
-    {% block title %} Diário da Gisele {% endblock %}
-    
-    {% block content %}
 
-        {% for post in posts %}
-            <h3>Título: {{post[1]}}</h3>
-            <p>Conteúdo: {{post[2]}}</p>
-        {% endfor %}
-    
+{% block title %} Diário da Gisele {% endblock %}
+
+{% block content %}
+
+{% for post in posts %}
+<div class="accordion" id="accordionExample">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="false" aria-controls="collapseOne">
+                    {{post[1]}}
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                {{post[2]}}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
     {% endblock %}
-
