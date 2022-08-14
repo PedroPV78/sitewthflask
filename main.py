@@ -5,16 +5,16 @@ import mysql.connector
 from OpenSSL import SSL
 
 
-context = SSL.Context(SSL.TLSv1_2_METHOD)
-context.use_certificate('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.cer')
-context.use_privatekey('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.key')
+# context = SSL.Context(SSL.TLSv1_2_METHOD)
+# context.use_certificate_file('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.cer')
+# context.use_privatekey_file('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.key')
 
 
 
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Pv831842@",
+    passwd="Pv831842",
     database="users"
 )
 
@@ -24,12 +24,6 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 
 app = Flask(__name__, static_url_path="/static")
-
-app.debug = True
-
-app.debug = 'true'
-
-
 @app.route('/', methods=['GET'])
 def home():
     return render_template("homepage.html")
@@ -148,4 +142,4 @@ def diaDosPais():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", ssl_context=context)
+    app.run(host="0.0.0.0", port=80)
