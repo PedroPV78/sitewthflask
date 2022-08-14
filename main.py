@@ -14,8 +14,9 @@ from OpenSSL import SSL
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Pv831842@",
-    database="users"
+    passwd="Pv831842",
+    database="users",
+    auth_plugin='mysql_native_password'
 )
 
 mycursor = db.cursor()
