@@ -109,8 +109,11 @@ def addPost():
         if len(title) == 0 or len(content) == 0:
             return render_template("addPost.html", len=0)
         else:
-            mycursor.execute("INSERT INTO posts(title, content) VALUES ('" + title + "', '" + content + "')")
-            db.commit()
+            if len(content) < 65.535:
+                mycursor.execute("INSERT INTO posts(title, content) VALUES ('" + title + "', '" + content + "')")
+                db.commit()
+            else:
+                return render_template("addPost.html", len=1)
             return render_template("addPost.html")
     return render_template("addPost.html")
 
