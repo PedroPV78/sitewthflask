@@ -14,7 +14,7 @@ from OpenSSL import SSL
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Pv831842",
+    passwd="Pv831842@",
     database="users"
 )
 
