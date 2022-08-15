@@ -151,7 +151,9 @@ def diaDosPais():
     return render_template("diaDosPais.html")
 
 
-
+@app.route("/welcome/<id>")
+def welcome(id):
+    return render_template("welcome.html",id=id)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %} Bem-vindo {% endblock %}
+
+{% block content %}
+
+<h1> Bem vindo ao site {{id}} </h1>
+
+<script>
+	setTimeout(() => {
+		location.href = "/";
+	}, 5);
+
+</script>
