@@ -146,14 +146,10 @@ def editarPerfil():
     return render_template("editarPerfil.html")
 
 
-@app.route("/diaDosPais")
-def diaDosPais():
-    return render_template("diaDosPais.html")
-
-
-@app.route("/welcome/<id>")
+@app.route("/welcome", methods=["GET"])
 def welcome(id):
-    return render_template("welcome.html",id=id)
+    argum = request.args
+    return render_template("welcome.html",id=argum)
 
 
 if __name__ == "__main__":
