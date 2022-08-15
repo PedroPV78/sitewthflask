@@ -12,11 +12,10 @@ from OpenSSL import SSL
 
 
 db = mysql.connector.connect(
-    host="localhost",
+    host="verissimos.ddnsfree.com",
     user="root",
-    passwd="Pv831842",
-    database="users",
-    auth_plugin='mysql_native_password'
+    passwd="Pv831842@",
+    database="users"
 )
 
 mycursor = db.cursor()
@@ -147,7 +146,7 @@ def editarPerfil():
 
 
 @app.route("/welcome", methods=["GET"])
-def welcome(id):
+def welcome():
     argum = request.args
     return render_template("welcome.html",id=argum)
 
