@@ -8,18 +8,4 @@
         <p class="lead">Essa é a página principal do site</p>
     </div>
 </div>
-
-<script>
-    if (user == 'erisvaldo') {
-        // check if today is 13 of the august
-        console.log(user)
-        var d = new Date();
-        var day = d.getDate();
-        var month = d.getMonth();
-        var year = d.getFullYear();
-        if (day == 14 && month == 7 && year == 2022) {
-            location.href = "/diaDosPais";
-        }
-    }
-</script>
 {% endblock %}
