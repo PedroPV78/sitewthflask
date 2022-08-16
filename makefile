@@ -5,4 +5,4 @@ git:
 
 update:
 	git pull
-	sudo systemctl pythonflask restart
+	sudo python3 main.py
