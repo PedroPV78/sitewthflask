@@ -150,6 +150,10 @@ def welcome():
     argum = request.args
     return render_template("welcome.html",id=argum)
 
+@app.rout("/anaPat")
+def anaPat():
+    return "Olá professora linda"
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
