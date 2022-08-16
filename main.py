@@ -150,9 +150,9 @@ def welcome():
     argum = request.args
     return render_template("welcome.html",id=argum)
 
-@app.route("/anaPat")
+@app.route("/rodrigo")
 def anaPat():
-    return "Olá professora linda"
+    return "<h1>Bom dia rodrigão</h1>"
 
 
 if __name__ == "__main__":
