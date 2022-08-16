@@ -28,7 +28,7 @@ app = Flask(__name__, static_url_path="/static")
 
 @app.route('/', methods=['GET'])
 def home():
-    return "oi mãe"
+    return render_template("homepage.html")
 
 
 @app.route('/login', methods=["POST", "GET"])
