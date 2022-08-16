@@ -24,6 +24,8 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 
 app = Flask(__name__, static_url_path="/static")
+
+
 @app.route('/', methods=['GET'])
 def home():
     return render_template("homepage.html")
@@ -153,6 +155,11 @@ def welcome():
 @app.route("/enrico")
 def anaPat():
     return "<h1>Bom dia cacetinho</h1>"
+
+
+@app.route("/celso")
+def celsão():
+    return "<h1> Olá Celso Jacubavicius </h1>"
 
 
 if __name__ == "__main__":
