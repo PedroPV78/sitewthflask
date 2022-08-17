@@ -1,5 +1,7 @@
 make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/user/Desktop/sitewthflask'
 git add .
+git commit -m ""
+git push
 make: Leaving directory 'c:/Users/user/Desktop/sitewthflask'
  

@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 14 15:21:00 2022
+# Make data base, printed on Tue Aug 16 22:16:46 2022
 
 # Variables
 
@@ -33,7 +33,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20724_GGXIAKJHVGWTVXYN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21584_WLDRANUOMMLJDSIV
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -81,7 +81,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 20724
+VSCODE_PID = 21584
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -144,8 +144,6 @@ USERDOMAIN = DESKTOP-9H6G6TB
 GNUMAKEFLAGS := 
 # environment
 OS = Windows_NT
-# environment
-__COMPAT_LAYER = DetectorsAppHealth
 # makefile
 .DEFAULT_GOAL := git
 # default
@@ -193,7 +191,7 @@ PROCESSOR_REVISION = 3c03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=90/1024=9%, Rehash=0, Collisions=8/117=7%
+# Load=89/1024=9%, Rehash=0, Collisions=8/116=7%
 
 # Pattern-specific Variable Values
 
@@ -201,9 +199,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/user/Desktop/sitewthflask, mtime 1660501259): 12 files, no impossibilities.
+# . (key c:/Users/user/Desktop/sitewthflask, mtime 1660697083): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -211,13 +209,22 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Files
 
+update:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 7):
+	git pull
+	sudo systemctl restart flask
+
 git:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 2):
 	git add .
-	
+	git commit -m "$m"
+	git push
 
 # Not a target:
 .DEFAULT:
@@ -235,24 +242,24 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-14 15:20:50
+#  Last modified 2022-08-16 21:44:43
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/15=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/16=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 119 B / avg = 7 B
-# current buf: size = 8162 B / used = 119 B / count = 16 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 18 / storage = 140 B / avg = 7 B
+# current buf: size = 8162 B / used = 140 B / count = 18 / avg = 7 B
 
-# strcache performance: lookups = 21 / hit rate = 23%
+# strcache performance: lookups = 24 / hit rate = 25%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/21=0%
-# Finished Make data base on Sun Aug 14 15:21:00 2022
+# Load=18/8192=0%, Rehash=0, Collisions=0/24=0%
+# Finished Make data base on Tue Aug 16 22:16:46 2022
 
  

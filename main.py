@@ -152,14 +152,10 @@ def welcome():
     argum = request.args
     return render_template("welcome.html",id=argum)
 
-@app.route("/enrico")
-def anaPat():
-    return "<h1>Bom dia cacetinho</h1>"
 
-
-@app.route("/lucas")
-def celsão():
-    return "<h1> Eae lucão </h1>"
+@app.route("/oiPai")
+def oiPai():
+    return "oi pai te amo muito"
 
 
 if __name__ == "__main__":
