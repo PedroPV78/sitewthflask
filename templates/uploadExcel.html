@@ -15,42 +15,68 @@
 </style>
 <label for="excel">Manda uma planilha do excel:</label>
 
-<input type="file" id="excel" name="excel" onchange="return fileValid()">
+<input type="file" id="excel" name="excel">
 
 <div id="ppp"></div>
 
 <script>
-    function fileValid() {
+    const excelFile = document.getElementById("excel");
+
+        excelFile.addEventListener("change", (event) => {
             var fileInput =
                 document.getElementById('excel');
-             
+
             var filePath = fileInput.value;
-         
+
             // Allowing file type
             var allowedExtensions =
-                    /(\.csv|\.xls|\.xlsx|\.txt)$/i;
-             
+                /(\.csv|\.xls|\.xlsx)$/i;
+
             if (!allowedExtensions.exec(filePath)) {
                 alert('Invalid file type');
                 fileInput.value = '';
                 return false;
             }
-            else
-            {
-             
-                // Image preview
+            else {
+
+
                 if (fileInput.files && fileInput.files[0]) {
                     var reader = new FileReader();
-                    reader.onload = function(e) {
-                        document.getElementById(
-                            'ppp').innerHTML =
-                            '<h1> FOI </h1>';
-                    };
-                     
-                    reader.readAsDataURL(fileInput.files[0]);
+
+                    reader.readAsArrayBuffer(event.target.files[0]);
+
+                    reader.onload = function(event) {
+                        var data = new Uint8Array(reader.result);
+                        
+                        var work_book = XLSX.read(data, {type:'array'});
+
+                        var sheet_name = work_book.SheetNames;
+
+                        var sheet_data = XLSX.utils.sheet_to_json(work_book.Sheets[sheet_name[0]], {header:1});
+
+                        if (sheet_data.length > 0) {
+
+                            var table_output = '<table class="table table-striped table-bordered">';
+                            
+                            for (var row = 0; row < sheet_data.length; row++) {
+
+                                table_output += '<tr>';
+                                
+                                for (var cell = 0; cell < sheet_data[row].length; cell++) {
+                                    table_output += '<td>' + sheet_data[row][cell] +'</td>'
+                                }
+
+                                table_output += '</tr>'
+                            }
+
+
+                            table_output += '</table>'
+                        }
+                    }
                 }
             }
-        }
+        })
+
 
 </script>
 {% endblock %}
