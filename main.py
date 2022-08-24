@@ -1,8 +1,6 @@
 import base64
-import os
 from flask import *
 import mysql.connector
-from OpenSSL import SSL
 
 
 # context = SSL.Context(SSL.TLSv1_2_METHOD)
@@ -153,10 +151,10 @@ def welcome():
     return render_template("welcome.html",id=argum)
 
 
-@app.route("/oiPai")
-def oiPai():
-    return "oi pai te amo muito"
-
+@app.route("/uploadExcel", methods=["GET", "POST"])
+def uploadExcel():
+    if request.method == "GET":
+        return render_template("uploadExcel.html")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} teste {% endblock %}
+
+{% block content %}
+<style>
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
+
+    input, label {
+        margin: .4rem 0;
+    }
+</style>
+<label for="excel">Manda uma planilha do excel:</label>
+
+<input type="file"
+       id="excel" name="avatar"
+       accept=".xlsx, .xls, .csv">
