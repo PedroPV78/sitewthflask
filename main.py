@@ -3,12 +3,6 @@ from flask import *
 import mysql.connector
 
 
-# context = SSL.Context(SSL.TLSv1_2_METHOD)
-# context.use_certificate_file('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.cer')
-# context.use_privatekey_file('/home/opc/acme.sh/_certs_/verissimos.ddnsfree.com/verissimos.ddnsfree.com.key')
-
-
-
 db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
     user="root",
