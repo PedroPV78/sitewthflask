@@ -8,12 +8,14 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug 16 22:16:46 2022
+# Make data base, printed on Tue Aug 23 19:08:07 2022
 
 # Variables
 
 # environment
 SYSTEMDRIVE = C:
+# environment
+JAVA_HOME = C:\Program Files\Eclipse Adoptium\jdk-17.0.4.8-hotspot\
 # environment
 LC_ALL = C
 # environment
@@ -21,7 +23,7 @@ USERPROFILE = C:\Users\user
 # environment
 LOCALAPPDATA = C:\Users\user\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\user\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\user\Desktop\sitewthflask
 # environment
 SYSTEMROOT = C:\WINDOWS
 # environment
@@ -33,7 +35,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_21584_WLDRANUOMMLJDSIV
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1200_IVJSJIXMJRZKUBAI
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -45,7 +47,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\user\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+VSCODE_CODE_CACHE_PATH = C:\Users\user\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LANG = C
 # default
@@ -81,7 +83,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 21584
+VSCODE_PID = 1200
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -89,7 +91,7 @@ VSCODE_PID = 21584
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"89ebf7d0bb12d1282a52b02d65044dbc.pt-br","_translationsConfigFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\89ebf7d0bb12d1282a52b02d65044dbc.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\89ebf7d0bb12d1282a52b02d65044dbc.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\89ebf7d0bb12d1282a52b02d65044dbc.pt-br\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\89ebf7d0bb12d1282a52b02d65044dbc.pt-br\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"8e7a008e83c664b9876a8f72ff0490ae.pt-br","_translationsConfigFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\8e7a008e83c664b9876a8f72ff0490ae.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\8e7a008e83c664b9876a8f72ff0490ae.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\8e7a008e83c664b9876a8f72ff0490ae.pt-br\\e4503b30fc78200f846c62cf8091b76ff5547662","_corruptedFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\8e7a008e83c664b9876a8f72ff0490ae.pt-br\\corrupted.info","_languagePackSupport":true}
 # environment
 ONEDRIVECONSUMER = C:\Users\user\OneDrive
 # default
@@ -113,7 +115,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Eclipse Adoptium\jdk-16.0.2.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python310\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;C:\Program Files\Sublime Text\sublime_text.exe;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python310\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;D:\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Users\user\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe;
+PATH = C:\Program Files\Eclipse Adoptium\jdk-17.0.4.8-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Eclipse Adoptium\jdk-16.0.2.7-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python310\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;C:\Program Files\Sublime Text\sublime_text.exe;C:\Program Files\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\user\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python310\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\AppData\Roaming\npm;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;D:\IntelliJ IDEA Community Edition 2022.2\bin;;C:\Users\user\.dotnet\tools;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe;
 # environment
 COMPUTERNAME = DESKTOP-9H6G6TB
 # default
@@ -173,7 +175,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\user\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\680802a3ebd40da3f83beb9d3e841b70-1.70.1-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\680802a3ebd40da3f83beb9d3e841b70-1.70.2-main-sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -191,7 +193,7 @@ PROCESSOR_REVISION = 3c03
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 # variable set hash-table stats:
-# Load=89/1024=9%, Rehash=0, Collisions=8/116=7%
+# Load=90/1024=9%, Rehash=0, Collisions=8/117=7%
 
 # Pattern-specific Variable Values
 
@@ -199,9 +201,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/user/Desktop/sitewthflask, mtime 1660697083): 13 files, no impossibilities.
+# . (key c:/Users/user/Desktop/sitewthflask, mtime 1661184842): 12 files, no impossibilities.
 
-# 13 files, no impossibilities in 1 directories.
+# 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -254,12 +256,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 140 B / avg = 7 B
-# current buf: size = 8162 B / used = 140 B / count = 18 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 132 B / avg = 7 B
+# current buf: size = 8162 B / used = 132 B / count = 17 / avg = 7 B
 
-# strcache performance: lookups = 24 / hit rate = 25%
+# strcache performance: lookups = 23 / hit rate = 26%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=0/24=0%
-# Finished Make data base on Tue Aug 16 22:16:46 2022
+# Load=17/8192=0%, Rehash=0, Collisions=0/23=0%
+# Finished Make data base on Tue Aug 23 19:08:07 2022
 
  
