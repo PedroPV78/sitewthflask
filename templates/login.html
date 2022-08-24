@@ -161,38 +161,22 @@
     location.href = "/logado"
   }
 </script>
-<form action="" method="post" id="loginform">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Username</label>
-    <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-      placeholder="Coloque o username">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Senha</label>
-    <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Senha">
-  </div>
-  <button type="submit" class="btn btn-primary" value="submit">Logar</button>
-</form>
 
 
 <div class="background">
   <div class="shape"></div>
   <div class="shape"></div>
 </div>
-<form>
+<form action="" method="post" id="loginform">
   <h3>Login Here</h3>
 
   <label for="username">Username</label>
-  <input type="text" placeholder="Email or Phone" id="username">
+  <input type="text" placeholder="Email or Phone" name="username" id="username">
 
   <label for="password">Password</label>
-  <input type="password" placeholder="Password" id="password">
+  <input type="password" placeholder="Password" name="password" id="password">
 
   <button>Log In</button>
-  <div class="social">
-    <div class="go"><i class="fab fa-google"></i>  Google</div>
-    <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-  </div>
 </form>
 
 {% if no %}
