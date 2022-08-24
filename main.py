@@ -15,7 +15,7 @@ db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
     user="root",
     passwd="Pv831842@",
-    database="users"
+    database="website"
 )
 
 mycursor = db.cursor()
