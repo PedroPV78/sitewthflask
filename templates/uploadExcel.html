@@ -17,18 +17,18 @@
 
 <input type="file" id="excel" name="excel" onchange="return fileValid()">
 
-
+<div id="ppp"></div>
 
 <script>
     function fileValid() {
             var fileInput =
-                document.getElementById('file');
+                document.getElementById('excel');
              
             var filePath = fileInput.value;
          
             // Allowing file type
             var allowedExtensions =
-                    /(\.jpg|\.jpeg|\.png|\.gif)$/i;
+                    /(\.csv|\.xls|\.xlsx)$/i;
              
             if (!allowedExtensions.exec(filePath)) {
                 alert('Invalid file type');
@@ -43,9 +43,8 @@
                     var reader = new FileReader();
                     reader.onload = function(e) {
                         document.getElementById(
-                            'imagePreview').innerHTML =
-                            '<img src="' + e.target.result
-                            + '"/>';
+                            'ppp').innerHTML =
+                            '<h1> FOI </h1>';
                     };
                      
                     reader.readAsDataURL(fileInput.files[0]);
