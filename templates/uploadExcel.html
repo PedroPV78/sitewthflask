@@ -3,6 +3,9 @@
 {% block title %} teste {% endblock %}
 
 {% block content %}
+
+<script src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js" type="text/javascript"></script>
+
 <style>
     label {
         display: block;
@@ -42,7 +45,6 @@
 
                 if (fileInput.files && fileInput.files[0]) {
                     var reader = new FileReader();
-
                     reader.readAsArrayBuffer(event.target.files[0]);
 
                     reader.onload = function(event) {
