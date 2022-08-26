@@ -118,7 +118,7 @@ def verPerfil():
 # remove o post
 @app.route("/remove/<id>")
 def removePost(id):
-    mycursor.execute("DELETE FROM posts WHERE postId = " + id)
+    mycursor.execute("DELETE FROM posts WHERE id = " + id)
     db.commit()
     return redirect(url_for("editdiario"))
 
