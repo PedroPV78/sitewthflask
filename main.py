@@ -18,7 +18,7 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 app = Flask(__name__, static_url_path="/static")
 app.config['UPLOAD_FOLDER'] = "/static/img"
 
-ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'}
+ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'zip'}
 
 def allowed_file(filename):
     return '.' in filename and \
@@ -57,7 +57,7 @@ def upload_file():
     </form>
     '''
 
-    
+
 
 @app.route('/login', methods=["POST", "GET"])
 def login():
