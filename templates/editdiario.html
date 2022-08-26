@@ -4,10 +4,10 @@
 
     <div id="posts">
         {% for post in posts %}
-            <h3 style="color: azure; padding: 16px;">Título: {{post[1]}}</h3>
-            <p style="color: azure; padding: 16px;">Conteúdo: {{post[2]}}</p>
+            <h3 style="color: azure; padding: 25px;">Título: {{post[1]}}</h3>
+            <p style="color: azure; padding: 25px;">Conteúdo: {{post[2]}}</p>
             <!-- button to remove with post id -->
-            <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'">Remover</button>
+            <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'" style="padding: 25px;">Remover</button>
         {% endfor %}
 
         <br/>
@@ -29,7 +29,7 @@
         <br/>
         <br/>
         <!-- button that goes to /addPost -->
-        <a href="/addPost" class="btn btn-primary">Adicionar Post</a>
+        <a href="/addPost" class="btn btn-primary" style="padding: 25px;">Adicionar Post</a>
 
         
     </div>
