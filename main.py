@@ -106,6 +106,10 @@ def register():
         return res
     return render_template('register.html')
 
+@app.route('/uploads/<name>')
+def download_file(name):
+    return send_from_directory(app.config["UPLOAD_FOLDER"], name)
+
 
 # calculadora
 @app.route("/calc")
