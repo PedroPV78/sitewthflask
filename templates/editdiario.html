@@ -9,8 +9,8 @@
     </style>
     <div id="posts">
         {% for post in posts %}
-            <h3 style="color: azure; position: relative; left: 25px; top: 25px;">Título: {{post[1]}}</h3>
-            <p style="color: azure; position: relative; left: 25px; top: 15px;">Conteúdo: {{post[2]}}</p>
+            <h3 style="color: azure; position: relative; left: 25px; top: 25px; bottom: 25px;">Título: {{post[1]}}</h3>
+            <p style="color: azure; position: relative; left: 25px; top: 15px; bottom: 25px;">Conteúdo: {{post[2]}}</p>
             <!-- button to remove with post id -->
             <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'">Remover</button>
         {% endfor %}
