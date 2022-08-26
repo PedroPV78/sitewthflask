@@ -17,7 +17,7 @@ mycursor.execute("CREATE DATABASE IF NOT EXISTS users")
 
 
 app = Flask(__name__, static_url_path="/static")
-app.config['UPLOAD_FOLDER'] = "/static/img"
+app.config['UPLOAD_FOLDER'] = "/home/ubuntu/sitewthflask/static/img"
 
 ALLOWED_EXTENSIONS = {'txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif', 'zip'}
 
