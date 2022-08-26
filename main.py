@@ -1,4 +1,5 @@
 import base64
+import os
 from flask import *
 import mysql.connector
 from werkzeug.utils import secure_filename
