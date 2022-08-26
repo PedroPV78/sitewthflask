@@ -98,7 +98,7 @@
 
     if (user != "") {
       // if it is, set btnSair to visible
-      document.getElementById('btnSair').style.visibility = 'visible';
+      document.getElementById('btnSair').style.display = "none";
     }
 
     if (user == 'gisele' || user == 'admin') {
@@ -115,7 +115,7 @@
 
     // if cookie is set, set loginBtn to invisible
     if (getCookie('login')) {
-      document.getElementById('loginBtn').style.visibility = 'hidden';
+      document.getElementById('loginBtn').style.display = "none";
     }
   </script>
 
