@@ -103,7 +103,7 @@ def addPost():
         else:
             if len(content) < 65.535:
                 mycursor.execute(f"""INSERT INTO posts(title, content) 
-                    VALUES ({title}, {content});""")
+                    VALUES ('{title}', '{content}');""")
                 db.commit()
             else:
                 return render_template("addPost.html", len=1)
