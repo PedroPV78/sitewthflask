@@ -38,7 +38,6 @@ def login():
             if a:
                 res = make_response(redirect(url_for("home")))
                 res.set_cookie("login", base64.b64encode(username.encode('ascii')))
-                
                 return res
 
         else:
