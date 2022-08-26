@@ -3,41 +3,97 @@
 
 {% block content %}
 <style>
-    #center {
-        height: 200px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #loading {
-        border: 14px solid #ADFC92;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        margin: 0 auto;
-        border-top: 14px solid #9BF3F0;
-        animation: girar 1.21212272367267s infinite linear;
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background: #000;
     }
 
-    @keyframes girar {
-        from {
-            transform: rotate(0deg);
+    .middle {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+    }
+
+    .bar {
+        width: 10px;
+        height: 70px;
+        background: #fff;
+        display: inline-block;
+        transform-origin: bottom center;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        /*   box-shadow:5px 10px 20px inset rgba(255,23,25.2); */
+        animation: loader 1.2s linear infinite;
+    }
+
+    .bar1 {
+        animation-delay: 0.1s;
+    }
+
+    .bar2 {
+        animation-delay: 0.2s;
+    }
+
+    .bar3 {
+        animation-delay: 0.3s;
+    }
+
+    .bar4 {
+        animation-delay: 0.4s;
+    }
+
+    .bar5 {
+        animation-delay: 0.5s;
+    }
+
+    .bar6 {
+        animation-delay: 0.6s;
+    }
+
+    .bar7 {
+        animation-delay: 0.7s;
+    }
+
+    .bar8 {
+        animation-delay: 0.8s;
+    }
+
+    @keyframes loader {
+        0% {
+            transform: scaleY(0.1);
+            background: ;
         }
-        to {
-            transform: rotate(360deg);
+
+        50% {
+            transform: scaleY(1);
+            background: yellowgreen;
+        }
+
+        100% {
+            transform: scaleY(0.1);
+            background: transparent;
         }
     }
 </style>
 <div id="center">
     <h3>Você já está logado</h3>
 </div>
-<div id="loading">
-
+<div class="middle">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+    <div class="bar bar4"></div>
+    <div class="bar bar5"></div>
+    <div class="bar bar6"></div>
+    <div class="bar bar7"></div>
+    <div class="bar bar8"></div>
 </div>
 
 <script>
-    let tiD = setTimeout(function() {
+    let tiD = setTimeout(function () {
         window.location.href = "/"
         window.clearTimeout(tiD);
     }, 2000);
