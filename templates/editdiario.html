@@ -12,7 +12,7 @@
             <h3 style="color: azure; position: relative; left: 25px; top: 25px;">Título: {{post[1]}}</h3>
             <p style="color: azure; position: relative; left: 25px; top: 40px; padding-bottom: 53px;">Conteúdo: {{post[2]}}</p>
             <!-- button to remove with post id -->
-            <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'">Remover</button>
+            <button type="button" class="btn btn-dark" onclick="location.href = '/remove/{{post[0]}}'" style="position: relative; left: 25px">Remover</button>
         {% endfor %}
 
         <br/>
@@ -28,7 +28,7 @@
         <br/>
 
         <!-- button that goes to /addPost -->
-        <a href="/addPost" class="btn btn-primary" style="left: 25px;">Adicionar Post</a>
+        <a href="/addPost" class="btn btn-primary" style="position: relative; left: 25px">Adicionar Post</a>
 
         
     </div>
