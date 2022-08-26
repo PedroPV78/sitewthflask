@@ -2,6 +2,11 @@
 {% block title %} Editar Diário {% endblock %} 
 {% block content %}
 
+    <style>
+        button {
+            border-radius: 20px;
+        }
+    </style>
     <div id="posts">
         {% for post in posts %}
             <h3 style="color: azure; padding: 25px;">Título: {{post[1]}}</h3>
