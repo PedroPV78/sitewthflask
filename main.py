@@ -209,7 +209,7 @@ def devTest():
             return redirect(request.url)
         if file and allowed_file(file.filename):
             cookie = request.cookies.get('login')
-            filename = cookie + ".png"
+            filename = base64.b64decode(cookie) + ".png"
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return 'foi'
     return '''
