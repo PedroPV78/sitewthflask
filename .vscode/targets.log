@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 28 13:34:24 2022
+# Make data base, printed on Sun Aug 28 13:41:22 2022
 
 # Variables
 
@@ -262,6 +262,6 @@ makefile:
 # strcache performance: lookups = 26 / hit rate = 23%
 # hash-table stats:
 # Load=20/8192=0%, Rehash=0, Collisions=0/26=0%
-# Finished Make data base on Sun Aug 28 13:34:24 2022
+# Finished Make data base on Sun Aug 28 13:41:22 2022
 
  
