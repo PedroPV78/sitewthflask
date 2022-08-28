@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug 23 19:08:07 2022
+# Make data base, printed on Sun Aug 28 13:34:24 2022
 
 # Variables
 
@@ -23,7 +23,7 @@ USERPROFILE = C:\Users\user
 # environment
 LOCALAPPDATA = C:\Users\user\AppData\Local
 # environment
-VSCODE_CWD = C:\Users\user\Desktop\sitewthflask
+VSCODE_CWD = C:\Users\user\AppData\Local\Programs\Microsoft VS Code
 # environment
 SYSTEMROOT = C:\WINDOWS
 # environment
@@ -35,7 +35,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1200_IVJSJIXMJRZKUBAI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7784_VSUCBPEDOPFEWXJO
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -83,7 +83,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1200
+VSCODE_PID = 7784
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -201,9 +201,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key c:/Users/user/Desktop/sitewthflask, mtime 1661184842): 12 files, no impossibilities.
+# . (key c:/Users/user/Desktop/sitewthflask, mtime 1661631635): 15 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 15 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -217,7 +217,7 @@ update:
 #  File has not been updated.
 #  recipe to execute (from 'makefile', line 7):
 	git pull
-	sudo systemctl restart flask
+	sudo systemctl restart test
 
 git:
 #  Implicit rule search has not been done.
@@ -244,7 +244,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-16 21:44:43
+#  Last modified 2022-08-27 17:20:29
 #  File has been updated.
 #  Successfully updated.
 
@@ -256,12 +256,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 132 B / avg = 7 B
-# current buf: size = 8162 B / used = 132 B / count = 17 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 20 / storage = 162 B / avg = 8 B
+# current buf: size = 8162 B / used = 162 B / count = 20 / avg = 8 B
 
-# strcache performance: lookups = 23 / hit rate = 26%
+# strcache performance: lookups = 26 / hit rate = 23%
 # hash-table stats:
-# Load=17/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Tue Aug 23 19:08:07 2022
+# Load=20/8192=0%, Rehash=0, Collisions=0/26=0%
+# Finished Make data base on Sun Aug 28 13:34:24 2022
 
  
