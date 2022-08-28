@@ -37,10 +37,10 @@
         document.querySelector("#spanNomeUser").innerHTML = atob(getCookie("login")) + ":"
         if (doesFileExist("/static/img/" + atob(getCookie("login")) + ".png")) {
             console.log("existe")
-            document.getElementById("imgUser").src == "/static/img/" + atob(getCookie("login")) + ".png";
+            document.getElementById("imgUser").src = "/static/img/" + atob(getCookie("login")) + ".png";
             document.getElementById("btn").style.display = "none"
         } else {
-            document.getElementById("imgUser").src == "/static/img/user.png"
+            document.getElementById("imgUser").src = "/static/img/user.png"
         }
     }
 
