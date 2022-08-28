@@ -29,12 +29,13 @@
 </style>
 <script>
     // delete cookie erro if it exists
-    if (document.cookie.indexOf("erro=1") != -1) {
-        document.cookie = "erro=1; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
+    
 
     if (getCookie("erro")) {
         document.getElementById("imgUser").src = "/static/img/user.png";
+    }
+    if (document.cookie.indexOf("erro=1") != -1) {
+        document.cookie = "erro=1; expires=Thu, 01 Jan 1970 00:00:00 UTC";
     }
     // change the value of the span with the name of the user in the cookie
     if (getCookie('login') == "") {
