@@ -30,9 +30,7 @@
     }
 </style>
 <script>
-    // delete cookie erro if it exists
 
-    // change the value of the span with the name of the user in the cookie
     if (getCookie('login') == "") {
         location.href = "/login";
     } else{
@@ -42,7 +40,7 @@
         document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
     }
 
-
+    console.log(document.getElementById("imgUser").src)
     if (document.getElementById("imgUser").src == "/static/img/user.png") {
         document.getElementById("btn").style.display = "";
     }
