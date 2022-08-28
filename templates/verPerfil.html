@@ -9,7 +9,7 @@
     <img src="/static/img/user.png" id="imgUser" alt="user" onerror="document.getElementById('imgUser').src = '/static/img/user.png'" style="width: 150px; height: 150px;">
     <br>
     <br>
-    <button id="btn">Adicionar Foto de perfil</button>
+    <button id="btn" style="display: none;">Adicionar Foto de perfil</button>
 </div>
 <style>
     /* put image in the left of the h1 inside of the div */
@@ -31,7 +31,7 @@
 </style>
 <script>
     // delete cookie erro if it exists
-    console.log(document.getElementById("btn").style);
+
     // change the value of the span with the name of the user in the cookie
     if (getCookie('login') == "") {
         location.href = "/login";
@@ -43,9 +43,9 @@
     }
 
 
-    // if (document.getElementById("imgUser").src == "/static/img/user.png") {
-    //     document.querySelector("#btn").style.display = "initial";
-    // }
+    if (document.getElementById("imgUser").src == "/static/img/user.png") {
+        document.querySelector("#btn").style.display = "";
+    }
 </script>
 
 {% endblock %}
