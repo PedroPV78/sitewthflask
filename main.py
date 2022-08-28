@@ -170,12 +170,29 @@ def editarPerfil():
     if request.method == "POST":
         username = request.form["username"]
         password = request.form["password"]
+
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
+        file = request.files['file']
+        # If the user does not select a file, the browser submits an
+        # empty file without a filename.
+        if file.filename == '':
+            flash('No selected file')
+            return redirect(request.url)
+        if file and allowed_file(file.filename):
+            filename = username + ".png"
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            return 'foi'
         if len(password) == 0:
             return render_template("editarPerfil.html", len=0)
         else:
             mycursor.execute("UPDATE loginData SET senha = '" + password + "' WHERE login = '" + username + "'")
             db.commit()
             return render_template("editarPerfil.html")
+
+        
     return render_template("editarPerfil.html")
 
 
