@@ -6,10 +6,10 @@
     <br />
     <br />
     <br />
-    <img id="imgUser" alt="user" onerror="showButton();" style="width: 150px; height: 150px;">
+    <img id="imgUser" alt="user" style="width: 150px; height: 150px;" src="/static/img/user.png">
     <br>
     <br>
-    <button id="btn" style="display: none;">Adicionar Foto de perfil</button>
+    <button id="btn">Adicionar Foto de perfil</button>
 </div>
 <style>
     /* put image in the left of the h1 inside of the div */
@@ -31,22 +31,28 @@
 </style>
 <script>
 
-    if (getCookie('login') == "") {
+    if (!getCookie('login')) {
         location.href = "/login";
-    } else{
-        // change span to name of the user in the cookie
-        document.getElementById("spanNomeUser").innerHTML = atob(getCookie('login')) + ":";
-        // change src of the image to the image of the user in the cookie
-        
+    } else {
+        if (doesFileExist("/static/img/" + atob(getCookie("login")))) {
+            document.getElementById("imgUser").src == "/static/img/" + atob(getCookie("login"));
+            document.getElementById("btn").style.display = "none"
+        } else {
+            document.getElementById("imgUser").src == "/static/img/user.png"
+        }
     }
 
-    document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
-    console.log(document.getElementById("imgUser").src)
-    function showButton() {
-        document.getElementById("imgUser").src == "/static/img/user.png"
-        document.getElementById("btn").style.display = "";
-
+    function doesFileExist(urlToFile) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('HEAD', urlToFile, false);
+    xhr.send();
+     
+    if (xhr.status == "404") {
+        return false;
+    } else {
+        return true;
     }
+}
 </script>
 
 {% endblock %}
