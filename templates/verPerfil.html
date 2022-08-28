@@ -6,7 +6,7 @@
     <br />
     <br />
     <br />
-    <img src="/static/img/user.png" id="imgUser" alt="user" onerror="document.cookie='erro=1'" style="width: 150px; height: 150px;">
+    <img src="/static/img/user.png" id="imgUser" alt="user" style="width: 150px; height: 150px;">
 
 </div>
 <style>
@@ -30,13 +30,6 @@
 <script>
     // delete cookie erro if it exists
     
-
-    if (getCookie("erro")) {
-        document.getElementById("imgUser").src = "/static/img/user.png";
-    }
-    if (document.cookie.indexOf("erro=1") != -1) {
-        document.cookie = "erro=1; expires=Thu, 01 Jan 1970 00:00:00 UTC";
-    }
     // change the value of the span with the name of the user in the cookie
     if (getCookie('login') == "") {
         location.href = "/login";
