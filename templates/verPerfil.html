@@ -7,7 +7,9 @@
     <br />
     <br />
     <img src="/static/img/user.png" id="imgUser" alt="user" onerror="document.getElementById('imgUser').src = '/static/img/user.png'" style="width: 150px; height: 150px;">
-
+    <br>
+    <br>
+    <button id="btn" style="display: none;">Adicionar Foto de perfil</button>
 </div>
 <style>
     /* put image in the left of the h1 inside of the div */
@@ -40,6 +42,10 @@
         document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
     }
 
+
+    if (document.getElementById("imgUser").src == "/static/img/user.png") {
+        document.querySelector("#btn").style.display = "initial";
+    }
 </script>
 
 {% endblock %}
