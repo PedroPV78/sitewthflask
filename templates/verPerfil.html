@@ -37,9 +37,10 @@
         // change span to name of the user in the cookie
         document.getElementById("spanNomeUser").innerHTML = atob(getCookie('login')) + ":";
         // change src of the image to the image of the user in the cookie
-        document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
+        
     }
-    document.getElementById("imgUser").src == "/static/img/user.png"
+
+    document.getElementById("imgUser").src = "/static/img/" + atob(getCookie('login')) + ".png";
     console.log(document.getElementById("imgUser").src)
     function showButton() {
         document.getElementById("imgUser").src == "/static/img/user.png"
