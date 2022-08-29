@@ -46,16 +46,17 @@ def upload_file():
             flash('No selected file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
+            cookie = request.cookies.get('login')
+            filename = base64.b64decode(cookie).decode('utf-8') + ".png"
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            return 'foi'
+            return ''
     return '''
     <!doctype html>
     <title>Upload new File</title>
-    <h1>Upload new File</h1>
+    <h1>Mandar foto de perfil</h1>
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
-      <input type=submit value=Upload>
+      <input type=submit value=Enviar>
     </form>
     '''
 
