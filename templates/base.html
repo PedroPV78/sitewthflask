@@ -57,7 +57,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="" onclick="deleteCookie()" id="btnSair" style="visibility: hidden;">Sair</a>
+          <a class="nav-link active" href="" onclick="deleteCookie()" id="btnSair" style="display: none;">Sair</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="/login" id="loginBtn">Login</a>
@@ -98,7 +98,7 @@
 
     if (user != "") {
       // if it is, set btnSair to visible
-      document.getElementById('btnSair').style.visibility = "visible";
+      document.getElementById('btnSair').style.display = "";
     }
 
     if (user == 'gisele' || user == 'admin') {
