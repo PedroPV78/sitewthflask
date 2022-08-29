@@ -53,6 +53,11 @@ def upload_file():
     return '''
     <!doctype html>
     <title>Upload new File</title>
+    <style>
+        body {
+            color: azure;
+        }
+    </style>
     <h1>Mandar foto de perfil</h1>
     <form method=post enctype=multipart/form-data>
       <input type=file name=file>
