@@ -9,8 +9,10 @@
     <img id="imgUser" alt="user" style="width: 150px; height: 150px;" src="/static/img/user.png">
     <br>
     <br>
+    
     <a href="/editarPerfil"><button id="btn">Adicionar Foto de perfil</button></a>
 </div>
+<a href="/editarPerfil"><button style="display: none;" id="btnEditar">Editar perfil</button></a>
 <style>
     /* put image in the left of the h1 inside of the div */
     .a {
@@ -36,9 +38,9 @@
     } else {
         document.querySelector("#spanNomeUser").innerHTML = atob(getCookie("login")) + ":"
         if (doesFileExist("/static/img/" + atob(getCookie("login")) + ".png")) {
-            console.log("existe")
             document.getElementById("imgUser").src = "/static/img/" + atob(getCookie("login")) + ".png";
             document.getElementById("btn").style.display = "none"
+            document.getElementById("btnEditar").style.display = ""
         } else {
             document.getElementById("imgUser").src = "/static/img/user.png"
         }
