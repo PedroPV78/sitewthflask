@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
     user="root",
-    passwd="Pv831842@",
+    passwd="831842",
     database="website"
 )
 
