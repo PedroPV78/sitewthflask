@@ -4,5 +4,7 @@ git:
 	git push
 
 update:
+	git fetch
 	git pull
-	sudo systemctl restart test
+	sudo systemctl restart nginx
+	sudo supervisorctl reload
