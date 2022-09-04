@@ -1,5 +1,4 @@
 import base64
-from crypt import methods
 import os
 from flask import *
 import mysql.connector
