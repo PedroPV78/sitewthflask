@@ -50,7 +50,7 @@ body {
 }
 .blog-author h3::before,
 .blog-author--no-cover h3::before {
-  background: url("http://verissimos.ddnsfree.com/stataic/img/gisele.png");
+  background: url("http://verissimos.ddnsfree.com/static/img/gisele.png");
   background-size: cover;
   border-radius: 50%;
   content: "	 ";
