@@ -1,9 +1,9 @@
 body {
-  background: #ffffff;
+  background: #464a4e;
   box-sizing: border-box;
 }
 .blog-container {
-  background: #000000;
+  background: #ffffff;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
   font-family: "adelle-sans", sans-serif;
@@ -62,11 +62,11 @@ body {
   width: 32px;
 }
 .blog-author h3 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 100;
 }
 .blog-author--no-cover h3 {
-  color: #999;
+  color: rgb(0, 0, 0);
   font-weight: 100;
 }
 .blog-body {
