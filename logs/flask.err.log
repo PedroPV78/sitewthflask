@@ -4380,3 +4380,133 @@ Arguments: (9366, 15)
 [2022-09-05 10:10:49 +0000] [9770] [INFO] Booting worker with pid: 9770
 [2022-09-05 10:10:49 +0000] [9772] [INFO] Booting worker with pid: 9772
 [2022-09-05 10:10:49 +0000] [9773] [INFO] Booting worker with pid: 9773
+[2022-09-05 10:12:31 +0000] [9766] [INFO] Worker exiting (pid: 9766)
+[2022-09-05 10:12:31 +0000] [9764] [INFO] Worker exiting (pid: 9764)
+[2022-09-05 10:12:31 +0000] [9761] [INFO] Worker exiting (pid: 9761)
+[2022-09-05 10:12:31 +0000] [9758] [INFO] Worker exiting (pid: 9758)
+[2022-09-05 10:12:31 +0000] [9751] [INFO] Worker exiting (pid: 9751)
+[2022-09-05 10:12:31 +0000] [9733] [INFO] Worker exiting (pid: 9733)
+[2022-09-05 10:12:31 +0000] [9740] [INFO] Worker exiting (pid: 9740)
+[2022-09-05 10:12:31 +0000] [9732] [INFO] Worker exiting (pid: 9732)
+[2022-09-05 10:12:31 +0000] [9737] [INFO] Worker exiting (pid: 9737)
+[2022-09-05 10:12:31 +0000] [9728] [INFO] Worker exiting (pid: 9728)
+[2022-09-05 10:12:31 +0000] [9731] [INFO] Worker exiting (pid: 9731)
+[2022-09-05 10:12:31 +0000] [9726] [INFO] Worker exiting (pid: 9726)
+[2022-09-05 10:12:31 +0000] [9748] [INFO] Worker exiting (pid: 9748)
+[2022-09-05 10:12:31 +0000] [9724] [INFO] Worker exiting (pid: 9724)
+[2022-09-05 10:12:31 +0000] [9743] [INFO] Worker exiting (pid: 9743)
+[2022-09-05 10:12:31 +0000] [9729] [INFO] Worker exiting (pid: 9729)
+[2022-09-05 10:12:31 +0000] [9725] [INFO] Worker exiting (pid: 9725)
+[2022-09-05 10:12:31 +0000] [9727] [INFO] Worker exiting (pid: 9727)
+[2022-09-05 10:12:31 +0000] [9770] [INFO] Worker exiting (pid: 9770)
+[2022-09-05 10:12:31 +0000] [9759] [INFO] Worker exiting (pid: 9759)
+[2022-09-05 10:12:31 +0000] [9745] [INFO] Worker exiting (pid: 9745)
+[2022-09-05 10:12:31 +0000] [9730] [INFO] Worker exiting (pid: 9730)
+[2022-09-05 10:12:31 +0000] [9749] [INFO] Worker exiting (pid: 9749)
+[2022-09-05 10:12:31 +0000] [9736] [INFO] Worker exiting (pid: 9736)
+[2022-09-05 10:12:31 +0000] [9772] [INFO] Worker exiting (pid: 9772)
+[2022-09-05 10:12:31 +0000] [9742] [INFO] Worker exiting (pid: 9742)
+[2022-09-05 10:12:31 +0000] [9756] [INFO] Worker exiting (pid: 9756)
+[2022-09-05 10:12:31 +0000] [9735] [INFO] Worker exiting (pid: 9735)
+[2022-09-05 10:12:31 +0000] [9767] [INFO] Worker exiting (pid: 9767)
+[2022-09-05 10:12:31 +0000] [9723] [INFO] Handling signal: term
+[2022-09-05 10:12:31 +0000] [9773] [INFO] Worker exiting (pid: 9773)
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9751 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9756 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9764 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9766 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9767 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9752] [INFO] Worker exiting (pid: 9752)
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9740 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9737 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9749 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9728 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9724 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9770 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9726 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9743 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9732 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9735 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9730 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9748 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9729 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9731 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9742 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9745 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9759 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9733 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9761 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9725 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9736 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9772 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9727 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [WARNING] Worker with pid 9758 was terminated due to signal 15
+[2022-09-05 10:12:31 +0000] [9723] [INFO] Shutting down: Master
+[2022-09-05 10:12:32 +0000] [9847] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 10:12:32 +0000] [9847] [INFO] Listening at: http://127.0.0.1:8000 (9847)
+[2022-09-05 10:12:32 +0000] [9847] [INFO] Using worker: sync
+[2022-09-05 10:12:32 +0000] [9848] [INFO] Booting worker with pid: 9848
+[2022-09-05 10:12:32 +0000] [9849] [INFO] Booting worker with pid: 9849
+[2022-09-05 10:12:32 +0000] [9850] [INFO] Booting worker with pid: 9850
+[2022-09-05 10:12:32 +0000] [9851] [INFO] Booting worker with pid: 9851
+[2022-09-05 10:12:32 +0000] [9852] [INFO] Booting worker with pid: 9852
+[2022-09-05 10:12:32 +0000] [9853] [INFO] Booting worker with pid: 9853
+[2022-09-05 10:12:32 +0000] [9854] [INFO] Booting worker with pid: 9854
+[2022-09-05 10:12:32 +0000] [9855] [INFO] Booting worker with pid: 9855
+[2022-09-05 10:12:32 +0000] [9856] [INFO] Booting worker with pid: 9856
+[2022-09-05 10:12:32 +0000] [9857] [INFO] Booting worker with pid: 9857
+[2022-09-05 10:12:32 +0000] [9858] [INFO] Booting worker with pid: 9858
+[2022-09-05 10:12:33 +0000] [9860] [INFO] Booting worker with pid: 9860
+[2022-09-05 10:12:33 +0000] [9861] [INFO] Booting worker with pid: 9861
+[2022-09-05 10:12:33 +0000] [9862] [INFO] Booting worker with pid: 9862
+[2022-09-05 10:12:33 +0000] [9864] [INFO] Booting worker with pid: 9864
+[2022-09-05 10:12:33 +0000] [9868] [INFO] Booting worker with pid: 9868
+[2022-09-05 10:12:33 +0000] [9870] [INFO] Booting worker with pid: 9870
+[2022-09-05 10:12:33 +0000] [9871] [INFO] Booting worker with pid: 9871
+[2022-09-05 10:12:33 +0000] [9873] [INFO] Booting worker with pid: 9873
+[2022-09-05 10:12:33 +0000] [9876] [INFO] Booting worker with pid: 9876
+[2022-09-05 10:12:33 +0000] [9878] [INFO] Booting worker with pid: 9878
+[2022-09-05 10:12:33 +0000] [9880] [INFO] Booting worker with pid: 9880
+[2022-09-05 10:12:33 +0000] [9881] [INFO] Booting worker with pid: 9881
+[2022-09-05 10:12:33 +0000] [9883] [INFO] Booting worker with pid: 9883
+[2022-09-05 10:12:33 +0000] [9886] [INFO] Booting worker with pid: 9886
+[2022-09-05 10:12:33 +0000] [9887] [INFO] Booting worker with pid: 9887
+[2022-09-05 10:12:33 +0000] [9889] [INFO] Booting worker with pid: 9889
+[2022-09-05 10:12:33 +0000] [9890] [INFO] Booting worker with pid: 9890
+[2022-09-05 10:12:33 +0000] [9894] [INFO] Booting worker with pid: 9894
+[2022-09-05 10:12:33 +0000] [9896] [INFO] Booting worker with pid: 9896
+[2022-09-05 10:12:33 +0000] [9897] [INFO] Booting worker with pid: 9897
+[2022-09-05 10:12:50,655] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-05 10:12:53,039] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
