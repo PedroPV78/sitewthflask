@@ -161,7 +161,7 @@ def addPost():
 def verPerfil():
     cookie = request.cookies.get('login')
     mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
-    return render_template("verPerfil.html", a=mycursor.fetchone())
+    return render_template("verPerfil.html", a=mycursor[0])
 
 
 # remove o post
