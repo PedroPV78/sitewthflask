@@ -74,7 +74,7 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            sqLogin = f"SELECT * FROM loginData WHERE login = '{username}' AND senha = '{password}'"
+            sqLogin = f"SELECT login, senha FROM loginData WHERE login = '{username}' AND senha = '{password}'"
             mycursor.execute(sqLogin)
             print(mycursor)
             a = mycursor.fetchall()
@@ -159,6 +159,8 @@ def addPost():
 
 @app.route("/verPerfil")
 def verPerfil():
+    cookie = request.cookies.get('login')
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
     return render_template("verPerfil.html")
     
 # remove o post
