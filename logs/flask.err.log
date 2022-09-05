@@ -6416,3 +6416,558 @@ Traceback (most recent call last):
   File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
     print(coiso.encode())
 AttributeError: 'tuple' object has no attribute 'encode'
+[2022-09-05 16:16:58 +0000] [11281] [INFO] Worker exiting (pid: 11281)
+[2022-09-05 16:16:58 +0000] [11289] [INFO] Worker exiting (pid: 11289)
+[2022-09-05 16:16:58 +0000] [11292] [INFO] Worker exiting (pid: 11292)
+[2022-09-05 16:16:58 +0000] [11264] [INFO] Worker exiting (pid: 11264)
+[2022-09-05 16:16:58 +0000] [11273] [INFO] Worker exiting (pid: 11273)
+[2022-09-05 16:16:58 +0000] [11268] [INFO] Worker exiting (pid: 11268)
+[2022-09-05 16:16:58 +0000] [11271] [INFO] Worker exiting (pid: 11271)
+[2022-09-05 16:16:58 +0000] [11256] [INFO] Worker exiting (pid: 11256)
+[2022-09-05 16:16:58 +0000] [11254] [INFO] Worker exiting (pid: 11254)
+[2022-09-05 16:16:58 +0000] [11258] [INFO] Worker exiting (pid: 11258)
+[2022-09-05 16:16:58 +0000] [11259] [INFO] Worker exiting (pid: 11259)
+[2022-09-05 16:16:58 +0000] [11269] [INFO] Worker exiting (pid: 11269)
+[2022-09-05 16:16:58 +0000] [11250] [INFO] Worker exiting (pid: 11250)
+[2022-09-05 16:16:58 +0000] [11248] [INFO] Worker exiting (pid: 11248)
+[2022-09-05 16:16:58 +0000] [11245] [INFO] Worker exiting (pid: 11245)
+[2022-09-05 16:16:58 +0000] [11246] [INFO] Worker exiting (pid: 11246)
+[2022-09-05 16:16:58 +0000] [11243] [INFO] Worker exiting (pid: 11243)
+[2022-09-05 16:16:58 +0000] [11242] [INFO] Worker exiting (pid: 11242)
+[2022-09-05 16:16:58 +0000] [11244] [INFO] Worker exiting (pid: 11244)
+[2022-09-05 16:16:58 +0000] [11249] [INFO] Worker exiting (pid: 11249)
+[2022-09-05 16:16:58 +0000] [11252] [INFO] Worker exiting (pid: 11252)
+[2022-09-05 16:16:58 +0000] [11276] [INFO] Worker exiting (pid: 11276)
+[2022-09-05 16:16:58 +0000] [11262] [INFO] Worker exiting (pid: 11262)
+[2022-09-05 16:16:58 +0000] [11286] [INFO] Worker exiting (pid: 11286)
+[2022-09-05 16:16:58 +0000] [11277] [INFO] Worker exiting (pid: 11277)
+[2022-09-05 16:16:58 +0000] [11278] [INFO] Worker exiting (pid: 11278)
+[2022-09-05 16:16:58 +0000] [11247] [INFO] Worker exiting (pid: 11247)
+[2022-09-05 16:16:58 +0000] [11282] [INFO] Worker exiting (pid: 11282)
+[2022-09-05 16:16:58 +0000] [11251] [INFO] Worker exiting (pid: 11251)
+[2022-09-05 16:16:58 +0000] [11241] [INFO] Handling signal: term
+[2022-09-05 16:16:58 +0000] [11266] [INFO] Worker exiting (pid: 11266)
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11292 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11256 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11246 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11285] [INFO] Worker exiting (pid: 11285)
+--- Logging error ---
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11262 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11249 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11258 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11268 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11269 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11271 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11281 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11282 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11286 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11252 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11254 was terminated due to signal 15
+Traceback (most recent call last):
+--- Logging error ---
+--- Logging error ---
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11273 was terminated due to signal 15
+[2022-09-05 16:16:58 +0000] [11241] [WARNING] Worker with pid 11278 was terminated due to signal 15
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 679, in format
+    if self.usesTime():
+  File "/usr/lib/python3.10/logging/__init__.py", line 647, in usesTime
+    return self._style.usesTime()
+  File "/usr/lib/python3.10/logging/__init__.py", line 423, in usesTime
+    def usesTime(self):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1022, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.10/traceback.py", line 119, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "/usr/lib/python3.10/traceback.py", line 502, in __init__
+    self.stack = StackSummary.extract(
+  File "/usr/lib/python3.10/traceback.py", line 383, in extract
+    f.line
+  File "/usr/lib/python3.10/traceback.py", line 306, in line
+    self._line = linecache.getline(self.filename, self.lineno)
+  File "/usr/lib/python3.10/linecache.py", line 30, in getline
+    lines = getlines(filename, module_globals)
+  File "/usr/lib/python3.10/linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "/usr/lib/python3.10/linecache.py", line 137, in updatecache
+    lines = fp.readlines()
+  File "/usr/lib/python3.10/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1022, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.10/traceback.py", line 119, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "/usr/lib/python3.10/traceback.py", line 551, in __init__
+    and need_context and id(e.__context__) not in _seen):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 513, in reap_workers
+    wpid, status = os.waitpid(-1, os.WNOHANG)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1022, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.10/traceback.py", line 121, in print_exception
+    print(line, file=file, end="")
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 680, in format
+    record.asctime = self.formatTime(record, self.datefmt)
+  File "/usr/lib/python3.10/logging/__init__.py", line 597, in formatTime
+    def formatTime(self, record, datefmt=None):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 539, in reap_workers
+    worker.tmp.close()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/workertmp.py", line 55, in close
+    return self._tmp.close()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1622, in _log
+    record = self.makeRecord(self.name, level, fn, lno, msg, args,
+  File "/usr/lib/python3.10/logging/__init__.py", line 1591, in makeRecord
+    rv = _logRecordFactory(name, level, fn, lno, msg, args, exc_info, func,
+  File "/usr/lib/python3.10/logging/__init__.py", line 351, in __init__
+    self.process = os.getpid()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 74, in run
+    print("\nError: %s\n" % e, file=sys.stderr)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1600, in _log
+    def _log(self, level, msg, args, exc_info=None, extra=None, stack_info=False,
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+[2022-09-05 16:16:59 +0000] [11366] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:16:59 +0000] [11366] [INFO] Listening at: http://127.0.0.1:8000 (11366)
+[2022-09-05 16:16:59 +0000] [11366] [INFO] Using worker: sync
+[2022-09-05 16:16:59 +0000] [11367] [INFO] Booting worker with pid: 11367
+[2022-09-05 16:16:59 +0000] [11368] [INFO] Booting worker with pid: 11368
+[2022-09-05 16:16:59 +0000] [11369] [INFO] Booting worker with pid: 11369
+[2022-09-05 16:16:59 +0000] [11370] [INFO] Booting worker with pid: 11370
+[2022-09-05 16:16:59 +0000] [11371] [INFO] Booting worker with pid: 11371
+[2022-09-05 16:16:59 +0000] [11372] [INFO] Booting worker with pid: 11372
+[2022-09-05 16:16:59 +0000] [11373] [INFO] Booting worker with pid: 11373
+[2022-09-05 16:16:59 +0000] [11374] [INFO] Booting worker with pid: 11374
+[2022-09-05 16:16:59 +0000] [11375] [INFO] Booting worker with pid: 11375
+[2022-09-05 16:16:59 +0000] [11376] [INFO] Booting worker with pid: 11376
+[2022-09-05 16:16:59 +0000] [11377] [INFO] Booting worker with pid: 11377
+[2022-09-05 16:17:00 +0000] [11378] [INFO] Booting worker with pid: 11378
+[2022-09-05 16:17:00 +0000] [11381] [INFO] Booting worker with pid: 11381
+[2022-09-05 16:17:00 +0000] [11383] [INFO] Booting worker with pid: 11383
+[2022-09-05 16:17:00 +0000] [11384] [INFO] Booting worker with pid: 11384
+[2022-09-05 16:17:00 +0000] [11386] [INFO] Booting worker with pid: 11386
+[2022-09-05 16:17:00 +0000] [11389] [INFO] Booting worker with pid: 11389
+[2022-09-05 16:17:00 +0000] [11391] [INFO] Booting worker with pid: 11391
+[2022-09-05 16:17:00 +0000] [11393] [INFO] Booting worker with pid: 11393
+[2022-09-05 16:17:00 +0000] [11394] [INFO] Booting worker with pid: 11394
+[2022-09-05 16:17:00 +0000] [11395] [INFO] Booting worker with pid: 11395
+[2022-09-05 16:17:00 +0000] [11398] [INFO] Booting worker with pid: 11398
+[2022-09-05 16:17:00 +0000] [11399] [INFO] Booting worker with pid: 11399
+[2022-09-05 16:17:00 +0000] [11400] [INFO] Booting worker with pid: 11400
+[2022-09-05 16:17:00 +0000] [11405] [INFO] Booting worker with pid: 11405
+[2022-09-05 16:17:00 +0000] [11407] [INFO] Booting worker with pid: 11407
+[2022-09-05 16:17:00 +0000] [11409] [INFO] Booting worker with pid: 11409
+[2022-09-05 16:17:00 +0000] [11411] [INFO] Booting worker with pid: 11411
+[2022-09-05 16:17:00 +0000] [11413] [INFO] Booting worker with pid: 11413
+[2022-09-05 16:17:00 +0000] [11414] [INFO] Booting worker with pid: 11414
+[2022-09-05 16:17:00 +0000] [11416] [INFO] Booting worker with pid: 11416
+[2022-09-05 16:17:17,238] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    print(coiso.join().encode())
+AttributeError: 'tuple' object has no attribute 'join'
+[2022-09-05 16:17:19,688] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    print(coiso.join().encode())
+AttributeError: 'tuple' object has no attribute 'join'
+[2022-09-05 16:17:20,369] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    print(coiso.join().encode())
+AttributeError: 'tuple' object has no attribute 'join'
