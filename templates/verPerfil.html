@@ -2,7 +2,7 @@
 {% block title %} Ver perfil {% endblock %}
 {% block content %}
 <div class="a">
-    <h1 id="h1DoPerfil"><span id="spanNomeUser"></span></h1>
+    <h1 id="h1DoPerfil"><span id="spanNomeUser">{{a}}:</span></h1>
     <br />
     <br />
     <br />
@@ -36,7 +36,6 @@
     if (!getCookie('login')) {
         location.href = "/login";
     } else {
-        document.querySelector("#spanNomeUser").innerHTML = atob(getCookie("login")) + ":"
         if (doesFileExist("/static/img/" + atob(getCookie("login")) + ".png")) {
             document.getElementById("imgUser").src = "/static/img/" + atob(getCookie("login")) + ".png";
             document.getElementById("btn").style.display = "none"
