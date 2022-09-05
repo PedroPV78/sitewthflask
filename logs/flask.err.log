@@ -6971,3 +6971,100 @@ Traceback (most recent call last):
   File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
     print(coiso.join().encode())
 AttributeError: 'tuple' object has no attribute 'join'
+[2022-09-05 16:19:42 +0000] [11407] [INFO] Worker exiting (pid: 11407)
+[2022-09-05 16:19:42 +0000] [11409] [INFO] Worker exiting (pid: 11409)
+[2022-09-05 16:19:42 +0000] [11411] [INFO] Worker exiting (pid: 11411)
+[2022-09-05 16:19:42 +0000] [11400] [INFO] Worker exiting (pid: 11400)
+[2022-09-05 16:19:42 +0000] [11398] [INFO] Worker exiting (pid: 11398)
+[2022-09-05 16:19:42 +0000] [11395] [INFO] Worker exiting (pid: 11395)
+[2022-09-05 16:19:42 +0000] [11381] [INFO] Worker exiting (pid: 11381)
+[2022-09-05 16:19:42 +0000] [11405] [INFO] Worker exiting (pid: 11405)
+[2022-09-05 16:19:42 +0000] [11393] [INFO] Worker exiting (pid: 11393)
+[2022-09-05 16:19:42 +0000] [11394] [INFO] Worker exiting (pid: 11394)
+[2022-09-05 16:19:42 +0000] [11375] [INFO] Worker exiting (pid: 11375)
+[2022-09-05 16:19:42 +0000] [11374] [INFO] Worker exiting (pid: 11374)
+[2022-09-05 16:19:42 +0000] [11367] [INFO] Worker exiting (pid: 11367)
+[2022-09-05 16:19:42 +0000] [11383] [INFO] Worker exiting (pid: 11383)
+[2022-09-05 16:19:42 +0000] [11368] [INFO] Worker exiting (pid: 11368)
+[2022-09-05 16:19:42 +0000] [11370] [INFO] Worker exiting (pid: 11370)
+[2022-09-05 16:19:42 +0000] [11371] [INFO] Worker exiting (pid: 11371)
+[2022-09-05 16:19:42 +0000] [11369] [INFO] Worker exiting (pid: 11369)
+[2022-09-05 16:19:42 +0000] [11376] [INFO] Worker exiting (pid: 11376)
+[2022-09-05 16:19:42 +0000] [11378] [INFO] Worker exiting (pid: 11378)
+[2022-09-05 16:19:42 +0000] [11373] [INFO] Worker exiting (pid: 11373)
+[2022-09-05 16:19:42 +0000] [11413] [INFO] Worker exiting (pid: 11413)
+[2022-09-05 16:19:42 +0000] [11416] [INFO] Worker exiting (pid: 11416)
+[2022-09-05 16:19:42 +0000] [11377] [INFO] Worker exiting (pid: 11377)
+[2022-09-05 16:19:42 +0000] [11386] [INFO] Worker exiting (pid: 11386)
+[2022-09-05 16:19:42 +0000] [11372] [INFO] Worker exiting (pid: 11372)
+[2022-09-05 16:19:42 +0000] [11414] [INFO] Worker exiting (pid: 11414)
+[2022-09-05 16:19:42 +0000] [11384] [INFO] Worker exiting (pid: 11384)
+[2022-09-05 16:19:42 +0000] [11399] [INFO] Worker exiting (pid: 11399)
+[2022-09-05 16:19:42 +0000] [11391] [INFO] Worker exiting (pid: 11391)
+[2022-09-05 16:19:42 +0000] [11366] [INFO] Handling signal: term
+[2022-09-05 16:19:42 +0000] [11389] [INFO] Worker exiting (pid: 11389)
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11399 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11386 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11407 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11411 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11378 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11395 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11393 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11405 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11414 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11381 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11367 was terminated due to signal 15
+--- Logging error ---
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11370 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11373 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11374 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11375 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11376 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11377 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11383 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11384 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11391 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11394 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11398 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11400 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11409 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11413 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11416 was terminated due to signal 15
+[2022-09-05 16:19:42 +0000] [11366] [WARNING] Worker with pid 11372 was terminated due to signal 15
+[2022-09-05 16:19:43 +0000] [11492] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:19:43 +0000] [11492] [INFO] Listening at: http://127.0.0.1:8000 (11492)
+[2022-09-05 16:19:43 +0000] [11492] [INFO] Using worker: sync
+[2022-09-05 16:19:43 +0000] [11493] [INFO] Booting worker with pid: 11493
+[2022-09-05 16:19:43 +0000] [11494] [INFO] Booting worker with pid: 11494
+[2022-09-05 16:19:43 +0000] [11495] [INFO] Booting worker with pid: 11495
+[2022-09-05 16:19:44 +0000] [11496] [INFO] Booting worker with pid: 11496
+[2022-09-05 16:19:44 +0000] [11497] [INFO] Booting worker with pid: 11497
+[2022-09-05 16:19:44 +0000] [11498] [INFO] Booting worker with pid: 11498
+[2022-09-05 16:19:44 +0000] [11499] [INFO] Booting worker with pid: 11499
+[2022-09-05 16:19:44 +0000] [11500] [INFO] Booting worker with pid: 11500
+[2022-09-05 16:19:44 +0000] [11501] [INFO] Booting worker with pid: 11501
+[2022-09-05 16:19:44 +0000] [11502] [INFO] Booting worker with pid: 11502
+[2022-09-05 16:19:44 +0000] [11503] [INFO] Booting worker with pid: 11503
+[2022-09-05 16:19:44 +0000] [11504] [INFO] Booting worker with pid: 11504
+[2022-09-05 16:19:44 +0000] [11506] [INFO] Booting worker with pid: 11506
+[2022-09-05 16:19:44 +0000] [11509] [INFO] Booting worker with pid: 11509
+[2022-09-05 16:19:44 +0000] [11511] [INFO] Booting worker with pid: 11511
+[2022-09-05 16:19:44 +0000] [11513] [INFO] Booting worker with pid: 11513
+[2022-09-05 16:19:44 +0000] [11515] [INFO] Booting worker with pid: 11515
+[2022-09-05 16:19:44 +0000] [11517] [INFO] Booting worker with pid: 11517
+[2022-09-05 16:19:44 +0000] [11518] [INFO] Booting worker with pid: 11518
+[2022-09-05 16:19:44 +0000] [11520] [INFO] Booting worker with pid: 11520
+[2022-09-05 16:19:44 +0000] [11521] [INFO] Booting worker with pid: 11521
+[2022-09-05 16:19:44 +0000] [11523] [INFO] Booting worker with pid: 11523
+[2022-09-05 16:19:45 +0000] [11527] [INFO] Booting worker with pid: 11527
+[2022-09-05 16:19:45 +0000] [11529] [INFO] Booting worker with pid: 11529
+[2022-09-05 16:19:45 +0000] [11531] [INFO] Booting worker with pid: 11531
+[2022-09-05 16:19:45 +0000] [11533] [INFO] Booting worker with pid: 11533
+[2022-09-05 16:19:45 +0000] [11535] [INFO] Booting worker with pid: 11535
+[2022-09-05 16:19:45 +0000] [11537] [INFO] Booting worker with pid: 11537
+[2022-09-05 16:19:45 +0000] [11538] [INFO] Booting worker with pid: 11538
+[2022-09-05 16:19:45 +0000] [11541] [INFO] Booting worker with pid: 11541
+[2022-09-05 16:19:45 +0000] [11543] [INFO] Booting worker with pid: 11543
