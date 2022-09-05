@@ -3125,3 +3125,421 @@ Traceback (most recent call last):
   File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/sessions.py", line 98, in _fail
     raise RuntimeError(
 RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+[2022-09-04 20:42:29 +0000] [5963] [INFO] Worker exiting (pid: 5963)
+[2022-09-04 20:42:29 +0000] [5970] [INFO] Worker exiting (pid: 5970)
+[2022-09-04 20:42:29 +0000] [5969] [INFO] Worker exiting (pid: 5969)
+[2022-09-04 20:42:29 +0000] [5965] [INFO] Worker exiting (pid: 5965)
+[2022-09-04 20:42:29 +0000] [5961] [INFO] Worker exiting (pid: 5961)
+[2022-09-04 20:42:29 +0000] [5954] [INFO] Worker exiting (pid: 5954)
+[2022-09-04 20:42:29 +0000] [5943] [INFO] Worker exiting (pid: 5943)
+[2022-09-04 20:42:29 +0000] [5949] [INFO] Worker exiting (pid: 5949)
+[2022-09-04 20:42:29 +0000] [5947] [INFO] Worker exiting (pid: 5947)
+[2022-09-04 20:42:29 +0000] [5934] [INFO] Worker exiting (pid: 5934)
+[2022-09-04 20:42:29 +0000] [5953] [INFO] Worker exiting (pid: 5953)
+[2022-09-04 20:42:29 +0000] [5932] [INFO] Worker exiting (pid: 5932)
+[2022-09-04 20:42:29 +0000] [5951] [INFO] Worker exiting (pid: 5951)
+[2022-09-04 20:42:29 +0000] [5923] [INFO] Worker exiting (pid: 5923)
+[2022-09-04 20:42:29 +0000] [5927] [INFO] Worker exiting (pid: 5927)
+[2022-09-04 20:42:29 +0000] [5924] [INFO] Worker exiting (pid: 5924)
+[2022-09-04 20:42:29 +0000] [5922] [INFO] Worker exiting (pid: 5922)
+[2022-09-04 20:42:29 +0000] [5936] [INFO] Worker exiting (pid: 5936)
+[2022-09-04 20:42:29 +0000] [5930] [INFO] Worker exiting (pid: 5930)
+[2022-09-04 20:42:29 +0000] [5921] [INFO] Worker exiting (pid: 5921)
+[2022-09-04 20:42:29 +0000] [5928] [INFO] Worker exiting (pid: 5928)
+[2022-09-04 20:42:29 +0000] [5926] [INFO] Worker exiting (pid: 5926)
+[2022-09-04 20:42:29 +0000] [5931] [INFO] Worker exiting (pid: 5931)
+[2022-09-04 20:42:29 +0000] [5925] [INFO] Worker exiting (pid: 5925)
+[2022-09-04 20:42:29 +0000] [5933] [INFO] Worker exiting (pid: 5933)
+[2022-09-04 20:42:29 +0000] [5929] [INFO] Worker exiting (pid: 5929)
+[2022-09-04 20:42:29 +0000] [5967] [INFO] Worker exiting (pid: 5967)
+[2022-09-04 20:42:29 +0000] [5957] [INFO] Worker exiting (pid: 5957)
+[2022-09-04 20:42:29 +0000] [5941] [INFO] Worker exiting (pid: 5941)
+[2022-09-04 20:42:29 +0000] [5960] [INFO] Worker exiting (pid: 5960)
+[2022-09-04 20:42:29 +0000] [5944] [INFO] Worker exiting (pid: 5944)
+[2022-09-04 20:42:29 +0000] [5920] [INFO] Handling signal: term
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5933 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5947 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5949 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5951 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5953 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5954 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5960 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5961 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5963 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5970 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5926 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5934 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5944 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5969 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5929 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5931 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5932 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5957 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5965 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5923 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5925 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5924 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5921 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5943 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5928 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5930 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5941 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5967 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5922 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5936 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [WARNING] Worker with pid 5927 was terminated due to signal 15
+[2022-09-04 20:42:29 +0000] [5920] [INFO] Shutting down: Master
+[2022-09-04 20:42:30 +0000] [6479] [INFO] Starting gunicorn 20.1.0
+[2022-09-04 20:42:30 +0000] [6479] [INFO] Listening at: http://127.0.0.1:8000 (6479)
+[2022-09-04 20:42:30 +0000] [6479] [INFO] Using worker: sync
+[2022-09-04 20:42:30 +0000] [6480] [INFO] Booting worker with pid: 6480
+[2022-09-04 20:42:30 +0000] [6481] [INFO] Booting worker with pid: 6481
+[2022-09-04 20:42:30 +0000] [6482] [INFO] Booting worker with pid: 6482
+[2022-09-04 20:42:30 +0000] [6483] [INFO] Booting worker with pid: 6483
+[2022-09-04 20:42:30 +0000] [6484] [INFO] Booting worker with pid: 6484
+[2022-09-04 20:42:30 +0000] [6485] [INFO] Booting worker with pid: 6485
+[2022-09-04 20:42:30 +0000] [6486] [INFO] Booting worker with pid: 6486
+[2022-09-04 20:42:30 +0000] [6487] [INFO] Booting worker with pid: 6487
+[2022-09-04 20:42:30 +0000] [6488] [INFO] Booting worker with pid: 6488
+[2022-09-04 20:42:30 +0000] [6489] [INFO] Booting worker with pid: 6489
+[2022-09-04 20:42:30 +0000] [6490] [INFO] Booting worker with pid: 6490
+[2022-09-04 20:42:30 +0000] [6491] [INFO] Booting worker with pid: 6491
+[2022-09-04 20:42:30 +0000] [6494] [INFO] Booting worker with pid: 6494
+[2022-09-04 20:42:31 +0000] [6496] [INFO] Booting worker with pid: 6496
+[2022-09-04 20:42:31 +0000] [6497] [INFO] Booting worker with pid: 6497
+[2022-09-04 20:42:31 +0000] [6499] [INFO] Booting worker with pid: 6499
+[2022-09-04 20:42:31 +0000] [6502] [INFO] Booting worker with pid: 6502
+[2022-09-04 20:42:31 +0000] [6503] [INFO] Booting worker with pid: 6503
+[2022-09-04 20:42:31 +0000] [6505] [INFO] Booting worker with pid: 6505
+[2022-09-04 20:42:31 +0000] [6506] [INFO] Booting worker with pid: 6506
+[2022-09-04 20:42:31 +0000] [6509] [INFO] Booting worker with pid: 6509
+[2022-09-04 20:42:31 +0000] [6510] [INFO] Booting worker with pid: 6510
+[2022-09-04 20:42:31 +0000] [6513] [INFO] Booting worker with pid: 6513
+[2022-09-04 20:42:31 +0000] [6514] [INFO] Booting worker with pid: 6514
+[2022-09-04 20:42:31 +0000] [6516] [INFO] Booting worker with pid: 6516
+[2022-09-04 20:42:31 +0000] [6519] [INFO] Booting worker with pid: 6519
+[2022-09-04 20:42:31 +0000] [6522] [INFO] Booting worker with pid: 6522
+[2022-09-04 20:42:31 +0000] [6523] [INFO] Booting worker with pid: 6523
+[2022-09-04 20:42:31 +0000] [6525] [INFO] Booting worker with pid: 6525
+[2022-09-04 20:42:31 +0000] [6528] [INFO] Booting worker with pid: 6528
+[2022-09-04 20:42:31 +0000] [6529] [INFO] Booting worker with pid: 6529
+[2022-09-04 20:45:34 +0000] [6525] [INFO] Worker exiting (pid: 6525)
+[2022-09-04 20:45:34 +0000] [6529] [INFO] Worker exiting (pid: 6529)
+[2022-09-04 20:45:34 +0000] [6522] [INFO] Worker exiting (pid: 6522)
+[2022-09-04 20:45:34 +0000] [6514] [INFO] Worker exiting (pid: 6514)
+[2022-09-04 20:45:34 +0000] [6506] [INFO] Worker exiting (pid: 6506)
+[2022-09-04 20:45:34 +0000] [6505] [INFO] Worker exiting (pid: 6505)
+[2022-09-04 20:45:34 +0000] [6491] [INFO] Worker exiting (pid: 6491)
+[2022-09-04 20:45:34 +0000] [6490] [INFO] Worker exiting (pid: 6490)
+[2022-09-04 20:45:34 +0000] [6485] [INFO] Worker exiting (pid: 6485)
+[2022-09-04 20:45:34 +0000] [6486] [INFO] Worker exiting (pid: 6486)
+[2022-09-04 20:45:34 +0000] [6483] [INFO] Worker exiting (pid: 6483)
+[2022-09-04 20:45:34 +0000] [6496] [INFO] Worker exiting (pid: 6496)
+[2022-09-04 20:45:34 +0000] [6480] [INFO] Worker exiting (pid: 6480)
+[2022-09-04 20:45:34 +0000] [6481] [INFO] Worker exiting (pid: 6481)
+[2022-09-04 20:45:34 +0000] [6489] [INFO] Worker exiting (pid: 6489)
+[2022-09-04 20:45:34 +0000] [6482] [INFO] Worker exiting (pid: 6482)
+[2022-09-04 20:45:34 +0000] [6497] [INFO] Worker exiting (pid: 6497)
+[2022-09-04 20:45:34 +0000] [6523] [INFO] Worker exiting (pid: 6523)
+[2022-09-04 20:45:34 +0000] [6479] [INFO] Handling signal: term
+[2022-09-04 20:45:34 +0000] [6499] [INFO] Worker exiting (pid: 6499)
+[2022-09-04 20:45:34 +0000] [6502] [INFO] Worker exiting (pid: 6502)
+[2022-09-04 20:45:34 +0000] [6494] [INFO] Worker exiting (pid: 6494)
+[2022-09-04 20:45:34 +0000] [6513] [INFO] Worker exiting (pid: 6513)
+[2022-09-04 20:45:34 +0000] [6528] [INFO] Worker exiting (pid: 6528)
+[2022-09-04 20:45:34 +0000] [6484] [INFO] Worker exiting (pid: 6484)
+[2022-09-04 20:45:34 +0000] [6503] [INFO] Worker exiting (pid: 6503)
+[2022-09-04 20:45:34 +0000] [6509] [INFO] Worker exiting (pid: 6509)
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6482 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6490 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6497 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6506 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6514 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6523 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6529 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6519] [INFO] Worker exiting (pid: 6519)
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6496 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6522 was terminated due to signal 15
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (6522, 15)
+[2022-09-04 20:45:34 +0000] [6516] [INFO] Worker exiting (pid: 6516)
+[2022-09-04 20:45:34 +0000] [6510] [INFO] Worker exiting (pid: 6510)
+[2022-09-04 20:45:34 +0000] [6487] [INFO] Worker exiting (pid: 6487)
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6480 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6481 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6486 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6489 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6525 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6491 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6488] [INFO] Worker exiting (pid: 6488)
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6483 was terminated due to signal 15
+[2022-09-04 20:45:34 +0000] [6479] [WARNING] Worker with pid 6485 was terminated due to signal 15
+[2022-09-04 20:45:46 +0000] [6572] [INFO] Starting gunicorn 20.1.0
+[2022-09-04 20:45:46 +0000] [6572] [INFO] Listening at: http://127.0.0.1:8000 (6572)
+[2022-09-04 20:45:46 +0000] [6572] [INFO] Using worker: sync
+[2022-09-04 20:45:46 +0000] [6573] [INFO] Booting worker with pid: 6573
+[2022-09-04 20:45:46 +0000] [6574] [INFO] Booting worker with pid: 6574
+[2022-09-04 20:45:46 +0000] [6575] [INFO] Booting worker with pid: 6575
+[2022-09-04 20:45:46 +0000] [6576] [INFO] Booting worker with pid: 6576
+[2022-09-04 20:45:46 +0000] [6577] [INFO] Booting worker with pid: 6577
+[2022-09-04 20:45:46 +0000] [6578] [INFO] Booting worker with pid: 6578
+[2022-09-04 20:45:46 +0000] [6579] [INFO] Booting worker with pid: 6579
+[2022-09-04 20:45:46 +0000] [6580] [INFO] Booting worker with pid: 6580
+[2022-09-04 20:45:46 +0000] [6581] [INFO] Booting worker with pid: 6581
+[2022-09-04 20:45:46 +0000] [6582] [INFO] Booting worker with pid: 6582
+[2022-09-04 20:45:46 +0000] [6583] [INFO] Booting worker with pid: 6583
+[2022-09-04 20:45:46 +0000] [6585] [INFO] Booting worker with pid: 6585
+[2022-09-04 20:45:46 +0000] [6587] [INFO] Booting worker with pid: 6587
+[2022-09-04 20:45:46 +0000] [6589] [INFO] Booting worker with pid: 6589
+[2022-09-04 20:45:46 +0000] [6591] [INFO] Booting worker with pid: 6591
+[2022-09-04 20:45:47 +0000] [6593] [INFO] Booting worker with pid: 6593
+[2022-09-04 20:45:47 +0000] [6595] [INFO] Booting worker with pid: 6595
+[2022-09-04 20:45:47 +0000] [6596] [INFO] Booting worker with pid: 6596
+[2022-09-04 20:45:47 +0000] [6597] [INFO] Booting worker with pid: 6597
+[2022-09-04 20:45:47 +0000] [6600] [INFO] Booting worker with pid: 6600
+[2022-09-04 20:45:47 +0000] [6603] [INFO] Booting worker with pid: 6603
+[2022-09-04 20:45:47 +0000] [6605] [INFO] Booting worker with pid: 6605
+[2022-09-04 20:45:47 +0000] [6606] [INFO] Booting worker with pid: 6606
+[2022-09-04 20:45:47 +0000] [6608] [INFO] Booting worker with pid: 6608
+[2022-09-04 20:45:47 +0000] [6611] [INFO] Booting worker with pid: 6611
+[2022-09-04 20:45:47 +0000] [6612] [INFO] Booting worker with pid: 6612
+[2022-09-04 20:45:47 +0000] [6614] [INFO] Booting worker with pid: 6614
+[2022-09-04 20:45:47 +0000] [6617] [INFO] Booting worker with pid: 6617
+[2022-09-04 20:45:47 +0000] [6619] [INFO] Booting worker with pid: 6619
+[2022-09-04 20:45:47 +0000] [6621] [INFO] Booting worker with pid: 6621
+[2022-09-04 20:45:47 +0000] [6622] [INFO] Booting worker with pid: 6622
+[2022-09-04 20:46:42 +0000] [6619] [INFO] Worker exiting (pid: 6619)
+[2022-09-04 20:46:42 +0000] [6612] [INFO] Worker exiting (pid: 6612)
+[2022-09-04 20:46:42 +0000] [6611] [INFO] Worker exiting (pid: 6611)
+[2022-09-04 20:46:42 +0000] [6608] [INFO] Worker exiting (pid: 6608)
+[2022-09-04 20:46:42 +0000] [6606] [INFO] Worker exiting (pid: 6606)
+[2022-09-04 20:46:42 +0000] [6591] [INFO] Worker exiting (pid: 6591)
+[2022-09-04 20:46:42 +0000] [6580] [INFO] Worker exiting (pid: 6580)
+[2022-09-04 20:46:42 +0000] [6581] [INFO] Worker exiting (pid: 6581)
+[2022-09-04 20:46:42 +0000] [6582] [INFO] Worker exiting (pid: 6582)
+[2022-09-04 20:46:42 +0000] [6578] [INFO] Worker exiting (pid: 6578)
+[2022-09-04 20:46:42 +0000] [6574] [INFO] Worker exiting (pid: 6574)
+[2022-09-04 20:46:42 +0000] [6589] [INFO] Worker exiting (pid: 6589)
+[2022-09-04 20:46:42 +0000] [6597] [INFO] Worker exiting (pid: 6597)
+[2022-09-04 20:46:42 +0000] [6587] [INFO] Worker exiting (pid: 6587)
+[2022-09-04 20:46:42 +0000] [6573] [INFO] Worker exiting (pid: 6573)
+[2022-09-04 20:46:42 +0000] [6583] [INFO] Worker exiting (pid: 6583)
+[2022-09-04 20:46:42 +0000] [6605] [INFO] Worker exiting (pid: 6605)
+[2022-09-04 20:46:42 +0000] [6593] [INFO] Worker exiting (pid: 6593)
+[2022-09-04 20:46:42 +0000] [6617] [INFO] Worker exiting (pid: 6617)
+[2022-09-04 20:46:42 +0000] [6579] [INFO] Worker exiting (pid: 6579)
+[2022-09-04 20:46:42 +0000] [6575] [INFO] Worker exiting (pid: 6575)
+[2022-09-04 20:46:42 +0000] [6572] [INFO] Handling signal: term
+[2022-09-04 20:46:42 +0000] [6614] [INFO] Worker exiting (pid: 6614)
+[2022-09-04 20:46:42 +0000] [6576] [INFO] Worker exiting (pid: 6576)
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6617 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6596] [INFO] Worker exiting (pid: 6596)
+[2022-09-04 20:46:42 +0000] [6603] [INFO] Worker exiting (pid: 6603)
+[2022-09-04 20:46:42 +0000] [6577] [INFO] Worker exiting (pid: 6577)
+[2022-09-04 20:46:42 +0000] [6585] [INFO] Worker exiting (pid: 6585)
+[2022-09-04 20:46:42 +0000] [6600] [INFO] Worker exiting (pid: 6600)
+[2022-09-04 20:46:42 +0000] [6595] [INFO] Worker exiting (pid: 6595)
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6597 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6606 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6621] [INFO] Worker exiting (pid: 6621)
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6608 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6611 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6612 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6619 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6622] [INFO] Worker exiting (pid: 6622)
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6573 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6578 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6580 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6581 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6587 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6589 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6593 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6583 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6574 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6582 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6591 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6579 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6605 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [WARNING] Worker with pid 6575 was terminated due to signal 15
+[2022-09-04 20:46:42 +0000] [6572] [INFO] Shutting down: Master
+[2022-09-04 20:46:43 +0000] [6669] [INFO] Starting gunicorn 20.1.0
+[2022-09-04 20:46:43 +0000] [6669] [INFO] Listening at: http://127.0.0.1:8000 (6669)
+[2022-09-04 20:46:43 +0000] [6669] [INFO] Using worker: sync
+[2022-09-04 20:46:43 +0000] [6670] [INFO] Booting worker with pid: 6670
+[2022-09-04 20:46:43 +0000] [6671] [INFO] Booting worker with pid: 6671
+[2022-09-04 20:46:43 +0000] [6672] [INFO] Booting worker with pid: 6672
+[2022-09-04 20:46:43 +0000] [6673] [INFO] Booting worker with pid: 6673
+[2022-09-04 20:46:43 +0000] [6674] [INFO] Booting worker with pid: 6674
+[2022-09-04 20:46:43 +0000] [6675] [INFO] Booting worker with pid: 6675
+[2022-09-04 20:46:43 +0000] [6676] [INFO] Booting worker with pid: 6676
+[2022-09-04 20:46:43 +0000] [6677] [INFO] Booting worker with pid: 6677
+[2022-09-04 20:46:43 +0000] [6678] [INFO] Booting worker with pid: 6678
+[2022-09-04 20:46:44 +0000] [6679] [INFO] Booting worker with pid: 6679
+[2022-09-04 20:46:44 +0000] [6680] [INFO] Booting worker with pid: 6680
+[2022-09-04 20:46:44 +0000] [6681] [INFO] Booting worker with pid: 6681
+[2022-09-04 20:46:44 +0000] [6683] [INFO] Booting worker with pid: 6683
+[2022-09-04 20:46:44 +0000] [6686] [INFO] Booting worker with pid: 6686
+[2022-09-04 20:46:44 +0000] [6688] [INFO] Booting worker with pid: 6688
+[2022-09-04 20:46:44 +0000] [6689] [INFO] Booting worker with pid: 6689
+[2022-09-04 20:46:44 +0000] [6692] [INFO] Booting worker with pid: 6692
+[2022-09-04 20:46:44 +0000] [6694] [INFO] Booting worker with pid: 6694
+[2022-09-04 20:46:44 +0000] [6696] [INFO] Booting worker with pid: 6696
+[2022-09-04 20:46:44 +0000] [6698] [INFO] Booting worker with pid: 6698
+[2022-09-04 20:46:44 +0000] [6700] [INFO] Booting worker with pid: 6700
+[2022-09-04 20:46:44 +0000] [6701] [INFO] Booting worker with pid: 6701
+[2022-09-04 20:46:44 +0000] [6703] [INFO] Booting worker with pid: 6703
+[2022-09-04 20:46:44 +0000] [6706] [INFO] Booting worker with pid: 6706
+[2022-09-04 20:46:44 +0000] [6708] [INFO] Booting worker with pid: 6708
+[2022-09-04 20:46:44 +0000] [6709] [INFO] Booting worker with pid: 6709
+[2022-09-04 20:46:44 +0000] [6710] [INFO] Booting worker with pid: 6710
+[2022-09-04 20:46:44 +0000] [6712] [INFO] Booting worker with pid: 6712
+[2022-09-04 20:46:45 +0000] [6716] [INFO] Booting worker with pid: 6716
+[2022-09-04 20:46:45 +0000] [6718] [INFO] Booting worker with pid: 6718
+[2022-09-04 20:46:45 +0000] [6720] [INFO] Booting worker with pid: 6720
+[2022-09-04 20:47:26 +0000] [6712] [INFO] Worker exiting (pid: 6712)
+[2022-09-04 20:47:26 +0000] [6708] [INFO] Worker exiting (pid: 6708)
+[2022-09-04 20:47:26 +0000] [6718] [INFO] Worker exiting (pid: 6718)
+[2022-09-04 20:47:26 +0000] [6700] [INFO] Worker exiting (pid: 6700)
+[2022-09-04 20:47:26 +0000] [6703] [INFO] Worker exiting (pid: 6703)
+[2022-09-04 20:47:26 +0000] [6706] [INFO] Worker exiting (pid: 6706)
+[2022-09-04 20:47:26 +0000] [6696] [INFO] Worker exiting (pid: 6696)
+[2022-09-04 20:47:26 +0000] [6686] [INFO] Worker exiting (pid: 6686)
+[2022-09-04 20:47:26 +0000] [6680] [INFO] Worker exiting (pid: 6680)
+[2022-09-04 20:47:26 +0000] [6679] [INFO] Worker exiting (pid: 6679)
+[2022-09-04 20:47:26 +0000] [6678] [INFO] Worker exiting (pid: 6678)
+[2022-09-04 20:47:26 +0000] [6674] [INFO] Worker exiting (pid: 6674)
+[2022-09-04 20:47:26 +0000] [6671] [INFO] Worker exiting (pid: 6671)
+[2022-09-04 20:47:26 +0000] [6694] [INFO] Worker exiting (pid: 6694)
+[2022-09-04 20:47:26 +0000] [6670] [INFO] Worker exiting (pid: 6670)
+[2022-09-04 20:47:26 +0000] [6676] [INFO] Worker exiting (pid: 6676)
+[2022-09-04 20:47:26 +0000] [6672] [INFO] Worker exiting (pid: 6672)
+[2022-09-04 20:47:26 +0000] [6677] [INFO] Worker exiting (pid: 6677)
+[2022-09-04 20:47:26 +0000] [6669] [INFO] Handling signal: term
+[2022-09-04 20:47:26 +0000] [6710] [INFO] Worker exiting (pid: 6710)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6670 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6718 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6688] [INFO] Worker exiting (pid: 6688)
+[2022-09-04 20:47:26 +0000] [6675] [INFO] Worker exiting (pid: 6675)
+[2022-09-04 20:47:26 +0000] [6720] [INFO] Worker exiting (pid: 6720)
+[2022-09-04 20:47:26 +0000] [6709] [INFO] Worker exiting (pid: 6709)
+[2022-09-04 20:47:26 +0000] [6698] [INFO] Worker exiting (pid: 6698)
+[2022-09-04 20:47:26 +0000] [6689] [INFO] Worker exiting (pid: 6689)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6678 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6706 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6712 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6700 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6677 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6701] [INFO] Worker exiting (pid: 6701)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6703 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6681] [INFO] Worker exiting (pid: 6681)
+[2022-09-04 20:47:26 +0000] [6692] [INFO] Worker exiting (pid: 6692)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6679 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6696 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6708 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6676 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6673] [INFO] Worker exiting (pid: 6673)
+[2022-09-04 20:47:26 +0000] [6716] [INFO] Worker exiting (pid: 6716)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6672 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6683] [INFO] Worker exiting (pid: 6683)
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6674 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6680 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6686 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6671 was terminated due to signal 15
+[2022-09-04 20:47:26 +0000] [6669] [WARNING] Worker with pid 6694 was terminated due to signal 15
+[2022-09-04 20:47:27 +0000] [6669] [INFO] Shutting down: Master
+[2022-09-04 20:47:28 +0000] [6764] [INFO] Starting gunicorn 20.1.0
+[2022-09-04 20:47:28 +0000] [6764] [INFO] Listening at: http://127.0.0.1:8000 (6764)
+[2022-09-04 20:47:28 +0000] [6764] [INFO] Using worker: sync
+[2022-09-04 20:47:28 +0000] [6765] [INFO] Booting worker with pid: 6765
+[2022-09-04 20:47:28 +0000] [6766] [INFO] Booting worker with pid: 6766
+[2022-09-04 20:47:28 +0000] [6767] [INFO] Booting worker with pid: 6767
+[2022-09-04 20:47:28 +0000] [6768] [INFO] Booting worker with pid: 6768
+[2022-09-04 20:47:28 +0000] [6769] [INFO] Booting worker with pid: 6769
+[2022-09-04 20:47:28 +0000] [6770] [INFO] Booting worker with pid: 6770
+[2022-09-04 20:47:28 +0000] [6771] [INFO] Booting worker with pid: 6771
+[2022-09-04 20:47:28 +0000] [6772] [INFO] Booting worker with pid: 6772
+[2022-09-04 20:47:28 +0000] [6773] [INFO] Booting worker with pid: 6773
+[2022-09-04 20:47:28 +0000] [6774] [INFO] Booting worker with pid: 6774
+[2022-09-04 20:47:28 +0000] [6775] [INFO] Booting worker with pid: 6775
+[2022-09-04 20:47:28 +0000] [6777] [INFO] Booting worker with pid: 6777
+[2022-09-04 20:47:28 +0000] [6779] [INFO] Booting worker with pid: 6779
+[2022-09-04 20:47:29 +0000] [6780] [INFO] Booting worker with pid: 6780
+[2022-09-04 20:47:29 +0000] [6783] [INFO] Booting worker with pid: 6783
+[2022-09-04 20:47:29 +0000] [6785] [INFO] Booting worker with pid: 6785
+[2022-09-04 20:47:29 +0000] [6786] [INFO] Booting worker with pid: 6786
+[2022-09-04 20:47:29 +0000] [6789] [INFO] Booting worker with pid: 6789
+[2022-09-04 20:47:29 +0000] [6790] [INFO] Booting worker with pid: 6790
+[2022-09-04 20:47:29 +0000] [6792] [INFO] Booting worker with pid: 6792
+[2022-09-04 20:47:29 +0000] [6795] [INFO] Booting worker with pid: 6795
+[2022-09-04 20:47:29 +0000] [6797] [INFO] Booting worker with pid: 6797
+[2022-09-04 20:47:29 +0000] [6799] [INFO] Booting worker with pid: 6799
+[2022-09-04 20:47:29 +0000] [6801] [INFO] Booting worker with pid: 6801
+[2022-09-04 20:47:29 +0000] [6803] [INFO] Booting worker with pid: 6803
+[2022-09-04 20:47:29 +0000] [6805] [INFO] Booting worker with pid: 6805
+[2022-09-04 20:47:29 +0000] [6806] [INFO] Booting worker with pid: 6806
+[2022-09-04 20:47:29 +0000] [6807] [INFO] Booting worker with pid: 6807
+[2022-09-04 20:47:29 +0000] [6811] [INFO] Booting worker with pid: 6811
+[2022-09-04 20:47:29 +0000] [6813] [INFO] Booting worker with pid: 6813
+[2022-09-04 20:47:30 +0000] [6815] [INFO] Booting worker with pid: 6815
