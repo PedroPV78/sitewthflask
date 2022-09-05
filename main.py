@@ -162,7 +162,7 @@ def verPerfil():
     cookie = request.cookies.get('login')
     mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
     for x in mycursor:
-        global coiso = x
+        coiso = x
 	print(coiso))
     return render_template("verPerfil.html")
 

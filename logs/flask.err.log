@@ -4908,3 +4908,557 @@ Traceback (most recent call last):
   File "/home/ubuntu/sitewthflask/main.py", line 164, in verPerfil
     return render_template("verPerfil.html", a=mycursor[0])
 TypeError: 'MySQLCursor' object is not subscriptable
+[2022-09-05 16:06:24 +0000] [10579] [INFO] Worker exiting (pid: 10579)
+[2022-09-05 16:06:24 +0000] [10581] [INFO] Worker exiting (pid: 10581)
+[2022-09-05 16:06:24 +0000] [10572] [INFO] Worker exiting (pid: 10572)
+[2022-09-05 16:06:24 +0000] [10564] [INFO] Worker exiting (pid: 10564)
+[2022-09-05 16:06:24 +0000] [10557] [INFO] Worker exiting (pid: 10557)
+[2022-09-05 16:06:24 +0000] [10573] [INFO] Worker exiting (pid: 10573)
+[2022-09-05 16:06:24 +0000] [10559] [INFO] Worker exiting (pid: 10559)
+[2022-09-05 16:06:24 +0000] [10544] [INFO] Worker exiting (pid: 10544)
+[2022-09-05 16:06:24 +0000] [10545] [INFO] Worker exiting (pid: 10545)
+[2022-09-05 16:06:24 +0000] [10560] [INFO] Worker exiting (pid: 10560)
+[2022-09-05 16:06:24 +0000] [10542] [INFO] Worker exiting (pid: 10542)
+[2022-09-05 16:06:24 +0000] [10537] [INFO] Worker exiting (pid: 10537)
+[2022-09-05 16:06:24 +0000] [10556] [INFO] Worker exiting (pid: 10556)
+[2022-09-05 16:06:24 +0000] [10535] [INFO] Worker exiting (pid: 10535)
+[2022-09-05 16:06:24 +0000] [10536] [INFO] Worker exiting (pid: 10536)
+[2022-09-05 16:06:24 +0000] [10540] [INFO] Worker exiting (pid: 10540)
+[2022-09-05 16:06:24 +0000] [10551] [INFO] Worker exiting (pid: 10551)
+[2022-09-05 16:06:24 +0000] [10566] [INFO] Worker exiting (pid: 10566)
+[2022-09-05 16:06:24 +0000] [10539] [INFO] Worker exiting (pid: 10539)
+[2022-09-05 16:06:24 +0000] [10548] [INFO] Worker exiting (pid: 10548)
+[2022-09-05 16:06:24 +0000] [10577] [INFO] Worker exiting (pid: 10577)
+[2022-09-05 16:06:24 +0000] [10563] [INFO] Worker exiting (pid: 10563)
+[2022-09-05 16:06:24 +0000] [10538] [INFO] Worker exiting (pid: 10538)
+[2022-09-05 16:06:24 +0000] [10541] [INFO] Worker exiting (pid: 10541)
+[2022-09-05 16:06:24 +0000] [10570] [INFO] Worker exiting (pid: 10570)
+[2022-09-05 16:06:24 +0000] [10534] [INFO] Worker exiting (pid: 10534)
+[2022-09-05 16:06:24 +0000] [10550] [INFO] Worker exiting (pid: 10550)
+[2022-09-05 16:06:24 +0000] [10543] [INFO] Worker exiting (pid: 10543)
+[2022-09-05 16:06:24 +0000] [10584] [INFO] Worker exiting (pid: 10584)
+[2022-09-05 16:06:24 +0000] [10575] [INFO] Worker exiting (pid: 10575)
+[2022-09-05 16:06:24 +0000] [10533] [INFO] Handling signal: term
+[2022-09-05 16:06:24 +0000] [10554] [INFO] Worker exiting (pid: 10554)
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10560 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10579 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10559 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10572 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10581 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10564 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10570 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10563 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10577 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10573 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10584 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10575 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10548 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10536 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10566 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10539 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10551 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10537 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10544 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10557 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10535 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10556 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10538 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10534 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10542 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10543 was terminated due to signal 15
+[2022-09-05 16:06:24 +0000] [10533] [WARNING] Worker with pid 10550 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1022, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.10/traceback.py", line 119, in print_exception
+    te = TracebackException(type(value), value, tb, limit=limit, compact=True)
+  File "/usr/lib/python3.10/traceback.py", line 502, in __init__
+    self.stack = StackSummary.extract(
+  File "/usr/lib/python3.10/traceback.py", line 383, in extract
+    f.line
+  File "/usr/lib/python3.10/traceback.py", line 306, in line
+    self._line = linecache.getline(self.filename, self.lineno)
+  File "/usr/lib/python3.10/linecache.py", line 30, in getline
+    lines = getlines(filename, module_globals)
+  File "/usr/lib/python3.10/linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "/usr/lib/python3.10/linecache.py", line 137, in updatecache
+    lines = fp.readlines()
+  File "/usr/lib/python3.10/codecs.py", line 319, in decode
+    def decode(self, input, final=False):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (10534, 15)
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (10537, 15)
+[2022-09-05 16:06:35 +0000] [10749] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:06:35 +0000] [10749] [INFO] Listening at: http://127.0.0.1:8000 (10749)
+[2022-09-05 16:06:35 +0000] [10749] [INFO] Using worker: sync
+[2022-09-05 16:06:35 +0000] [10750] [INFO] Booting worker with pid: 10750
+[2022-09-05 16:06:35 +0000] [10750] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:35 +0000] [10750] [INFO] Worker exiting (pid: 10750)
+[2022-09-05 16:06:35 +0000] [10751] [INFO] Booting worker with pid: 10751
+[2022-09-05 16:06:35 +0000] [10751] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:35 +0000] [10751] [INFO] Worker exiting (pid: 10751)
+[2022-09-05 16:06:35 +0000] [10749] [WARNING] Worker with pid 10751 was terminated due to signal 15
+[2022-09-05 16:06:36 +0000] [10749] [INFO] Shutting down: Master
+[2022-09-05 16:06:36 +0000] [10749] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:06:37 +0000] [10752] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:06:37 +0000] [10752] [INFO] Listening at: http://127.0.0.1:8000 (10752)
+[2022-09-05 16:06:37 +0000] [10752] [INFO] Using worker: sync
+[2022-09-05 16:06:37 +0000] [10753] [INFO] Booting worker with pid: 10753
+[2022-09-05 16:06:37 +0000] [10753] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:37 +0000] [10753] [INFO] Worker exiting (pid: 10753)
+[2022-09-05 16:06:37 +0000] [10754] [INFO] Booting worker with pid: 10754
+[2022-09-05 16:06:37 +0000] [10754] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:37 +0000] [10754] [INFO] Worker exiting (pid: 10754)
+[2022-09-05 16:06:37 +0000] [10755] [INFO] Booting worker with pid: 10755
+[2022-09-05 16:06:37 +0000] [10755] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:37 +0000] [10755] [INFO] Worker exiting (pid: 10755)
+[2022-09-05 16:06:37 +0000] [10752] [WARNING] Worker with pid 10754 was terminated due to signal 15
+[2022-09-05 16:06:37 +0000] [10752] [WARNING] Worker with pid 10755 was terminated due to signal 15
+[2022-09-05 16:06:37 +0000] [10752] [INFO] Shutting down: Master
+[2022-09-05 16:06:37 +0000] [10752] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:06:39 +0000] [10756] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:06:39 +0000] [10756] [INFO] Listening at: http://127.0.0.1:8000 (10756)
+[2022-09-05 16:06:39 +0000] [10756] [INFO] Using worker: sync
+[2022-09-05 16:06:39 +0000] [10757] [INFO] Booting worker with pid: 10757
+[2022-09-05 16:06:39 +0000] [10757] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:39 +0000] [10757] [INFO] Worker exiting (pid: 10757)
+[2022-09-05 16:06:39 +0000] [10756] [INFO] Shutting down: Master
+[2022-09-05 16:06:39 +0000] [10756] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:06:42 +0000] [10758] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:06:42 +0000] [10758] [INFO] Listening at: http://127.0.0.1:8000 (10758)
+[2022-09-05 16:06:42 +0000] [10758] [INFO] Using worker: sync
+[2022-09-05 16:06:42 +0000] [10759] [INFO] Booting worker with pid: 10759
+[2022-09-05 16:06:42 +0000] [10759] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 165
+    global coiso = x
+                 ^
+SyntaxError: invalid syntax
+[2022-09-05 16:06:42 +0000] [10759] [INFO] Worker exiting (pid: 10759)
+[2022-09-05 16:06:42 +0000] [10758] [INFO] Shutting down: Master
+[2022-09-05 16:06:42 +0000] [10758] [INFO] Reason: Worker failed to boot.
