@@ -61,3 +61,5 @@ MySQLCursor: SELECT login, senha FROM loginData WHERE..
 ('Administrador do negÃ³cio',)
 ('Administrador do negÃ³cio',)
 ('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
