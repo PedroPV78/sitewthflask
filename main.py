@@ -127,14 +127,12 @@ def calc():
 def editdiario():
     mycursor.execute("SELECT * FROM posts")
     posts = mycursor.fetchall()
-    print(posts)
     return render_template("editdiario.html", posts=posts)
 
 @app.route("/verDiario")
 def verDiario():
     mycursor.execute("SELECT * FROM posts")
-    posts = mycursor.fetchall()
-    print(posts)
+    posts = mycursor.fetchall())
     return render_template("verDiario.html", posts=posts)
 
 
