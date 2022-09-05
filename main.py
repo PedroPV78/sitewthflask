@@ -76,7 +76,6 @@ def login():
         if not len(password) == 0:
             sqLogin = f"SELECT login, senha FROM loginData WHERE login = '{username}' AND senha = '{password}'"
             mycursor.execute(sqLogin)
-            print(mycursor)
             a = mycursor.fetchall()
             if a:
                 res = make_response(redirect(url_for("home")))
@@ -132,7 +131,7 @@ def editdiario():
 @app.route("/verDiario")
 def verDiario():
     mycursor.execute("SELECT * FROM posts")
-    posts = mycursor.fetchall())
+    posts = mycursor.fetchall()
     return render_template("verDiario.html", posts=posts)
 
 

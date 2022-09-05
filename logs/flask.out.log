@@ -58,3 +58,6 @@ MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
 MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
 MySQLCursor: SELECT * FROM loginData WHERE login = 'a..
 MySQLCursor: SELECT login, senha FROM loginData WHERE..
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)

@@ -5742,3 +5742,332 @@ TabError: inconsistent use of tabs and spaces in indentation
 [2022-09-05 16:08:24 +0000] [10948] [INFO] Booting worker with pid: 10948
 [2022-09-05 16:08:24 +0000] [10952] [INFO] Booting worker with pid: 10952
 [2022-09-05 16:08:24 +0000] [10953] [INFO] Booting worker with pid: 10953
+[2022-09-05 16:10:28 +0000] [10953] [INFO] Worker exiting (pid: 10953)
+[2022-09-05 16:10:28 +0000] [10948] [INFO] Worker exiting (pid: 10948)
+[2022-09-05 16:10:28 +0000] [10945] [INFO] Worker exiting (pid: 10945)
+[2022-09-05 16:10:28 +0000] [10943] [INFO] Worker exiting (pid: 10943)
+[2022-09-05 16:10:28 +0000] [10939] [INFO] Worker exiting (pid: 10939)
+[2022-09-05 16:10:28 +0000] [10936] [INFO] Worker exiting (pid: 10936)
+[2022-09-05 16:10:28 +0000] [10934] [INFO] Worker exiting (pid: 10934)
+[2022-09-05 16:10:28 +0000] [10932] [INFO] Worker exiting (pid: 10932)
+[2022-09-05 16:10:28 +0000] [10924] [INFO] Worker exiting (pid: 10924)
+[2022-09-05 16:10:28 +0000] [10908] [INFO] Worker exiting (pid: 10908)
+[2022-09-05 16:10:28 +0000] [10910] [INFO] Worker exiting (pid: 10910)
+[2022-09-05 16:10:28 +0000] [10922] [INFO] Worker exiting (pid: 10922)
+[2022-09-05 16:10:28 +0000] [10904] [INFO] Worker exiting (pid: 10904)
+[2022-09-05 16:10:28 +0000] [10905] [INFO] Worker exiting (pid: 10905)
+[2022-09-05 16:10:28 +0000] [10917] [INFO] Worker exiting (pid: 10917)
+[2022-09-05 16:10:28 +0000] [10919] [INFO] Worker exiting (pid: 10919)
+[2022-09-05 16:10:28 +0000] [10912] [INFO] Worker exiting (pid: 10912)
+[2022-09-05 16:10:28 +0000] [10916] [INFO] Worker exiting (pid: 10916)
+[2022-09-05 16:10:28 +0000] [10913] [INFO] Worker exiting (pid: 10913)
+[2022-09-05 16:10:28 +0000] [10952] [INFO] Worker exiting (pid: 10952)
+[2022-09-05 16:10:28 +0000] [10941] [INFO] Worker exiting (pid: 10941)
+[2022-09-05 16:10:28 +0000] [10914] [INFO] Worker exiting (pid: 10914)
+[2022-09-05 16:10:28 +0000] [10925] [INFO] Worker exiting (pid: 10925)
+[2022-09-05 16:10:28 +0000] [10911] [INFO] Worker exiting (pid: 10911)
+[2022-09-05 16:10:28 +0000] [10906] [INFO] Worker exiting (pid: 10906)
+[2022-09-05 16:10:28 +0000] [10907] [INFO] Worker exiting (pid: 10907)
+[2022-09-05 16:10:28 +0000] [10903] [INFO] Handling signal: term
+[2022-09-05 16:10:28 +0000] [10909] [INFO] Worker exiting (pid: 10909)
+[2022-09-05 16:10:28 +0000] [10938] [INFO] Worker exiting (pid: 10938)
+[2022-09-05 16:10:28 +0000] [10930] [INFO] Worker exiting (pid: 10930)
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10905 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10913 was terminated due to signal 15
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10932 was terminated due to signal 15
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10939 was terminated due to signal 15
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10941 was terminated due to signal 15
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10943 was terminated due to signal 15
+[2022-09-05 16:10:28 +0000] [10903] [WARNING] Worker with pid 10945 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 16:10:28 +0000] [10927] [INFO] Worker exiting (pid: 10927)
+[2022-09-05 16:10:28 +0000] [10946] [INFO] Worker exiting (pid: 10946)
+[2022-09-05 16:10:29 +0000] [11029] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:10:29 +0000] [11029] [INFO] Listening at: http://127.0.0.1:8000 (11029)
+[2022-09-05 16:10:29 +0000] [11029] [INFO] Using worker: sync
+[2022-09-05 16:10:29 +0000] [11030] [INFO] Booting worker with pid: 11030
+[2022-09-05 16:10:29 +0000] [11030] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:29 +0000] [11030] [INFO] Worker exiting (pid: 11030)
+[2022-09-05 16:10:29 +0000] [11031] [INFO] Booting worker with pid: 11031
+[2022-09-05 16:10:29 +0000] [11031] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:29 +0000] [11031] [INFO] Worker exiting (pid: 11031)
+[2022-09-05 16:10:29 +0000] [11029] [WARNING] Worker with pid 11031 was terminated due to signal 15
+[2022-09-05 16:10:29 +0000] [11029] [INFO] Shutting down: Master
+[2022-09-05 16:10:29 +0000] [11029] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:10:30 +0000] [11032] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:10:30 +0000] [11032] [INFO] Listening at: http://127.0.0.1:8000 (11032)
+[2022-09-05 16:10:30 +0000] [11032] [INFO] Using worker: sync
+[2022-09-05 16:10:30 +0000] [11033] [INFO] Booting worker with pid: 11033
+[2022-09-05 16:10:30 +0000] [11033] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:30 +0000] [11033] [INFO] Worker exiting (pid: 11033)
+[2022-09-05 16:10:30 +0000] [11034] [INFO] Booting worker with pid: 11034
+[2022-09-05 16:10:30 +0000] [11034] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:30 +0000] [11034] [INFO] Worker exiting (pid: 11034)
+[2022-09-05 16:10:30 +0000] [11035] [INFO] Booting worker with pid: 11035
+[2022-09-05 16:10:30 +0000] [11035] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:30 +0000] [11035] [INFO] Worker exiting (pid: 11035)
+[2022-09-05 16:10:30 +0000] [11032] [WARNING] Worker with pid 11034 was terminated due to signal 15
+[2022-09-05 16:10:30 +0000] [11032] [WARNING] Worker with pid 11035 was terminated due to signal 15
+[2022-09-05 16:10:30 +0000] [11032] [INFO] Shutting down: Master
+[2022-09-05 16:10:30 +0000] [11032] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:10:33 +0000] [11036] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:10:33 +0000] [11036] [INFO] Listening at: http://127.0.0.1:8000 (11036)
+[2022-09-05 16:10:33 +0000] [11036] [INFO] Using worker: sync
+[2022-09-05 16:10:33 +0000] [11037] [INFO] Booting worker with pid: 11037
+[2022-09-05 16:10:33 +0000] [11037] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:33 +0000] [11037] [INFO] Worker exiting (pid: 11037)
+[2022-09-05 16:10:33 +0000] [11036] [INFO] Shutting down: Master
+[2022-09-05 16:10:33 +0000] [11036] [INFO] Reason: Worker failed to boot.
+[2022-09-05 16:10:36 +0000] [11038] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:10:36 +0000] [11038] [INFO] Listening at: http://127.0.0.1:8000 (11038)
+[2022-09-05 16:10:36 +0000] [11038] [INFO] Using worker: sync
+[2022-09-05 16:10:36 +0000] [11039] [INFO] Booting worker with pid: 11039
+[2022-09-05 16:10:36 +0000] [11039] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:36 +0000] [11039] [INFO] Worker exiting (pid: 11039)
+[2022-09-05 16:10:36 +0000] [11040] [INFO] Booting worker with pid: 11040
+[2022-09-05 16:10:36 +0000] [11040] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/util.py", line 359, in import_app
+    mod = importlib.import_module(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/ubuntu/sitewthflask/run.py", line 1, in <module>
+    from main import app
+  File "/home/ubuntu/sitewthflask/main.py", line 135
+    posts = mycursor.fetchall())
+                               ^
+SyntaxError: unmatched ')'
+[2022-09-05 16:10:36 +0000] [11040] [INFO] Worker exiting (pid: 11040)
+[2022-09-05 16:10:36 +0000] [11038] [WARNING] Worker with pid 11040 was terminated due to signal 15
+[2022-09-05 16:10:36 +0000] [11038] [INFO] Shutting down: Master
+[2022-09-05 16:10:36 +0000] [11038] [INFO] Reason: Worker failed to boot.
