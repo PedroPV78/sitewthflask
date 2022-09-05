@@ -161,7 +161,7 @@ def verPerfil():
     mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
     for x in mycursor:
         coiso = x
-        print(coiso[0])
+        print(coiso[0].encode('utf-8'))
     return render_template("verPerfil.html")
 
 
