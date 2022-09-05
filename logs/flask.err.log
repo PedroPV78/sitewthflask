@@ -4510,3 +4510,401 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
     raise TypeError("argument should be a bytes-like object or ASCII "
 TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-05 10:14:39 +0000] [9896] [INFO] Worker exiting (pid: 9896)
+[2022-09-05 10:14:39 +0000] [9897] [INFO] Worker exiting (pid: 9897)
+[2022-09-05 10:14:39 +0000] [9890] [INFO] Worker exiting (pid: 9890)
+[2022-09-05 10:14:39 +0000] [9889] [INFO] Worker exiting (pid: 9889)
+[2022-09-05 10:14:39 +0000] [9881] [INFO] Worker exiting (pid: 9881)
+[2022-09-05 10:14:39 +0000] [9873] [INFO] Worker exiting (pid: 9873)
+[2022-09-05 10:14:39 +0000] [9861] [INFO] Worker exiting (pid: 9861)
+[2022-09-05 10:14:39 +0000] [9868] [INFO] Worker exiting (pid: 9868)
+[2022-09-05 10:14:39 +0000] [9860] [INFO] Worker exiting (pid: 9860)
+[2022-09-05 10:14:39 +0000] [9880] [INFO] Worker exiting (pid: 9880)
+[2022-09-05 10:14:39 +0000] [9856] [INFO] Worker exiting (pid: 9856)
+[2022-09-05 10:14:39 +0000] [9848] [INFO] Worker exiting (pid: 9848)
+[2022-09-05 10:14:39 +0000] [9871] [INFO] Worker exiting (pid: 9871)
+[2022-09-05 10:14:39 +0000] [9849] [INFO] Worker exiting (pid: 9849)
+[2022-09-05 10:14:39 +0000] [9851] [INFO] Worker exiting (pid: 9851)
+[2022-09-05 10:14:39 +0000] [9854] [INFO] Worker exiting (pid: 9854)
+[2022-09-05 10:14:39 +0000] [9857] [INFO] Worker exiting (pid: 9857)
+[2022-09-05 10:14:39 +0000] [9853] [INFO] Worker exiting (pid: 9853)
+[2022-09-05 10:14:39 +0000] [9855] [INFO] Worker exiting (pid: 9855)
+[2022-09-05 10:14:39 +0000] [9883] [INFO] Worker exiting (pid: 9883)
+[2022-09-05 10:14:39 +0000] [9887] [INFO] Worker exiting (pid: 9887)
+[2022-09-05 10:14:39 +0000] [9886] [INFO] Worker exiting (pid: 9886)
+[2022-09-05 10:14:39 +0000] [9864] [INFO] Worker exiting (pid: 9864)
+[2022-09-05 10:14:39 +0000] [9876] [INFO] Worker exiting (pid: 9876)
+[2022-09-05 10:14:39 +0000] [9850] [INFO] Worker exiting (pid: 9850)
+[2022-09-05 10:14:39 +0000] [9852] [INFO] Worker exiting (pid: 9852)
+[2022-09-05 10:14:39 +0000] [9878] [INFO] Worker exiting (pid: 9878)
+[2022-09-05 10:14:39 +0000] [9870] [INFO] Worker exiting (pid: 9870)
+[2022-09-05 10:14:39 +0000] [9858] [INFO] Worker exiting (pid: 9858)
+[2022-09-05 10:14:39 +0000] [9862] [INFO] Worker exiting (pid: 9862)
+[2022-09-05 10:14:39 +0000] [9847] [INFO] Handling signal: term
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9896 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9890 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9889 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9894] [INFO] Worker exiting (pid: 9894)
+--- Logging error ---
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9876 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9881 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9897 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9849 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9855 was terminated due to signal 15
+[2022-09-05 10:14:39 +0000] [9847] [WARNING] Worker with pid 9871 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 10:14:40 +0000] [9967] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 10:14:40 +0000] [9967] [INFO] Listening at: http://127.0.0.1:8000 (9967)
+[2022-09-05 10:14:40 +0000] [9967] [INFO] Using worker: sync
+[2022-09-05 10:14:40 +0000] [9968] [INFO] Booting worker with pid: 9968
+[2022-09-05 10:14:40 +0000] [9969] [INFO] Booting worker with pid: 9969
+[2022-09-05 10:14:40 +0000] [9970] [INFO] Booting worker with pid: 9970
+[2022-09-05 10:14:40 +0000] [9971] [INFO] Booting worker with pid: 9971
+[2022-09-05 10:14:40 +0000] [9972] [INFO] Booting worker with pid: 9972
+[2022-09-05 10:14:40 +0000] [9973] [INFO] Booting worker with pid: 9973
+[2022-09-05 10:14:40 +0000] [9974] [INFO] Booting worker with pid: 9974
+[2022-09-05 10:14:40 +0000] [9975] [INFO] Booting worker with pid: 9975
+[2022-09-05 10:14:40 +0000] [9976] [INFO] Booting worker with pid: 9976
+[2022-09-05 10:14:40 +0000] [9977] [INFO] Booting worker with pid: 9977
+[2022-09-05 10:14:40 +0000] [9978] [INFO] Booting worker with pid: 9978
+[2022-09-05 10:14:40 +0000] [9979] [INFO] Booting worker with pid: 9979
+[2022-09-05 10:14:40 +0000] [9982] [INFO] Booting worker with pid: 9982
+[2022-09-05 10:14:40 +0000] [9983] [INFO] Booting worker with pid: 9983
+[2022-09-05 10:14:41 +0000] [9985] [INFO] Booting worker with pid: 9985
+[2022-09-05 10:14:41 +0000] [9987] [INFO] Booting worker with pid: 9987
+[2022-09-05 10:14:41 +0000] [9990] [INFO] Booting worker with pid: 9990
+[2022-09-05 10:14:41 +0000] [9992] [INFO] Booting worker with pid: 9992
+[2022-09-05 10:14:41 +0000] [9994] [INFO] Booting worker with pid: 9994
+[2022-09-05 10:14:41 +0000] [9996] [INFO] Booting worker with pid: 9996
+[2022-09-05 10:14:41 +0000] [9998] [INFO] Booting worker with pid: 9998
+[2022-09-05 10:14:41 +0000] [10000] [INFO] Booting worker with pid: 10000
+[2022-09-05 10:14:41 +0000] [10002] [INFO] Booting worker with pid: 10002
+[2022-09-05 10:14:41 +0000] [10004] [INFO] Booting worker with pid: 10004
+[2022-09-05 10:14:41 +0000] [10006] [INFO] Booting worker with pid: 10006
+[2022-09-05 10:14:41 +0000] [10008] [INFO] Booting worker with pid: 10008
+[2022-09-05 10:14:41 +0000] [10010] [INFO] Booting worker with pid: 10010
+[2022-09-05 10:14:41 +0000] [10012] [INFO] Booting worker with pid: 10012
+[2022-09-05 10:14:41 +0000] [10014] [INFO] Booting worker with pid: 10014
+[2022-09-05 10:14:41 +0000] [10016] [INFO] Booting worker with pid: 10016
+[2022-09-05 10:14:42 +0000] [10018] [INFO] Booting worker with pid: 10018
+[2022-09-05 10:15:04,394] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-05 10:15:05,423] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-05 10:15:06,930] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-05 16:02:28 +0000] [10006] [INFO] Worker exiting (pid: 10006)
+[2022-09-05 16:02:28 +0000] [10014] [INFO] Worker exiting (pid: 10014)
+[2022-09-05 16:02:28 +0000] [10018] [INFO] Worker exiting (pid: 10018)
+[2022-09-05 16:02:28 +0000] [10012] [INFO] Worker exiting (pid: 10012)
+[2022-09-05 16:02:28 +0000] [10004] [INFO] Worker exiting (pid: 10004)
+[2022-09-05 16:02:28 +0000] [10010] [INFO] Worker exiting (pid: 10010)
+[2022-09-05 16:02:28 +0000] [10008] [INFO] Worker exiting (pid: 10008)
+[2022-09-05 16:02:28 +0000] [9994] [INFO] Worker exiting (pid: 9994)
+[2022-09-05 16:02:28 +0000] [10002] [INFO] Worker exiting (pid: 10002)
+[2022-09-05 16:02:28 +0000] [9982] [INFO] Worker exiting (pid: 9982)
+[2022-09-05 16:02:28 +0000] [9973] [INFO] Worker exiting (pid: 9973)
+[2022-09-05 16:02:28 +0000] [10000] [INFO] Worker exiting (pid: 10000)
+[2022-09-05 16:02:28 +0000] [9992] [INFO] Worker exiting (pid: 9992)
+[2022-09-05 16:02:28 +0000] [9996] [INFO] Worker exiting (pid: 9996)
+[2022-09-05 16:02:28 +0000] [9970] [INFO] Worker exiting (pid: 9970)
+[2022-09-05 16:02:28 +0000] [9987] [INFO] Worker exiting (pid: 9987)
+[2022-09-05 16:02:28 +0000] [9968] [INFO] Worker exiting (pid: 9968)
+[2022-09-05 16:02:28 +0000] [9983] [INFO] Worker exiting (pid: 9983)
+[2022-09-05 16:02:28 +0000] [10016] [INFO] Worker exiting (pid: 10016)
+[2022-09-05 16:02:28 +0000] [9977] [INFO] Worker exiting (pid: 9977)
+[2022-09-05 16:02:28 +0000] [9978] [INFO] Worker exiting (pid: 9978)
+[2022-09-05 16:02:28 +0000] [9974] [INFO] Worker exiting (pid: 9974)
+[2022-09-05 16:02:28 +0000] [9998] [INFO] Worker exiting (pid: 9998)
+[2022-09-05 16:02:28 +0000] [9972] [INFO] Worker exiting (pid: 9972)
+[2022-09-05 16:02:28 +0000] [9971] [INFO] Worker exiting (pid: 9971)
+[2022-09-05 16:02:28 +0000] [9967] [INFO] Handling signal: term
+[2022-09-05 16:02:28 +0000] [9976] [INFO] Worker exiting (pid: 9976)
+[2022-09-05 16:02:28 +0000] [9979] [INFO] Worker exiting (pid: 9979)
+[2022-09-05 16:02:28 +0000] [9969] [INFO] Worker exiting (pid: 9969)
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9987 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9994 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9998 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10002 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10004 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10006 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10010 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10012 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10018 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10000 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9992 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9982 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:02:28 +0000] [9990] [INFO] Worker exiting (pid: 9990)
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (9982, 15)
+[2022-09-05 16:02:28 +0000] [9975] [INFO] Worker exiting (pid: 9975)
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9971 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9985] [INFO] Worker exiting (pid: 9985)
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9968 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9974 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9972 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10016 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9977 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9983 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 10008 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9973 was terminated due to signal 15
+[2022-09-05 16:02:28 +0000] [9967] [WARNING] Worker with pid 9970 was terminated due to signal 15
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1622, in _log
+    record = self.makeRecord(self.name, level, fn, lno, msg, args,
+  File "/usr/lib/python3.10/logging/__init__.py", line 1591, in makeRecord
+    rv = _logRecordFactory(name, level, fn, lno, msg, args, exc_info, func,
+  File "/usr/lib/python3.10/logging/__init__.py", line 351, in __init__
+    self.process = os.getpid()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (9970, 15)
+[2022-09-05 16:02:39 +0000] [10533] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:02:39 +0000] [10533] [INFO] Listening at: http://127.0.0.1:8000 (10533)
+[2022-09-05 16:02:39 +0000] [10533] [INFO] Using worker: sync
+[2022-09-05 16:02:39 +0000] [10534] [INFO] Booting worker with pid: 10534
+[2022-09-05 16:02:40 +0000] [10535] [INFO] Booting worker with pid: 10535
+[2022-09-05 16:02:40 +0000] [10536] [INFO] Booting worker with pid: 10536
+[2022-09-05 16:02:40 +0000] [10537] [INFO] Booting worker with pid: 10537
+[2022-09-05 16:02:40 +0000] [10538] [INFO] Booting worker with pid: 10538
+[2022-09-05 16:02:40 +0000] [10539] [INFO] Booting worker with pid: 10539
+[2022-09-05 16:02:40 +0000] [10540] [INFO] Booting worker with pid: 10540
+[2022-09-05 16:02:40 +0000] [10541] [INFO] Booting worker with pid: 10541
+[2022-09-05 16:02:40 +0000] [10542] [INFO] Booting worker with pid: 10542
+[2022-09-05 16:02:40 +0000] [10543] [INFO] Booting worker with pid: 10543
+[2022-09-05 16:02:40 +0000] [10544] [INFO] Booting worker with pid: 10544
+[2022-09-05 16:02:40 +0000] [10545] [INFO] Booting worker with pid: 10545
+[2022-09-05 16:02:40 +0000] [10548] [INFO] Booting worker with pid: 10548
+[2022-09-05 16:02:40 +0000] [10550] [INFO] Booting worker with pid: 10550
+[2022-09-05 16:02:40 +0000] [10551] [INFO] Booting worker with pid: 10551
+[2022-09-05 16:02:40 +0000] [10554] [INFO] Booting worker with pid: 10554
+[2022-09-05 16:02:40 +0000] [10556] [INFO] Booting worker with pid: 10556
+[2022-09-05 16:02:40 +0000] [10557] [INFO] Booting worker with pid: 10557
+[2022-09-05 16:02:40 +0000] [10559] [INFO] Booting worker with pid: 10559
+[2022-09-05 16:02:40 +0000] [10560] [INFO] Booting worker with pid: 10560
+[2022-09-05 16:02:40 +0000] [10563] [INFO] Booting worker with pid: 10563
+[2022-09-05 16:02:40 +0000] [10564] [INFO] Booting worker with pid: 10564
+[2022-09-05 16:02:40 +0000] [10566] [INFO] Booting worker with pid: 10566
+[2022-09-05 16:02:40 +0000] [10570] [INFO] Booting worker with pid: 10570
+[2022-09-05 16:02:41 +0000] [10572] [INFO] Booting worker with pid: 10572
+[2022-09-05 16:02:41 +0000] [10573] [INFO] Booting worker with pid: 10573
+[2022-09-05 16:02:41 +0000] [10575] [INFO] Booting worker with pid: 10575
+[2022-09-05 16:02:41 +0000] [10577] [INFO] Booting worker with pid: 10577
+[2022-09-05 16:02:41 +0000] [10579] [INFO] Booting worker with pid: 10579
+[2022-09-05 16:02:41 +0000] [10581] [INFO] Booting worker with pid: 10581
+[2022-09-05 16:02:41 +0000] [10584] [INFO] Booting worker with pid: 10584
+[2022-09-05 16:02:43,172] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 164, in verPerfil
+    return render_template("verPerfil.html", a=mycursor[0])
+TypeError: 'MySQLCursor' object is not subscriptable
