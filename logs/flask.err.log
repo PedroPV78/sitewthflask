@@ -7186,3 +7186,81 @@ Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
 [2022-09-05 16:20:48 +0000] [11660] [INFO] Booting worker with pid: 11660
 [2022-09-05 16:20:48 +0000] [11661] [INFO] Booting worker with pid: 11661
 [2022-09-05 16:20:48 +0000] [11663] [INFO] Booting worker with pid: 11663
+[2022-09-05 16:22:34 +0000] [11663] [INFO] Worker exiting (pid: 11663)
+[2022-09-05 16:22:34 +0000] [11658] [INFO] Worker exiting (pid: 11658)
+[2022-09-05 16:22:34 +0000] [11655] [INFO] Worker exiting (pid: 11655)
+[2022-09-05 16:22:34 +0000] [11654] [INFO] Worker exiting (pid: 11654)
+[2022-09-05 16:22:34 +0000] [11648] [INFO] Worker exiting (pid: 11648)
+[2022-09-05 16:22:34 +0000] [11646] [INFO] Worker exiting (pid: 11646)
+[2022-09-05 16:22:34 +0000] [11652] [INFO] Worker exiting (pid: 11652)
+[2022-09-05 16:22:34 +0000] [11628] [INFO] Worker exiting (pid: 11628)
+[2022-09-05 16:22:34 +0000] [11621] [INFO] Worker exiting (pid: 11621)
+[2022-09-05 16:22:34 +0000] [11644] [INFO] Worker exiting (pid: 11644)
+[2022-09-05 16:22:34 +0000] [11642] [INFO] Worker exiting (pid: 11642)
+[2022-09-05 16:22:34 +0000] [11618] [INFO] Worker exiting (pid: 11618)
+[2022-09-05 16:22:34 +0000] [11636] [INFO] Worker exiting (pid: 11636)
+[2022-09-05 16:22:34 +0000] [11616] [INFO] Worker exiting (pid: 11616)
+[2022-09-05 16:22:34 +0000] [11622] [INFO] Worker exiting (pid: 11622)
+[2022-09-05 16:22:34 +0000] [11623] [INFO] Worker exiting (pid: 11623)
+[2022-09-05 16:22:34 +0000] [11626] [INFO] Worker exiting (pid: 11626)
+[2022-09-05 16:22:34 +0000] [11633] [INFO] Worker exiting (pid: 11633)
+[2022-09-05 16:22:34 +0000] [11614] [INFO] Worker exiting (pid: 11614)
+[2022-09-05 16:22:34 +0000] [11619] [INFO] Worker exiting (pid: 11619)
+[2022-09-05 16:22:34 +0000] [11660] [INFO] Worker exiting (pid: 11660)
+[2022-09-05 16:22:34 +0000] [11661] [INFO] Worker exiting (pid: 11661)
+[2022-09-05 16:22:34 +0000] [11624] [INFO] Worker exiting (pid: 11624)
+[2022-09-05 16:22:34 +0000] [11627] [INFO] Worker exiting (pid: 11627)
+[2022-09-05 16:22:34 +0000] [11639] [INFO] Worker exiting (pid: 11639)
+[2022-09-05 16:22:34 +0000] [11617] [INFO] Worker exiting (pid: 11617)
+[2022-09-05 16:22:34 +0000] [11615] [INFO] Worker exiting (pid: 11615)
+[2022-09-05 16:22:34 +0000] [11632] [INFO] Worker exiting (pid: 11632)
+[2022-09-05 16:22:34 +0000] [11620] [INFO] Worker exiting (pid: 11620)
+[2022-09-05 16:22:34 +0000] [11650] [INFO] Worker exiting (pid: 11650)
+[2022-09-05 16:22:34 +0000] [11635] [INFO] Worker exiting (pid: 11635)
+[2022-09-05 16:22:34 +0000] [11613] [INFO] Handling signal: term
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11636 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11639 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11644 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11652 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11654 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11655 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11658 was terminated due to signal 15
+[2022-09-05 16:22:34 +0000] [11613] [WARNING] Worker with pid 11622 was terminated due to signal 15
+--- Logging error ---
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 16:22:35 +0000] [11732] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:22:35 +0000] [11732] [INFO] Listening at: http://127.0.0.1:8000 (11732)
+[2022-09-05 16:22:35 +0000] [11732] [INFO] Using worker: sync
+[2022-09-05 16:22:35 +0000] [11733] [INFO] Booting worker with pid: 11733
+[2022-09-05 16:22:35 +0000] [11734] [INFO] Booting worker with pid: 11734
+[2022-09-05 16:22:35 +0000] [11735] [INFO] Booting worker with pid: 11735
+[2022-09-05 16:22:35 +0000] [11736] [INFO] Booting worker with pid: 11736
+[2022-09-05 16:22:35 +0000] [11737] [INFO] Booting worker with pid: 11737
+[2022-09-05 16:22:35 +0000] [11738] [INFO] Booting worker with pid: 11738
+[2022-09-05 16:22:35 +0000] [11739] [INFO] Booting worker with pid: 11739
+[2022-09-05 16:22:35 +0000] [11740] [INFO] Booting worker with pid: 11740
+[2022-09-05 16:22:36 +0000] [11741] [INFO] Booting worker with pid: 11741
+[2022-09-05 16:22:36 +0000] [11742] [INFO] Booting worker with pid: 11742
+[2022-09-05 16:22:36 +0000] [11743] [INFO] Booting worker with pid: 11743
+[2022-09-05 16:22:36 +0000] [11744] [INFO] Booting worker with pid: 11744
+[2022-09-05 16:22:36 +0000] [11745] [INFO] Booting worker with pid: 11745
+[2022-09-05 16:22:36 +0000] [11747] [INFO] Booting worker with pid: 11747
+[2022-09-05 16:22:36 +0000] [11749] [INFO] Booting worker with pid: 11749
+[2022-09-05 16:22:36 +0000] [11750] [INFO] Booting worker with pid: 11750
+[2022-09-05 16:22:36 +0000] [11753] [INFO] Booting worker with pid: 11753
+[2022-09-05 16:22:36 +0000] [11755] [INFO] Booting worker with pid: 11755
+[2022-09-05 16:22:36 +0000] [11757] [INFO] Booting worker with pid: 11757
+[2022-09-05 16:22:36 +0000] [11760] [INFO] Booting worker with pid: 11760
+[2022-09-05 16:22:36 +0000] [11763] [INFO] Booting worker with pid: 11763
+[2022-09-05 16:22:36 +0000] [11765] [INFO] Booting worker with pid: 11765
+[2022-09-05 16:22:36 +0000] [11767] [INFO] Booting worker with pid: 11767
+[2022-09-05 16:22:36 +0000] [11769] [INFO] Booting worker with pid: 11769
+[2022-09-05 16:22:36 +0000] [11771] [INFO] Booting worker with pid: 11771
+[2022-09-05 16:22:36 +0000] [11773] [INFO] Booting worker with pid: 11773
+[2022-09-05 16:22:36 +0000] [11775] [INFO] Booting worker with pid: 11775
+[2022-09-05 16:22:36 +0000] [11777] [INFO] Booting worker with pid: 11777
+[2022-09-05 16:22:36 +0000] [11778] [INFO] Booting worker with pid: 11778
+[2022-09-05 16:22:36 +0000] [11779] [INFO] Booting worker with pid: 11779
+[2022-09-05 16:22:36 +0000] [11781] [INFO] Booting worker with pid: 11781
