@@ -56,3 +56,4 @@ MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
 [(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
 [(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
 MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
+MySQLCursor: SELECT * FROM loginData WHERE login = 'a..
