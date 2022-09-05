@@ -7068,3 +7068,121 @@ Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
 [2022-09-05 16:19:45 +0000] [11538] [INFO] Booting worker with pid: 11538
 [2022-09-05 16:19:45 +0000] [11541] [INFO] Booting worker with pid: 11541
 [2022-09-05 16:19:45 +0000] [11543] [INFO] Booting worker with pid: 11543
+[2022-09-05 16:20:45 +0000] [11541] [INFO] Worker exiting (pid: 11541)
+[2022-09-05 16:20:45 +0000] [11538] [INFO] Worker exiting (pid: 11538)
+[2022-09-05 16:20:45 +0000] [11535] [INFO] Worker exiting (pid: 11535)
+[2022-09-05 16:20:45 +0000] [11529] [INFO] Worker exiting (pid: 11529)
+[2022-09-05 16:20:45 +0000] [11531] [INFO] Worker exiting (pid: 11531)
+[2022-09-05 16:20:45 +0000] [11523] [INFO] Worker exiting (pid: 11523)
+[2022-09-05 16:20:45 +0000] [11521] [INFO] Worker exiting (pid: 11521)
+[2022-09-05 16:20:45 +0000] [11513] [INFO] Worker exiting (pid: 11513)
+[2022-09-05 16:20:45 +0000] [11504] [INFO] Worker exiting (pid: 11504)
+[2022-09-05 16:20:45 +0000] [11500] [INFO] Worker exiting (pid: 11500)
+[2022-09-05 16:20:45 +0000] [11502] [INFO] Worker exiting (pid: 11502)
+[2022-09-05 16:20:45 +0000] [11495] [INFO] Worker exiting (pid: 11495)
+[2022-09-05 16:20:45 +0000] [11493] [INFO] Worker exiting (pid: 11493)
+[2022-09-05 16:20:45 +0000] [11497] [INFO] Worker exiting (pid: 11497)
+[2022-09-05 16:20:45 +0000] [11498] [INFO] Worker exiting (pid: 11498)
+[2022-09-05 16:20:45 +0000] [11503] [INFO] Worker exiting (pid: 11503)
+[2022-09-05 16:20:45 +0000] [11496] [INFO] Worker exiting (pid: 11496)
+[2022-09-05 16:20:45 +0000] [11515] [INFO] Worker exiting (pid: 11515)
+[2022-09-05 16:20:45 +0000] [11509] [INFO] Worker exiting (pid: 11509)
+[2022-09-05 16:20:45 +0000] [11499] [INFO] Worker exiting (pid: 11499)
+[2022-09-05 16:20:45 +0000] [11517] [INFO] Worker exiting (pid: 11517)
+[2022-09-05 16:20:45 +0000] [11506] [INFO] Worker exiting (pid: 11506)
+[2022-09-05 16:20:45 +0000] [11543] [INFO] Worker exiting (pid: 11543)
+[2022-09-05 16:20:45 +0000] [11527] [INFO] Worker exiting (pid: 11527)
+[2022-09-05 16:20:45 +0000] [11494] [INFO] Worker exiting (pid: 11494)
+[2022-09-05 16:20:45 +0000] [11511] [INFO] Worker exiting (pid: 11511)
+[2022-09-05 16:20:45 +0000] [11533] [INFO] Worker exiting (pid: 11533)
+[2022-09-05 16:20:45 +0000] [11537] [INFO] Worker exiting (pid: 11537)
+[2022-09-05 16:20:45 +0000] [11518] [INFO] Worker exiting (pid: 11518)
+[2022-09-05 16:20:45 +0000] [11520] [INFO] Worker exiting (pid: 11520)
+[2022-09-05 16:20:45 +0000] [11501] [INFO] Worker exiting (pid: 11501)
+[2022-09-05 16:20:45 +0000] [11492] [INFO] Handling signal: term
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11500 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11502 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11504 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11513 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11523 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11531 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11533 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11498 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11535 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11538 was terminated due to signal 15
+[2022-09-05 16:20:45 +0000] [11492] [WARNING] Worker with pid 11541 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 16:20:46 +0000] [11613] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:20:46 +0000] [11613] [INFO] Listening at: http://127.0.0.1:8000 (11613)
+[2022-09-05 16:20:46 +0000] [11613] [INFO] Using worker: sync
+[2022-09-05 16:20:46 +0000] [11614] [INFO] Booting worker with pid: 11614
+[2022-09-05 16:20:46 +0000] [11615] [INFO] Booting worker with pid: 11615
+[2022-09-05 16:20:46 +0000] [11616] [INFO] Booting worker with pid: 11616
+[2022-09-05 16:20:46 +0000] [11617] [INFO] Booting worker with pid: 11617
+[2022-09-05 16:20:46 +0000] [11618] [INFO] Booting worker with pid: 11618
+[2022-09-05 16:20:46 +0000] [11619] [INFO] Booting worker with pid: 11619
+[2022-09-05 16:20:46 +0000] [11620] [INFO] Booting worker with pid: 11620
+[2022-09-05 16:20:47 +0000] [11621] [INFO] Booting worker with pid: 11621
+[2022-09-05 16:20:47 +0000] [11622] [INFO] Booting worker with pid: 11622
+[2022-09-05 16:20:47 +0000] [11623] [INFO] Booting worker with pid: 11623
+[2022-09-05 16:20:47 +0000] [11624] [INFO] Booting worker with pid: 11624
+[2022-09-05 16:20:47 +0000] [11626] [INFO] Booting worker with pid: 11626
+[2022-09-05 16:20:47 +0000] [11627] [INFO] Booting worker with pid: 11627
+[2022-09-05 16:20:47 +0000] [11628] [INFO] Booting worker with pid: 11628
+[2022-09-05 16:20:47 +0000] [11632] [INFO] Booting worker with pid: 11632
+[2022-09-05 16:20:47 +0000] [11633] [INFO] Booting worker with pid: 11633
+[2022-09-05 16:20:47 +0000] [11635] [INFO] Booting worker with pid: 11635
+[2022-09-05 16:20:47 +0000] [11636] [INFO] Booting worker with pid: 11636
+[2022-09-05 16:20:47 +0000] [11639] [INFO] Booting worker with pid: 11639
+[2022-09-05 16:20:47 +0000] [11642] [INFO] Booting worker with pid: 11642
+[2022-09-05 16:20:47 +0000] [11644] [INFO] Booting worker with pid: 11644
+[2022-09-05 16:20:47 +0000] [11646] [INFO] Booting worker with pid: 11646
+[2022-09-05 16:20:47 +0000] [11648] [INFO] Booting worker with pid: 11648
+[2022-09-05 16:20:47 +0000] [11650] [INFO] Booting worker with pid: 11650
+[2022-09-05 16:20:48 +0000] [11652] [INFO] Booting worker with pid: 11652
+[2022-09-05 16:20:48 +0000] [11654] [INFO] Booting worker with pid: 11654
+[2022-09-05 16:20:48 +0000] [11655] [INFO] Booting worker with pid: 11655
+[2022-09-05 16:20:48 +0000] [11658] [INFO] Booting worker with pid: 11658
+[2022-09-05 16:20:48 +0000] [11660] [INFO] Booting worker with pid: 11660
+[2022-09-05 16:20:48 +0000] [11661] [INFO] Booting worker with pid: 11661
+[2022-09-05 16:20:48 +0000] [11663] [INFO] Booting worker with pid: 11663
