@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import base64
 import os
 from flask import *
@@ -160,7 +161,7 @@ def verPerfil():
     mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
     for x in mycursor:
         coiso = x
-        print(coiso[0].decode('utf-8'))
+        print(coiso[0])
     return render_template("verPerfil.html")
 
 

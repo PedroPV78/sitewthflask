@@ -7264,3 +7264,158 @@ Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
 [2022-09-05 16:22:36 +0000] [11778] [INFO] Booting worker with pid: 11778
 [2022-09-05 16:22:36 +0000] [11779] [INFO] Booting worker with pid: 11779
 [2022-09-05 16:22:36 +0000] [11781] [INFO] Booting worker with pid: 11781
+[2022-09-05 16:23:28 +0000] [11779] [INFO] Worker exiting (pid: 11779)
+[2022-09-05 16:23:28 +0000] [11765] [INFO] Worker exiting (pid: 11765)
+[2022-09-05 16:23:28 +0000] [11767] [INFO] Worker exiting (pid: 11767)
+[2022-09-05 16:23:28 +0000] [11760] [INFO] Worker exiting (pid: 11760)
+[2022-09-05 16:23:28 +0000] [11763] [INFO] Worker exiting (pid: 11763)
+[2022-09-05 16:23:28 +0000] [11744] [INFO] Worker exiting (pid: 11744)
+[2022-09-05 16:23:28 +0000] [11745] [INFO] Worker exiting (pid: 11745)
+[2022-09-05 16:23:28 +0000] [11742] [INFO] Worker exiting (pid: 11742)
+[2022-09-05 16:23:28 +0000] [11739] [INFO] Worker exiting (pid: 11739)
+[2022-09-05 16:23:28 +0000] [11734] [INFO] Worker exiting (pid: 11734)
+[2022-09-05 16:23:28 +0000] [11735] [INFO] Worker exiting (pid: 11735)
+[2022-09-05 16:23:28 +0000] [11733] [INFO] Worker exiting (pid: 11733)
+[2022-09-05 16:23:28 +0000] [11740] [INFO] Worker exiting (pid: 11740)
+[2022-09-05 16:23:28 +0000] [11747] [INFO] Worker exiting (pid: 11747)
+[2022-09-05 16:23:28 +0000] [11737] [INFO] Worker exiting (pid: 11737)
+[2022-09-05 16:23:28 +0000] [11741] [INFO] Worker exiting (pid: 11741)
+[2022-09-05 16:23:28 +0000] [11736] [INFO] Worker exiting (pid: 11736)
+[2022-09-05 16:23:28 +0000] [11750] [INFO] Worker exiting (pid: 11750)
+[2022-09-05 16:23:28 +0000] [11743] [INFO] Worker exiting (pid: 11743)
+[2022-09-05 16:23:28 +0000] [11781] [INFO] Worker exiting (pid: 11781)
+[2022-09-05 16:23:28 +0000] [11775] [INFO] Worker exiting (pid: 11775)
+[2022-09-05 16:23:28 +0000] [11771] [INFO] Worker exiting (pid: 11771)
+[2022-09-05 16:23:28 +0000] [11753] [INFO] Worker exiting (pid: 11753)
+[2022-09-05 16:23:28 +0000] [11777] [INFO] Worker exiting (pid: 11777)
+[2022-09-05 16:23:28 +0000] [11738] [INFO] Worker exiting (pid: 11738)
+[2022-09-05 16:23:28 +0000] [11778] [INFO] Worker exiting (pid: 11778)
+[2022-09-05 16:23:28 +0000] [11769] [INFO] Worker exiting (pid: 11769)
+[2022-09-05 16:23:28 +0000] [11757] [INFO] Worker exiting (pid: 11757)
+[2022-09-05 16:23:28 +0000] [11773] [INFO] Worker exiting (pid: 11773)
+[2022-09-05 16:23:28 +0000] [11749] [INFO] Worker exiting (pid: 11749)
+[2022-09-05 16:23:28 +0000] [11732] [INFO] Handling signal: term
+[2022-09-05 16:23:28 +0000] [11755] [INFO] Worker exiting (pid: 11755)
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11743 was terminated due to signal 15
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 513, in reap_workers
+    wpid, status = os.waitpid(-1, os.WNOHANG)
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11737 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11739 was terminated due to signal 15
+--- Logging error ---
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11744 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11747 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11749 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11753 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11760 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11763 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11765 was terminated due to signal 15
+[2022-09-05 16:23:28 +0000] [11732] [WARNING] Worker with pid 11769 was terminated due to signal 15
+--- Logging error ---
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-05 16:23:29 +0000] [11852] [INFO] Starting gunicorn 20.1.0
+[2022-09-05 16:23:29 +0000] [11852] [INFO] Listening at: http://127.0.0.1:8000 (11852)
+[2022-09-05 16:23:29 +0000] [11852] [INFO] Using worker: sync
+[2022-09-05 16:23:29 +0000] [11853] [INFO] Booting worker with pid: 11853
+[2022-09-05 16:23:29 +0000] [11854] [INFO] Booting worker with pid: 11854
+[2022-09-05 16:23:29 +0000] [11855] [INFO] Booting worker with pid: 11855
+[2022-09-05 16:23:29 +0000] [11856] [INFO] Booting worker with pid: 11856
+[2022-09-05 16:23:29 +0000] [11857] [INFO] Booting worker with pid: 11857
+[2022-09-05 16:23:29 +0000] [11858] [INFO] Booting worker with pid: 11858
+[2022-09-05 16:23:29 +0000] [11859] [INFO] Booting worker with pid: 11859
+[2022-09-05 16:23:29 +0000] [11860] [INFO] Booting worker with pid: 11860
+[2022-09-05 16:23:30 +0000] [11861] [INFO] Booting worker with pid: 11861
+[2022-09-05 16:23:30 +0000] [11862] [INFO] Booting worker with pid: 11862
+[2022-09-05 16:23:30 +0000] [11863] [INFO] Booting worker with pid: 11863
+[2022-09-05 16:23:30 +0000] [11864] [INFO] Booting worker with pid: 11864
+[2022-09-05 16:23:30 +0000] [11865] [INFO] Booting worker with pid: 11865
+[2022-09-05 16:23:30 +0000] [11868] [INFO] Booting worker with pid: 11868
+[2022-09-05 16:23:30 +0000] [11871] [INFO] Booting worker with pid: 11871
+[2022-09-05 16:23:30 +0000] [11872] [INFO] Booting worker with pid: 11872
+[2022-09-05 16:23:30 +0000] [11874] [INFO] Booting worker with pid: 11874
+[2022-09-05 16:23:30 +0000] [11876] [INFO] Booting worker with pid: 11876
+[2022-09-05 16:23:30 +0000] [11879] [INFO] Booting worker with pid: 11879
+[2022-09-05 16:23:30 +0000] [11881] [INFO] Booting worker with pid: 11881
+[2022-09-05 16:23:30 +0000] [11883] [INFO] Booting worker with pid: 11883
+[2022-09-05 16:23:30 +0000] [11884] [INFO] Booting worker with pid: 11884
+[2022-09-05 16:23:30 +0000] [11887] [INFO] Booting worker with pid: 11887
+[2022-09-05 16:23:30 +0000] [11889] [INFO] Booting worker with pid: 11889
+[2022-09-05 16:23:30 +0000] [11890] [INFO] Booting worker with pid: 11890
+[2022-09-05 16:23:31 +0000] [11893] [INFO] Booting worker with pid: 11893
+[2022-09-05 16:23:31 +0000] [11895] [INFO] Booting worker with pid: 11895
+[2022-09-05 16:23:31 +0000] [11896] [INFO] Booting worker with pid: 11896
+[2022-09-05 16:23:31 +0000] [11898] [INFO] Booting worker with pid: 11898
+[2022-09-05 16:23:31 +0000] [11901] [INFO] Booting worker with pid: 11901
+[2022-09-05 16:23:31 +0000] [11903] [INFO] Booting worker with pid: 11903
+[2022-09-05 16:24:01,734] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    print(coiso[0].decode('utf-8'))
+AttributeError: 'str' object has no attribute 'decode'
