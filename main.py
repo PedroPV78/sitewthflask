@@ -4,6 +4,8 @@ import os
 from flask import *
 import mysql.connector
 from werkzeug.utils import secure_filename
+import pandas as Pd
+
 
 db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
