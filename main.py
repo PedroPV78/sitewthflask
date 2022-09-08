@@ -164,7 +164,7 @@ def verPerfil():
     for x in mycursor:
         coiso = x
         print(coiso[0].encode('utf-8'))
-    return render_template("verPerfil.html")
+    return render_template("verPerfil.html", a=coiso[0])
 
 
 # remove o post
