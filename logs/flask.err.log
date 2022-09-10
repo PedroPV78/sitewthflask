@@ -10791,3 +10791,164 @@ Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
 [2022-09-10 20:34:34 +0000] [24521] [INFO] Booting worker with pid: 24521
 [2022-09-10 20:34:34 +0000] [24537] [INFO] Booting worker with pid: 24537
 [2022-09-10 20:34:34 +0000] [24582] [INFO] Booting worker with pid: 24582
+[2022-09-10 20:38:18 +0000] [24537] [INFO] Worker exiting (pid: 24537)
+[2022-09-10 20:38:18 +0000] [24521] [INFO] Worker exiting (pid: 24521)
+[2022-09-10 20:38:18 +0000] [24582] [INFO] Worker exiting (pid: 24582)
+[2022-09-10 20:38:18 +0000] [24475] [INFO] Worker exiting (pid: 24475)
+[2022-09-10 20:38:18 +0000] [24459] [INFO] Worker exiting (pid: 24459)
+[2022-09-10 20:38:18 +0000] [24429] [INFO] Worker exiting (pid: 24429)
+[2022-09-10 20:38:18 +0000] [24458] [INFO] Worker exiting (pid: 24458)
+[2022-09-10 20:38:18 +0000] [24413] [INFO] Worker exiting (pid: 24413)
+[2022-09-10 20:38:18 +0000] [24337] [INFO] Worker exiting (pid: 24337)
+[2022-09-10 20:38:18 +0000] [24292] [INFO] Worker exiting (pid: 24292)
+[2022-09-10 20:38:18 +0000] [24369] [INFO] Worker exiting (pid: 24369)
+[2022-09-10 20:38:18 +0000] [24183] [INFO] Worker exiting (pid: 24183)
+[2022-09-10 20:38:18 +0000] [24261] [INFO] Worker exiting (pid: 24261)
+[2022-09-10 20:38:18 +0000] [24321] [INFO] Worker exiting (pid: 24321)
+[2022-09-10 20:38:18 +0000] [24214] [INFO] Worker exiting (pid: 24214)
+[2022-09-10 20:38:18 +0000] [24367] [INFO] Worker exiting (pid: 24367)
+[2022-09-10 20:38:18 +0000] [24277] [INFO] Worker exiting (pid: 24277)
+[2022-09-10 20:38:18 +0000] [24276] [INFO] Worker exiting (pid: 24276)
+[2022-09-10 20:38:18 +0000] [24412] [INFO] Worker exiting (pid: 24412)
+[2022-09-10 20:38:18 +0000] [24230] [INFO] Worker exiting (pid: 24230)
+[2022-09-10 20:38:18 +0000] [24184] [INFO] Worker exiting (pid: 24184)
+[2022-09-10 20:38:18 +0000] [24491] [INFO] Worker exiting (pid: 24491)
+[2022-09-10 20:38:18 +0000] [24474] [INFO] Worker exiting (pid: 24474)
+[2022-09-10 20:38:18 +0000] [24245] [INFO] Worker exiting (pid: 24245)
+[2022-09-10 20:38:18 +0000] [24322] [INFO] Worker exiting (pid: 24322)
+[2022-09-10 20:38:18 +0000] [24260] [INFO] Worker exiting (pid: 24260)
+[2022-09-10 20:38:18 +0000] [24368] [INFO] Worker exiting (pid: 24368)
+[2022-09-10 20:38:18 +0000] [24352] [INFO] Worker exiting (pid: 24352)
+[2022-09-10 20:38:18 +0000] [24229] [INFO] Worker exiting (pid: 24229)
+[2022-09-10 20:38:18 +0000] [24185] [INFO] Worker exiting (pid: 24185)
+[2022-09-10 20:38:18 +0000] [24414] [INFO] Worker exiting (pid: 24414)
+[2022-09-10 20:38:18 +0000] [24182] [INFO] Handling signal: term
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24183 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24184 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24185 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24214 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24229 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24245 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24292 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24412 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24521 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24475 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24276 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24459 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24230 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24491 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24582 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24322 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24277 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24260 was terminated due to signal 15
+--- Logging error ---
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24337 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24474 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24413 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (24260, 15)
+Unable to print the message and arguments - possible formatting error.
+Use the traceback above to help find the error.
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24352 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24537 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24369 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24414 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24367 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24429 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24321 was terminated due to signal 15
+[2022-09-10 20:38:18 +0000] [24182] [WARNING] Worker with pid 24458 was terminated due to signal 15
+[2022-09-10 20:38:30 +0000] [24837] [INFO] Starting gunicorn 20.1.0
+[2022-09-10 20:38:30 +0000] [24837] [INFO] Listening at: http://127.0.0.1:8000 (24837)
+[2022-09-10 20:38:30 +0000] [24837] [INFO] Using worker: sync
+[2022-09-10 20:38:30 +0000] [24838] [INFO] Booting worker with pid: 24838
+[2022-09-10 20:38:30 +0000] [24839] [INFO] Booting worker with pid: 24839
+[2022-09-10 20:38:30 +0000] [24854] [INFO] Booting worker with pid: 24854
+[2022-09-10 20:38:30 +0000] [24869] [INFO] Booting worker with pid: 24869
+[2022-09-10 20:38:30 +0000] [24870] [INFO] Booting worker with pid: 24870
+[2022-09-10 20:38:30 +0000] [24885] [INFO] Booting worker with pid: 24885
+[2022-09-10 20:38:30 +0000] [24914] [INFO] Booting worker with pid: 24914
+[2022-09-10 20:38:30 +0000] [24915] [INFO] Booting worker with pid: 24915
+[2022-09-10 20:38:30 +0000] [24916] [INFO] Booting worker with pid: 24916
+[2022-09-10 20:38:30 +0000] [24931] [INFO] Booting worker with pid: 24931
+[2022-09-10 20:38:30 +0000] [24946] [INFO] Booting worker with pid: 24946
+[2022-09-10 20:38:30 +0000] [24961] [INFO] Booting worker with pid: 24961
+[2022-09-10 20:38:30 +0000] [24962] [INFO] Booting worker with pid: 24962
+[2022-09-10 20:38:30 +0000] [24977] [INFO] Booting worker with pid: 24977
+[2022-09-10 20:38:30 +0000] [24978] [INFO] Booting worker with pid: 24978
+[2022-09-10 20:38:30 +0000] [24993] [INFO] Booting worker with pid: 24993
+[2022-09-10 20:38:30 +0000] [25009] [INFO] Booting worker with pid: 25009
+[2022-09-10 20:38:30 +0000] [25008] [INFO] Booting worker with pid: 25008
+[2022-09-10 20:38:31 +0000] [25052] [INFO] Booting worker with pid: 25052
+[2022-09-10 20:38:31 +0000] [25067] [INFO] Booting worker with pid: 25067
+[2022-09-10 20:38:31 +0000] [25082] [INFO] Booting worker with pid: 25082
+[2022-09-10 20:38:31 +0000] [25097] [INFO] Booting worker with pid: 25097
+[2022-09-10 20:38:31 +0000] [25112] [INFO] Booting worker with pid: 25112
+[2022-09-10 20:38:31 +0000] [25113] [INFO] Booting worker with pid: 25113
+[2022-09-10 20:38:31 +0000] [25114] [INFO] Booting worker with pid: 25114
+[2022-09-10 20:38:31 +0000] [25145] [INFO] Booting worker with pid: 25145
+[2022-09-10 20:38:31 +0000] [25174] [INFO] Booting worker with pid: 25174
+[2022-09-10 20:38:31 +0000] [25190] [INFO] Booting worker with pid: 25190
+[2022-09-10 20:38:31 +0000] [25191] [INFO] Booting worker with pid: 25191
+[2022-09-10 20:38:31 +0000] [25207] [INFO] Booting worker with pid: 25207
+[2022-09-10 20:38:31 +0000] [25223] [INFO] Booting worker with pid: 25223
