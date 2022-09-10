@@ -9335,3 +9335,573 @@ Arguments: (25448, 15)
 [2022-09-07 17:56:55 +0000] [1869] [INFO] Booting worker with pid: 1869
 [2022-09-07 17:56:55 +0000] [1884] [INFO] Booting worker with pid: 1884
 [2022-09-07 17:56:55 +0000] [1885] [INFO] Booting worker with pid: 1885
+[2022-09-08 00:24:23 +0000] [1868] [INFO] Worker exiting (pid: 1868)
+[2022-09-08 00:24:23 +0000] [1867] [INFO] Worker exiting (pid: 1867)
+[2022-09-08 00:24:23 +0000] [1884] [INFO] Worker exiting (pid: 1884)
+[2022-09-08 00:24:23 +0000] [1885] [INFO] Worker exiting (pid: 1885)
+[2022-09-08 00:24:23 +0000] [1866] [INFO] Worker exiting (pid: 1866)
+[2022-09-08 00:24:23 +0000] [1792] [INFO] Worker exiting (pid: 1792)
+[2022-09-08 00:24:23 +0000] [1807] [INFO] Worker exiting (pid: 1807)
+[2022-09-08 00:24:23 +0000] [1791] [INFO] Worker exiting (pid: 1791)
+[2022-09-08 00:24:23 +0000] [1732] [INFO] Worker exiting (pid: 1732)
+[2022-09-08 00:24:23 +0000] [1776] [INFO] Worker exiting (pid: 1776)
+[2022-09-08 00:24:23 +0000] [1507] [INFO] Worker exiting (pid: 1507)
+[2022-09-08 00:24:23 +0000] [1517] [INFO] Worker exiting (pid: 1517)
+[2022-09-08 00:24:23 +0000] [1521] [INFO] Worker exiting (pid: 1521)
+[2022-09-08 00:24:23 +0000] [1516] [INFO] Worker exiting (pid: 1516)
+[2022-09-08 00:24:23 +0000] [1663] [INFO] Worker exiting (pid: 1663)
+[2022-09-08 00:24:23 +0000] [1675] [INFO] Worker exiting (pid: 1675)
+[2022-09-08 00:24:23 +0000] [1515] [INFO] Worker exiting (pid: 1515)
+[2022-09-08 00:24:23 +0000] [1496] [INFO] Worker exiting (pid: 1496)
+[2022-09-08 00:24:23 +0000] [1520] [INFO] Worker exiting (pid: 1520)
+[2022-09-08 00:24:23 +0000] [1518] [INFO] Worker exiting (pid: 1518)
+[2022-09-08 00:24:23 +0000] [1497] [INFO] Worker exiting (pid: 1497)
+[2022-09-08 00:24:23 +0000] [1425] [INFO] Worker exiting (pid: 1425)
+[2022-09-08 00:24:23 +0000] [1703] [INFO] Worker exiting (pid: 1703)
+[2022-09-08 00:24:23 +0000] [1869] [INFO] Worker exiting (pid: 1869)
+[2022-09-08 00:24:23 +0000] [1504] [INFO] Worker exiting (pid: 1504)
+[2022-09-08 00:24:23 +0000] [1465] [INFO] Worker exiting (pid: 1465)
+[2022-09-08 00:24:23 +0000] [1519] [INFO] Worker exiting (pid: 1519)
+[2022-09-08 00:24:23 +0000] [1662] [INFO] Worker exiting (pid: 1662)
+[2022-09-08 00:24:23 +0000] [1850] [INFO] Worker exiting (pid: 1850)
+[2022-09-08 00:24:23 +0000] [1865] [INFO] Worker exiting (pid: 1865)
+[2022-09-08 00:24:23 +0000] [1761] [INFO] Worker exiting (pid: 1761)
+[2022-09-08 00:24:23 +0000] [1396] [INFO] Handling signal: term
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1465 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1496 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1662 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1425 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1497 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1504 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1507 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1516 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1519 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1515 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1518 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1732 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1703 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1663 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1517 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1675 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1521 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1520 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1761 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1791 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1776 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1792 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1865 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1807 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1850 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1866 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1869 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1884 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1885 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1868 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [WARNING] Worker with pid 1867 was terminated due to signal 15
+[2022-09-08 00:24:23 +0000] [1396] [INFO] Shutting down: Master
+[2022-09-08 17:13:21 +0000] [11004] [INFO] Starting gunicorn 20.1.0
+[2022-09-08 17:13:21 +0000] [11004] [INFO] Listening at: http://127.0.0.1:8000 (11004)
+[2022-09-08 17:13:21 +0000] [11004] [INFO] Using worker: sync
+[2022-09-08 17:13:21 +0000] [11005] [INFO] Booting worker with pid: 11005
+[2022-09-08 17:13:21 +0000] [11006] [INFO] Booting worker with pid: 11006
+[2022-09-08 17:13:21 +0000] [11007] [INFO] Booting worker with pid: 11007
+[2022-09-08 17:13:21 +0000] [11036] [INFO] Booting worker with pid: 11036
+[2022-09-08 17:13:21 +0000] [11051] [INFO] Booting worker with pid: 11051
+[2022-09-08 17:13:22 +0000] [11052] [INFO] Booting worker with pid: 11052
+[2022-09-08 17:13:22 +0000] [11053] [INFO] Booting worker with pid: 11053
+[2022-09-08 17:13:22 +0000] [11054] [INFO] Booting worker with pid: 11054
+[2022-09-08 17:13:22 +0000] [11083] [INFO] Booting worker with pid: 11083
+[2022-09-08 17:13:22 +0000] [11112] [INFO] Booting worker with pid: 11112
+[2022-09-08 17:13:22 +0000] [11127] [INFO] Booting worker with pid: 11127
+[2022-09-08 17:13:22 +0000] [11142] [INFO] Booting worker with pid: 11142
+[2022-09-08 17:13:22 +0000] [11157] [INFO] Booting worker with pid: 11157
+[2022-09-08 17:13:22 +0000] [11172] [INFO] Booting worker with pid: 11172
+[2022-09-08 17:13:22 +0000] [11187] [INFO] Booting worker with pid: 11187
+[2022-09-08 17:13:22 +0000] [11202] [INFO] Booting worker with pid: 11202
+[2022-09-08 17:13:22 +0000] [11203] [INFO] Booting worker with pid: 11203
+[2022-09-08 17:13:22 +0000] [11218] [INFO] Booting worker with pid: 11218
+[2022-09-08 17:13:22 +0000] [11234] [INFO] Booting worker with pid: 11234
+[2022-09-08 17:13:22 +0000] [11249] [INFO] Booting worker with pid: 11249
+[2022-09-08 17:13:22 +0000] [11250] [INFO] Booting worker with pid: 11250
+[2022-09-08 17:13:22 +0000] [11265] [INFO] Booting worker with pid: 11265
+[2022-09-08 17:13:22 +0000] [11267] [INFO] Booting worker with pid: 11267
+[2022-09-08 17:13:22 +0000] [11268] [INFO] Booting worker with pid: 11268
+[2022-09-08 17:13:22 +0000] [11284] [INFO] Booting worker with pid: 11284
+[2022-09-08 17:13:23 +0000] [11299] [INFO] Booting worker with pid: 11299
+[2022-09-08 17:13:23 +0000] [11314] [INFO] Booting worker with pid: 11314
+[2022-09-08 17:13:23 +0000] [11331] [INFO] Booting worker with pid: 11331
+[2022-09-08 17:13:23 +0000] [11388] [INFO] Booting worker with pid: 11388
+[2022-09-08 17:13:23 +0000] [11390] [INFO] Booting worker with pid: 11390
+[2022-09-08 17:13:23 +0000] [11405] [INFO] Booting worker with pid: 11405
+[2022-09-08 17:13:50,116] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:10,053] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:20,620] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:25,694] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:28,317] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:28,357] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:29,577] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:29,618] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:52,506] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:14:52,557] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:18:40,781] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:18:50,883] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:18:50,947] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:18:52,150] ERROR in app: Exception on /verPerfil [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-08 17:18:52,191] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-09 00:00:43,114] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-09 00:01:03,297] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-09 00:01:05,650] ERROR in app: Exception on /verPerfil [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 163, in verPerfil
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+  File "/usr/lib/python3.10/base64.py", line 80, in b64decode
+    s = _bytes_from_decode_data(s)
+  File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
+    raise TypeError("argument should be a bytes-like object or ASCII "
+TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-09 00:52:13 +0000] [11405] [INFO] Worker exiting (pid: 11405)
+[2022-09-09 00:52:13 +0000] [11331] [INFO] Worker exiting (pid: 11331)
+[2022-09-09 00:52:13 +0000] [11299] [INFO] Worker exiting (pid: 11299)
+[2022-09-09 00:52:13 +0000] [11268] [INFO] Worker exiting (pid: 11268)
+[2022-09-09 00:52:13 +0000] [11284] [INFO] Worker exiting (pid: 11284)
+[2022-09-09 00:52:13 +0000] [11314] [INFO] Worker exiting (pid: 11314)
+[2022-09-09 00:52:13 +0000] [11234] [INFO] Worker exiting (pid: 11234)
+[2022-09-09 00:52:13 +0000] [11187] [INFO] Worker exiting (pid: 11187)
+[2022-09-09 00:52:13 +0000] [11250] [INFO] Worker exiting (pid: 11250)
+[2022-09-09 00:52:13 +0000] [11083] [INFO] Worker exiting (pid: 11083)
+[2022-09-09 00:52:13 +0000] [11249] [INFO] Worker exiting (pid: 11249)
+[2022-09-09 00:52:13 +0000] [11265] [INFO] Worker exiting (pid: 11265)
+[2022-09-09 00:52:13 +0000] [11142] [INFO] Worker exiting (pid: 11142)
+[2022-09-09 00:52:13 +0000] [11157] [INFO] Worker exiting (pid: 11157)
+[2022-09-09 00:52:13 +0000] [11388] [INFO] Worker exiting (pid: 11388)
+[2022-09-09 00:52:13 +0000] [11112] [INFO] Worker exiting (pid: 11112)
+[2022-09-09 00:52:13 +0000] [11052] [INFO] Worker exiting (pid: 11052)
+[2022-09-09 00:52:13 +0000] [11127] [INFO] Worker exiting (pid: 11127)
+[2022-09-09 00:52:13 +0000] [11007] [INFO] Worker exiting (pid: 11007)
+[2022-09-09 00:52:13 +0000] [11036] [INFO] Worker exiting (pid: 11036)
+[2022-09-09 00:52:13 +0000] [11390] [INFO] Worker exiting (pid: 11390)
+[2022-09-09 00:52:13 +0000] [11172] [INFO] Worker exiting (pid: 11172)
+[2022-09-09 00:52:13 +0000] [11202] [INFO] Worker exiting (pid: 11202)
+[2022-09-09 00:52:13 +0000] [11267] [INFO] Worker exiting (pid: 11267)
+[2022-09-09 00:52:13 +0000] [11053] [INFO] Worker exiting (pid: 11053)
+[2022-09-09 00:52:13 +0000] [11006] [INFO] Worker exiting (pid: 11006)
+[2022-09-09 00:52:13 +0000] [11203] [INFO] Worker exiting (pid: 11203)
+[2022-09-09 00:52:13 +0000] [11051] [INFO] Worker exiting (pid: 11051)
+[2022-09-09 00:52:13 +0000] [11005] [INFO] Worker exiting (pid: 11005)
+[2022-09-09 00:52:13 +0000] [11054] [INFO] Worker exiting (pid: 11054)
+[2022-09-09 00:52:13 +0000] [11218] [INFO] Worker exiting (pid: 11218)
+[2022-09-09 00:52:13 +0000] [11004] [INFO] Handling signal: term
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11172 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11006 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11051 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11007 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11036 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11053 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11054 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11112 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11203 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11249 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11267 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11005 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11052 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11250 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11265 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11234 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11284 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11299 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11388 was terminated due to signal 15
+--- Logging error ---
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11083 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11127 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11142 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11268 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11405 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11202 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11314 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11331 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11187 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1489, in warning
+    self._log(WARNING, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11390 was terminated due to signal 15
+[2022-09-09 00:52:13 +0000] [11004] [WARNING] Worker with pid 11157 was terminated due to signal 15
+  File "/home/ubuntu/sitewthflask/venv/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 231, in run
+    super().run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 227, in run
+    self.halt()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 393, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 539, in reap_workers
+    worker.tmp.close()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/workers/workertmp.py", line 55, in close
+    return self._tmp.close()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    self.log.warning(
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/glogging.py", line 261, in warning
+    self.error_log.warning(msg, *args, **kwargs)
+Message: 'Worker with pid %s was terminated due to signal %s'
+Arguments: (11388, 15)
+[2022-09-09 00:59:32 +0000] [13944] [INFO] Starting gunicorn 20.1.0
+[2022-09-09 00:59:32 +0000] [13944] [INFO] Listening at: http://127.0.0.1:8000 (13944)
+[2022-09-09 00:59:32 +0000] [13944] [INFO] Using worker: sync
+[2022-09-09 00:59:32 +0000] [13945] [INFO] Booting worker with pid: 13945
+[2022-09-09 00:59:32 +0000] [13946] [INFO] Booting worker with pid: 13946
+[2022-09-09 00:59:32 +0000] [13947] [INFO] Booting worker with pid: 13947
+[2022-09-09 00:59:32 +0000] [13962] [INFO] Booting worker with pid: 13962
+[2022-09-09 00:59:32 +0000] [13977] [INFO] Booting worker with pid: 13977
+[2022-09-09 00:59:32 +0000] [13992] [INFO] Booting worker with pid: 13992
+[2022-09-09 00:59:32 +0000] [14007] [INFO] Booting worker with pid: 14007
+[2022-09-09 00:59:32 +0000] [14008] [INFO] Booting worker with pid: 14008
+[2022-09-09 00:59:32 +0000] [14009] [INFO] Booting worker with pid: 14009
+[2022-09-09 00:59:32 +0000] [14038] [INFO] Booting worker with pid: 14038
+[2022-09-09 00:59:32 +0000] [14053] [INFO] Booting worker with pid: 14053
+[2022-09-09 00:59:32 +0000] [14054] [INFO] Booting worker with pid: 14054
+[2022-09-09 00:59:32 +0000] [14069] [INFO] Booting worker with pid: 14069
+[2022-09-09 00:59:32 +0000] [14070] [INFO] Booting worker with pid: 14070
+[2022-09-09 00:59:32 +0000] [14099] [INFO] Booting worker with pid: 14099
+[2022-09-09 00:59:33 +0000] [14115] [INFO] Booting worker with pid: 14115
+[2022-09-09 00:59:33 +0000] [14114] [INFO] Booting worker with pid: 14114
+[2022-09-09 00:59:33 +0000] [14116] [INFO] Booting worker with pid: 14116
+[2022-09-09 00:59:33 +0000] [14117] [INFO] Booting worker with pid: 14117
+[2022-09-09 00:59:33 +0000] [14132] [INFO] Booting worker with pid: 14132
+[2022-09-09 00:59:33 +0000] [14147] [INFO] Booting worker with pid: 14147
+[2022-09-09 00:59:33 +0000] [14148] [INFO] Booting worker with pid: 14148
+[2022-09-09 00:59:33 +0000] [14163] [INFO] Booting worker with pid: 14163
+[2022-09-09 00:59:33 +0000] [14192] [INFO] Booting worker with pid: 14192
+[2022-09-09 00:59:33 +0000] [14236] [INFO] Booting worker with pid: 14236
+[2022-09-09 00:59:33 +0000] [14237] [INFO] Booting worker with pid: 14237
+[2022-09-09 00:59:33 +0000] [14221] [INFO] Booting worker with pid: 14221
+[2022-09-09 00:59:33 +0000] [14238] [INFO] Booting worker with pid: 14238
+[2022-09-09 00:59:33 +0000] [14253] [INFO] Booting worker with pid: 14253
+[2022-09-09 00:59:33 +0000] [14283] [INFO] Booting worker with pid: 14283
+[2022-09-09 00:59:33 +0000] [14282] [INFO] Booting worker with pid: 14282
