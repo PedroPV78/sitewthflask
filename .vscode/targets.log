@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Sep 04 16:07:32 2022
+# Make data base, printed on Sat Sep 10 15:05:32 2022
 
 # Variables
 
@@ -37,7 +37,7 @@ MAKE_COMMAND := make.exe
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_7732_NJBHENSBEJIYHGLE
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_20540_EKCLFTHHZTNLTAQY
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -87,7 +87,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7732
+VSCODE_PID = 20540
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -95,7 +95,7 @@ VSCODE_PID = 7732
 # automatic
 <D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"ccd4021879726e819b0e7a745ee05354.pt-br","_translationsConfigFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\ccd4021879726e819b0e7a745ee05354.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\ccd4021879726e819b0e7a745ee05354.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\ccd4021879726e819b0e7a745ee05354.pt-br\\784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\ccd4021879726e819b0e7a745ee05354.pt-br\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"28c256efdcf473b7c8b2ffa6ce425608.pt-br","_translationsConfigFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\28c256efdcf473b7c8b2ffa6ce425608.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\28c256efdcf473b7c8b2ffa6ce425608.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\28c256efdcf473b7c8b2ffa6ce425608.pt-br\\784b0177c56c607789f9638da7b6bf3230d47a8c","_corruptedFile":"C:\\Users\\user\\AppData\\Roaming\\Code\\clp\\28c256efdcf473b7c8b2ffa6ce425608.pt-br\\corrupted.info","_languagePackSupport":true}
 # environment
 ONEDRIVECONSUMER = C:\Users\user\OneDrive
 # default
@@ -205,9 +205,9 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
 
 # Directories
 
-# . (key d:/sitewthflask, mtime 1662313222): 16 files, no impossibilities.
+# . (key d:/sitewthflask, mtime 1662318499): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -262,12 +262,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 21 / storage = 162 B / avg = 7 B
-# current buf: size = 8162 B / used = 162 B / count = 21 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 22 / storage = 168 B / avg = 7 B
+# current buf: size = 8162 B / used = 168 B / count = 22 / avg = 7 B
 
-# strcache performance: lookups = 27 / hit rate = 22%
+# strcache performance: lookups = 28 / hit rate = 21%
 # hash-table stats:
-# Load=21/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Sun Sep 04 16:07:32 2022
+# Load=22/8192=0%, Rehash=0, Collisions=0/28=0%
+# Finished Make data base on Sat Sep 10 15:05:32 2022
 
  
