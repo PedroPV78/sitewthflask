@@ -10614,3 +10614,88 @@ Traceback (most recent call last):
   File "/home/ubuntu/sitewthflask/templates/devTest.html", line 9, in template
     {% enblock %}
 jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'enblock'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2022-09-10 20:28:55 +0000] [23245] [INFO] Worker exiting (pid: 23245)
+[2022-09-10 20:28:55 +0000] [23181] [INFO] Worker exiting (pid: 23181)
+[2022-09-10 20:28:55 +0000] [23196] [INFO] Worker exiting (pid: 23196)
+[2022-09-10 20:28:55 +0000] [23212] [INFO] Worker exiting (pid: 23212)
+[2022-09-10 20:28:55 +0000] [23242] [INFO] Worker exiting (pid: 23242)
+[2022-09-10 20:28:55 +0000] [23151] [INFO] Worker exiting (pid: 23151)
+[2022-09-10 20:28:55 +0000] [23152] [INFO] Worker exiting (pid: 23152)
+[2022-09-10 20:28:55 +0000] [23121] [INFO] Worker exiting (pid: 23121)
+[2022-09-10 20:28:55 +0000] [23244] [INFO] Worker exiting (pid: 23244)
+[2022-09-10 20:28:55 +0000] [23046] [INFO] Worker exiting (pid: 23046)
+[2022-09-10 20:28:55 +0000] [23000] [INFO] Worker exiting (pid: 23000)
+[2022-09-10 20:28:55 +0000] [23015] [INFO] Worker exiting (pid: 23015)
+[2022-09-10 20:28:55 +0000] [23211] [INFO] Worker exiting (pid: 23211)
+[2022-09-10 20:28:55 +0000] [22998] [INFO] Handling signal: term
+[2022-09-10 20:28:55 +0000] [23384] [INFO] Worker exiting (pid: 23384)
+[2022-09-10 20:28:55 +0000] [23294] [INFO] Worker exiting (pid: 23294)
+[2022-09-10 20:28:55 +0000] [23275] [INFO] Worker exiting (pid: 23275)
+[2022-09-10 20:28:55 +0000] [23092] [INFO] Worker exiting (pid: 23092)
+[2022-09-10 20:28:55 +0000] [23030] [INFO] Worker exiting (pid: 23030)
+[2022-09-10 20:28:55 +0000] [23136] [INFO] Worker exiting (pid: 23136)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23121 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22999] [INFO] Worker exiting (pid: 22999)
+[2022-09-10 20:28:55 +0000] [23277] [INFO] Worker exiting (pid: 23277)
+[2022-09-10 20:28:55 +0000] [23045] [INFO] Worker exiting (pid: 23045)
+[2022-09-10 20:28:55 +0000] [23061] [INFO] Worker exiting (pid: 23061)
+[2022-09-10 20:28:55 +0000] [23276] [INFO] Worker exiting (pid: 23276)
+[2022-09-10 20:28:55 +0000] [23357] [INFO] Worker exiting (pid: 23357)
+[2022-09-10 20:28:55 +0000] [23062] [INFO] Worker exiting (pid: 23062)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23015 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23000 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23046 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23196 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [23368] [INFO] Worker exiting (pid: 23368)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23136 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [23091] [INFO] Worker exiting (pid: 23091)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23244 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23151 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [23369] [INFO] Worker exiting (pid: 23369)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23211 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23245 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23277 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23242 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [23324] [INFO] Worker exiting (pid: 23324)
+[2022-09-10 20:28:55 +0000] [23279] [INFO] Worker exiting (pid: 23279)
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23152 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23294 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23384 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23181 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23212 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [WARNING] Worker with pid 23275 was terminated due to signal 15
+[2022-09-10 20:28:55 +0000] [22998] [INFO] Shutting down: Master
+[2022-09-10 20:28:56 +0000] [23578] [INFO] Starting gunicorn 20.1.0
+[2022-09-10 20:28:56 +0000] [23578] [INFO] Listening at: http://127.0.0.1:8000 (23578)
+[2022-09-10 20:28:56 +0000] [23578] [INFO] Using worker: sync
+[2022-09-10 20:28:56 +0000] [23579] [INFO] Booting worker with pid: 23579
+[2022-09-10 20:28:56 +0000] [23580] [INFO] Booting worker with pid: 23580
+[2022-09-10 20:28:56 +0000] [23581] [INFO] Booting worker with pid: 23581
+[2022-09-10 20:28:56 +0000] [23596] [INFO] Booting worker with pid: 23596
+[2022-09-10 20:28:56 +0000] [23611] [INFO] Booting worker with pid: 23611
+[2022-09-10 20:28:56 +0000] [23626] [INFO] Booting worker with pid: 23626
+[2022-09-10 20:28:56 +0000] [23627] [INFO] Booting worker with pid: 23627
+[2022-09-10 20:28:56 +0000] [23628] [INFO] Booting worker with pid: 23628
+[2022-09-10 20:28:56 +0000] [23629] [INFO] Booting worker with pid: 23629
+[2022-09-10 20:28:56 +0000] [23644] [INFO] Booting worker with pid: 23644
+[2022-09-10 20:28:56 +0000] [23687] [INFO] Booting worker with pid: 23687
+[2022-09-10 20:28:56 +0000] [23702] [INFO] Booting worker with pid: 23702
+[2022-09-10 20:28:56 +0000] [23703] [INFO] Booting worker with pid: 23703
+[2022-09-10 20:28:56 +0000] [23704] [INFO] Booting worker with pid: 23704
+[2022-09-10 20:28:56 +0000] [23719] [INFO] Booting worker with pid: 23719
+[2022-09-10 20:28:57 +0000] [23734] [INFO] Booting worker with pid: 23734
+[2022-09-10 20:28:57 +0000] [23749] [INFO] Booting worker with pid: 23749
+[2022-09-10 20:28:57 +0000] [23750] [INFO] Booting worker with pid: 23750
+[2022-09-10 20:28:57 +0000] [23807] [INFO] Booting worker with pid: 23807
+[2022-09-10 20:28:57 +0000] [23808] [INFO] Booting worker with pid: 23808
+[2022-09-10 20:28:57 +0000] [23823] [INFO] Booting worker with pid: 23823
+[2022-09-10 20:28:57 +0000] [23852] [INFO] Booting worker with pid: 23852
+[2022-09-10 20:28:57 +0000] [23853] [INFO] Booting worker with pid: 23853
+[2022-09-10 20:28:57 +0000] [23869] [INFO] Booting worker with pid: 23869
+[2022-09-10 20:28:57 +0000] [23885] [INFO] Booting worker with pid: 23885
+[2022-09-10 20:28:57 +0000] [23915] [INFO] Booting worker with pid: 23915
+[2022-09-10 20:28:57 +0000] [23914] [INFO] Booting worker with pid: 23914
+[2022-09-10 20:28:57 +0000] [23930] [INFO] Booting worker with pid: 23930
+[2022-09-10 20:28:57 +0000] [23931] [INFO] Booting worker with pid: 23931
+[2022-09-10 20:28:57 +0000] [23963] [INFO] Booting worker with pid: 23963
+[2022-09-10 20:28:57 +0000] [23966] [INFO] Booting worker with pid: 23966
