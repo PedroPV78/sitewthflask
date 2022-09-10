@@ -10402,3 +10402,215 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/base64.py", line 45, in _bytes_from_decode_data
     raise TypeError("argument should be a bytes-like object or ASCII "
 TypeError: argument should be a bytes-like object or ASCII string, not 'NoneType'
+[2022-09-10 20:27:55 +0000] [22766] [INFO] Worker exiting (pid: 22766)
+[2022-09-10 20:27:55 +0000] [22765] [INFO] Worker exiting (pid: 22765)
+[2022-09-10 20:27:55 +0000] [22764] [INFO] Worker exiting (pid: 22764)
+[2022-09-10 20:27:55 +0000] [22701] [INFO] Worker exiting (pid: 22701)
+[2022-09-10 20:27:55 +0000] [22718] [INFO] Worker exiting (pid: 22718)
+[2022-09-10 20:27:55 +0000] [22656] [INFO] Worker exiting (pid: 22656)
+[2022-09-10 20:27:55 +0000] [22657] [INFO] Worker exiting (pid: 22657)
+[2022-09-10 20:27:55 +0000] [22580] [INFO] Worker exiting (pid: 22580)
+[2022-09-10 20:27:55 +0000] [22521] [INFO] Worker exiting (pid: 22521)
+[2022-09-10 20:27:55 +0000] [22641] [INFO] Worker exiting (pid: 22641)
+[2022-09-10 20:27:55 +0000] [22474] [INFO] Worker exiting (pid: 22474)
+[2022-09-10 20:27:55 +0000] [22413] [INFO] Worker exiting (pid: 22413)
+[2022-09-10 20:27:55 +0000] [22412] [INFO] Worker exiting (pid: 22412)
+[2022-09-10 20:27:55 +0000] [22444] [INFO] Worker exiting (pid: 22444)
+[2022-09-10 20:27:55 +0000] [22476] [INFO] Worker exiting (pid: 22476)
+[2022-09-10 20:27:55 +0000] [22610] [INFO] Worker exiting (pid: 22610)
+[2022-09-10 20:27:55 +0000] [22520] [INFO] Worker exiting (pid: 22520)
+[2022-09-10 20:27:55 +0000] [22475] [INFO] Worker exiting (pid: 22475)
+[2022-09-10 20:27:55 +0000] [22443] [INFO] Worker exiting (pid: 22443)
+[2022-09-10 20:27:55 +0000] [22612] [INFO] Worker exiting (pid: 22612)
+[2022-09-10 20:27:55 +0000] [22609] [INFO] Worker exiting (pid: 22609)
+[2022-09-10 20:27:55 +0000] [22611] [INFO] Worker exiting (pid: 22611)
+[2022-09-10 20:27:55 +0000] [22551] [INFO] Worker exiting (pid: 22551)
+[2022-09-10 20:27:55 +0000] [22414] [INFO] Worker exiting (pid: 22414)
+[2022-09-10 20:27:55 +0000] [22477] [INFO] Worker exiting (pid: 22477)
+[2022-09-10 20:27:55 +0000] [22445] [INFO] Worker exiting (pid: 22445)
+[2022-09-10 20:27:55 +0000] [22411] [INFO] Handling signal: term
+[2022-09-10 20:27:55 +0000] [22812] [INFO] Worker exiting (pid: 22812)
+[2022-09-10 20:27:55 +0000] [22814] [INFO] Worker exiting (pid: 22814)
+[2022-09-10 20:27:55 +0000] [22734] [INFO] Worker exiting (pid: 22734)
+[2022-09-10 20:27:55 +0000] [22536] [INFO] Worker exiting (pid: 22536)
+[2022-09-10 20:27:55 +0000] [22768] [INFO] Worker exiting (pid: 22768)
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22412 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22477 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22414 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22444 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22611 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22612 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22764 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22657 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22610 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22445 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22580 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22814 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22413 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22443 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22475 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22520 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22609 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22701 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22474 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22641 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22476 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22812 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22656 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22766 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22734 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22521 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22551 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22765 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [WARNING] Worker with pid 22718 was terminated due to signal 15
+[2022-09-10 20:27:55 +0000] [22411] [INFO] Shutting down: Master
+[2022-09-10 20:27:57 +0000] [22998] [INFO] Starting gunicorn 20.1.0
+[2022-09-10 20:27:57 +0000] [22998] [INFO] Listening at: http://127.0.0.1:8000 (22998)
+[2022-09-10 20:27:57 +0000] [22998] [INFO] Using worker: sync
+[2022-09-10 20:27:57 +0000] [22999] [INFO] Booting worker with pid: 22999
+[2022-09-10 20:27:57 +0000] [23000] [INFO] Booting worker with pid: 23000
+[2022-09-10 20:27:57 +0000] [23015] [INFO] Booting worker with pid: 23015
+[2022-09-10 20:27:57 +0000] [23030] [INFO] Booting worker with pid: 23030
+[2022-09-10 20:27:57 +0000] [23046] [INFO] Booting worker with pid: 23046
+[2022-09-10 20:27:57 +0000] [23045] [INFO] Booting worker with pid: 23045
+[2022-09-10 20:27:57 +0000] [23061] [INFO] Booting worker with pid: 23061
+[2022-09-10 20:27:57 +0000] [23062] [INFO] Booting worker with pid: 23062
+[2022-09-10 20:27:57 +0000] [23091] [INFO] Booting worker with pid: 23091
+[2022-09-10 20:27:57 +0000] [23092] [INFO] Booting worker with pid: 23092
+[2022-09-10 20:27:57 +0000] [23121] [INFO] Booting worker with pid: 23121
+[2022-09-10 20:27:57 +0000] [23136] [INFO] Booting worker with pid: 23136
+[2022-09-10 20:27:57 +0000] [23151] [INFO] Booting worker with pid: 23151
+[2022-09-10 20:27:57 +0000] [23152] [INFO] Booting worker with pid: 23152
+[2022-09-10 20:27:58 +0000] [23181] [INFO] Booting worker with pid: 23181
+[2022-09-10 20:27:58 +0000] [23196] [INFO] Booting worker with pid: 23196
+[2022-09-10 20:27:58 +0000] [23211] [INFO] Booting worker with pid: 23211
+[2022-09-10 20:27:58 +0000] [23212] [INFO] Booting worker with pid: 23212
+[2022-09-10 20:27:58 +0000] [23242] [INFO] Booting worker with pid: 23242
+[2022-09-10 20:27:58 +0000] [23244] [INFO] Booting worker with pid: 23244
+[2022-09-10 20:27:58 +0000] [23245] [INFO] Booting worker with pid: 23245
+[2022-09-10 20:27:58 +0000] [23276] [INFO] Booting worker with pid: 23276
+[2022-09-10 20:27:58 +0000] [23277] [INFO] Booting worker with pid: 23277
+[2022-09-10 20:27:58 +0000] [23275] [INFO] Booting worker with pid: 23275
+[2022-09-10 20:27:58 +0000] [23279] [INFO] Booting worker with pid: 23279
+[2022-09-10 20:27:58 +0000] [23294] [INFO] Booting worker with pid: 23294
+[2022-09-10 20:27:58 +0000] [23324] [INFO] Booting worker with pid: 23324
+[2022-09-10 20:27:58 +0000] [23357] [INFO] Booting worker with pid: 23357
+[2022-09-10 20:27:58 +0000] [23369] [INFO] Booting worker with pid: 23369
+[2022-09-10 20:27:58 +0000] [23368] [INFO] Booting worker with pid: 23368
+[2022-09-10 20:27:58 +0000] [23384] [INFO] Booting worker with pid: 23384
+[2022-09-10 20:28:20,551] ERROR in app: Exception on /devTest [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 209, in devTest
+    return render_template("devTest.html")
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/ubuntu/sitewthflask/templates/devTest.html", line 9, in template
+    {% enblock %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'enblock'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2022-09-10 20:28:20,605] ERROR in app: Exception on /devTest [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 209, in devTest
+    return render_template("devTest.html")
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/ubuntu/sitewthflask/templates/devTest.html", line 9, in template
+    {% enblock %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'enblock'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2022-09-10 20:28:21,794] ERROR in app: Exception on /devTest [HEAD]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 209, in devTest
+    return render_template("devTest.html")
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/ubuntu/sitewthflask/templates/devTest.html", line 9, in template
+    {% enblock %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'enblock'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
+[2022-09-10 20:28:21,810] ERROR in app: Exception on /devTest [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/sitewthflask/main.py", line 209, in devTest
+    return render_template("devTest.html")
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/ubuntu/sitewthflask/templates/devTest.html", line 9, in template
+    {% enblock %}
+jinja2.exceptions.TemplateSyntaxError: Encountered unknown tag 'enblock'. Jinja was looking for the following tags: 'endblock'. The innermost block that needs to be closed is 'block'.
