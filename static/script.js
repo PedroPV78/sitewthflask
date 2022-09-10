@@ -1,5 +1,5 @@
-const btn = document.querySelector("button")
+const button = document.querySelector("#aa")
 
-btn.addEventListener("click", () => {
+button.addEventListener("click", () => {
 	alert("teste");
-})
+});
