@@ -48,7 +48,7 @@ def upload_file():
             return redirect(request.url)
         if file and allowed_file(file.filename):
             cookie = request.cookies.get('login')
-            filename = base64.b64decode(cookie).decode('utf-8') + ".png"
+            filename = "luc.png"
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return ''
     return '''
@@ -207,6 +207,10 @@ def uploadExcel():
 @app.route("/devTest", methods=["GET", "POST"])
 def devTest():
     return render_template("devTest.html")
+
+@app.route("/l")
+def lucato():
+    return render_template("l.html")
 
 
 if __name__ == "__main__":
