@@ -11704,3 +11704,111 @@ Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
 [2022-09-10 20:51:04 +0000] [28676] [INFO] Booting worker with pid: 28676
 [2022-09-10 20:51:04 +0000] [28707] [INFO] Booting worker with pid: 28707
 [2022-09-10 20:51:04 +0000] [28722] [INFO] Booting worker with pid: 28722
+[2022-09-11 01:50:43 +0000] [28722] [INFO] Worker exiting (pid: 28722)
+[2022-09-11 01:50:43 +0000] [28707] [INFO] Worker exiting (pid: 28707)
+[2022-09-11 01:50:43 +0000] [28658] [INFO] Worker exiting (pid: 28658)
+[2022-09-11 01:50:43 +0000] [28629] [INFO] Worker exiting (pid: 28629)
+[2022-09-11 01:50:43 +0000] [28627] [INFO] Worker exiting (pid: 28627)
+[2022-09-11 01:50:43 +0000] [28626] [INFO] Worker exiting (pid: 28626)
+[2022-09-11 01:50:43 +0000] [28548] [INFO] Worker exiting (pid: 28548)
+[2022-09-11 01:50:43 +0000] [28564] [INFO] Worker exiting (pid: 28564)
+[2022-09-11 01:50:43 +0000] [28504] [INFO] Worker exiting (pid: 28504)
+[2022-09-11 01:50:43 +0000] [28473] [INFO] Worker exiting (pid: 28473)
+[2022-09-11 01:50:43 +0000] [28565] [INFO] Worker exiting (pid: 28565)
+[2022-09-11 01:50:43 +0000] [28458] [INFO] Worker exiting (pid: 28458)
+[2022-09-11 01:50:43 +0000] [28488] [INFO] Worker exiting (pid: 28488)
+[2022-09-11 01:50:43 +0000] [28443] [INFO] Worker exiting (pid: 28443)
+[2022-09-11 01:50:43 +0000] [28659] [INFO] Worker exiting (pid: 28659)
+[2022-09-11 01:50:43 +0000] [28505] [INFO] Worker exiting (pid: 28505)
+[2022-09-11 01:50:43 +0000] [28397] [INFO] Worker exiting (pid: 28397)
+[2022-09-11 01:50:43 +0000] [28676] [INFO] Worker exiting (pid: 28676)
+[2022-09-11 01:50:43 +0000] [28566] [INFO] Worker exiting (pid: 28566)
+[2022-09-11 01:50:43 +0000] [28563] [INFO] Worker exiting (pid: 28563)
+[2022-09-11 01:50:43 +0000] [28442] [INFO] Worker exiting (pid: 28442)
+[2022-09-11 01:50:43 +0000] [28596] [INFO] Worker exiting (pid: 28596)
+[2022-09-11 01:50:43 +0000] [28337] [INFO] Worker exiting (pid: 28337)
+[2022-09-11 01:50:43 +0000] [28398] [INFO] Worker exiting (pid: 28398)
+[2022-09-11 01:50:43 +0000] [28382] [INFO] Worker exiting (pid: 28382)
+[2022-09-11 01:50:43 +0000] [28611] [INFO] Worker exiting (pid: 28611)
+[2022-09-11 01:50:43 +0000] [28352] [INFO] Worker exiting (pid: 28352)
+[2022-09-11 01:50:43 +0000] [28336] [INFO] Worker exiting (pid: 28336)
+[2022-09-11 01:50:43 +0000] [28413] [INFO] Worker exiting (pid: 28413)
+[2022-09-11 01:50:43 +0000] [28503] [INFO] Worker exiting (pid: 28503)
+[2022-09-11 01:50:43 +0000] [28335] [INFO] Handling signal: term
+[2022-09-11 01:50:43 +0000] [28367] [INFO] Worker exiting (pid: 28367)
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28442 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28397 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28443 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28503 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28336 was terminated due to signal 15
+--- Logging error ---
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28398 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28458 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28473 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28488 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28504 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28505 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28563 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28564 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28707 was terminated due to signal 15
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28413 was terminated due to signal 15
+Traceback (most recent call last):
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 224, in run
+    handler()
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+    raise StopIteration
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/ubuntu/sitewthflask/venv/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28627 was terminated due to signal 15
+
+Error: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+[2022-09-11 01:50:43 +0000] [28335] [WARNING] Worker with pid 28596 was terminated due to signal 15
+[2022-09-11 01:50:44 +0000] [29759] [INFO] Starting gunicorn 20.1.0
+[2022-09-11 01:50:44 +0000] [29759] [INFO] Listening at: http://127.0.0.1:8000 (29759)
+[2022-09-11 01:50:44 +0000] [29759] [INFO] Using worker: sync
+[2022-09-11 01:50:44 +0000] [29760] [INFO] Booting worker with pid: 29760
+[2022-09-11 01:50:44 +0000] [29761] [INFO] Booting worker with pid: 29761
+[2022-09-11 01:50:44 +0000] [29776] [INFO] Booting worker with pid: 29776
+[2022-09-11 01:50:44 +0000] [29792] [INFO] Booting worker with pid: 29792
+[2022-09-11 01:50:44 +0000] [29791] [INFO] Booting worker with pid: 29791
+[2022-09-11 01:50:44 +0000] [29793] [INFO] Booting worker with pid: 29793
+[2022-09-11 01:50:44 +0000] [29808] [INFO] Booting worker with pid: 29808
+[2022-09-11 01:50:45 +0000] [29837] [INFO] Booting worker with pid: 29837
+[2022-09-11 01:50:45 +0000] [29838] [INFO] Booting worker with pid: 29838
+[2022-09-11 01:50:45 +0000] [29853] [INFO] Booting worker with pid: 29853
+[2022-09-11 01:50:45 +0000] [29854] [INFO] Booting worker with pid: 29854
+[2022-09-11 01:50:45 +0000] [29855] [INFO] Booting worker with pid: 29855
+[2022-09-11 01:50:45 +0000] [29884] [INFO] Booting worker with pid: 29884
+[2022-09-11 01:50:45 +0000] [29927] [INFO] Booting worker with pid: 29927
+[2022-09-11 01:50:45 +0000] [29928] [INFO] Booting worker with pid: 29928
+[2022-09-11 01:50:45 +0000] [29929] [INFO] Booting worker with pid: 29929
+[2022-09-11 01:50:45 +0000] [29930] [INFO] Booting worker with pid: 29930
+[2022-09-11 01:50:45 +0000] [29931] [INFO] Booting worker with pid: 29931
+[2022-09-11 01:50:45 +0000] [29946] [INFO] Booting worker with pid: 29946
+[2022-09-11 01:50:45 +0000] [29947] [INFO] Booting worker with pid: 29947
+[2022-09-11 01:50:45 +0000] [29962] [INFO] Booting worker with pid: 29962
+[2022-09-11 01:50:45 +0000] [29963] [INFO] Booting worker with pid: 29963
+[2022-09-11 01:50:45 +0000] [29992] [INFO] Booting worker with pid: 29992
+[2022-09-11 01:50:45 +0000] [30021] [INFO] Booting worker with pid: 30021
+[2022-09-11 01:50:45 +0000] [30050] [INFO] Booting worker with pid: 30050
+[2022-09-11 01:50:45 +0000] [30051] [INFO] Booting worker with pid: 30051
+[2022-09-11 01:50:45 +0000] [30080] [INFO] Booting worker with pid: 30080
+[2022-09-11 01:50:45 +0000] [30081] [INFO] Booting worker with pid: 30081
+[2022-09-11 01:50:45 +0000] [30110] [INFO] Booting worker with pid: 30110
+[2022-09-11 01:50:45 +0000] [30116] [INFO] Booting worker with pid: 30116
+[2022-09-11 01:50:45 +0000] [30140] [INFO] Booting worker with pid: 30140
