@@ -300,7 +300,11 @@
     }
 
     document.getElementById("btnbtncoiso").addEventListener("click", () => {
-        createIframe();
+	if (!document.querySelector("iframe")){
+            createIframe();
+	} else {
+	    document.querySelectorAll('iframe')[0].parentNode.removeChild(iframe[0]);
+	}
     });
 </script>
 {% if no %}
