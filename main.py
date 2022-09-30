@@ -5,12 +5,13 @@ from flask import *
 import mysql.connector
 from werkzeug.utils import secure_filename
 import pandas as Pd
-
+from dotenv import load_dotenv
+load_dotenv()
 
 db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
-    user="root",
-    passwd="831842",
+    user=os.getenv('USER_MYSQL'),
+    passwd=os.getenv('PASSWD_MYSQL'),
     database="website"
 )
 
@@ -190,7 +191,7 @@ def editarPerfil():
             db.commit()
             return render_template("editarPerfil.html")
 
-        
+
     return render_template("editarPerfil.html")
 
 
