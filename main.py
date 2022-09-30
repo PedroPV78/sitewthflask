@@ -1,8 +1,11 @@
+# -*- coding: utf-8 -*-
 import base64
 import os
 from flask import *
 import mysql.connector
 from werkzeug.utils import secure_filename
+import pandas as Pd
+
 
 db = mysql.connector.connect(
     host="verissimos.ddnsfree.com",
@@ -74,9 +77,8 @@ def login():
         username = request.form["username"]
         password = request.form["password"]
         if not len(password) == 0:
-            sqLogin = f"SELECT * FROM loginData WHERE login = '{username}' AND senha = '{password}'"
+            sqLogin = f"SELECT login, senha FROM loginData WHERE login = '{username}' AND senha = '{password}'"
             mycursor.execute(sqLogin)
-            print(mycursor)
             a = mycursor.fetchall()
             if a:
                 res = make_response(redirect(url_for("home")))
@@ -127,14 +129,12 @@ def calc():
 def editdiario():
     mycursor.execute("SELECT * FROM posts")
     posts = mycursor.fetchall()
-    print(posts)
     return render_template("editdiario.html", posts=posts)
 
 @app.route("/verDiario")
 def verDiario():
     mycursor.execute("SELECT * FROM posts")
     posts = mycursor.fetchall()
-    print(posts)
     return render_template("verDiario.html", posts=posts)
 
 
@@ -159,8 +159,14 @@ def addPost():
 
 @app.route("/verPerfil")
 def verPerfil():
+    cookie = request.cookies.get('login')
+    mycursor.execute(f"SELECT nomeReal from loginData WHERE login='{base64.b64decode(cookie).decode('utf-8')}'")
+    for x in mycursor:
+        coiso = x
+        print(coiso[0].encode('utf-8'))
     return render_template("verPerfil.html")
-    
+
+
 # remove o post
 @app.route("/remove/<id>")
 def removePost(id):

@@ -1,0 +1,87 @@
+[]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+[(1, 'asd', 'asd'), (2, 'asda', 'asdada')]
+MySQLCursor: SELECT * FROM loginData WHERE login = 'g..
+MySQLCursor: SELECT * FROM loginData WHERE login = 'a..
+MySQLCursor: SELECT login, senha FROM loginData WHERE..
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+('Administrador do negÃ³cio',)
+Administrador do negÃ³cio
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+Administrador do negÃ³cio
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Amanda Ellen'
+b'Amanda Ellen'
+b'Amanda Ellen'
+b'Amanda Ellen'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Amanda Ellen'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
+b'Administrador do neg\xc3\x83\xc2\xb3cio'
