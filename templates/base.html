@@ -12,112 +12,98 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon-16x16.png">
   <link rel="manifest" href="/static/img/site.webmanifest">
   <title>{% block title %}{% endblock %}</title>
+  <style>
+    @import 'https://fonts.googleapis.com/css?family=Raleway';
 
+    html, body
+    {
+      margin: 0px;
+    }
+    div.container
+    {
+      font-family: Raleway;
+      margin: 0 auto;
+    	padding: 10em 3em;
+    	text-align: center;
+    }
+
+    div.container a
+    {
+      color: #FFF;
+      text-decoration: none;
+      font: 20px Raleway;
+      margin: 0px 10px;
+      padding: 10px 10px;
+      position: relative;
+      z-index: 0;
+      cursor: pointer;
+    }
+
+    .red
+    {
+      background: #f44336;
+    }
+
+    div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+    {
+        position: absolute;
+        left: 0px;
+        width: 100%;
+        height: 2px;
+        background: #FFF;
+        content: "";
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
+    div.topBotomBordersOut a:before
+    {
+        top: 0px;
+        transform: translateY(10px);
+    }
+
+    div.topBotomBordersOut a:after
+    {
+        bottom: 0px;
+        transform: translateY(-10px);
+    }
+
+    div.topBotomBordersOut a:hover:before, div.topBotomBordersOut a:hover:after
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  </style>
 </head>
 
 <body>
-  <style>
-    body {
-      background-color: #464a4e;
-      color: azure;
-    }
-  </style>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Menu</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Diário da Gisa
-          </a>
-
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/verDiario">Ver diário</a>
-            <a class="dropdown-item disabled" id="coisa" href="/edit">Editar diário</a>
-          </div>
-        </li>
-
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            <span id="perfilName"> Logado como: </span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="/verPerfil" id="bb">Ver perfil</a>
-            <a class="dropdown-item" id="coisa" href="/editarPerfil" id="aa">Editar perfil</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="" onclick="deleteCookie()" id="btnSair" style="display: none;">Sair</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="/login" id="loginBtn">Login</a>
-        </li>
+  <div class="container red topBotomBordersOut">
+    <a>HOME</a>
+    <a>ARTICLES</a>
+    <a>PORTFOLIO</a>
+    <a>ABOUT</a>
+    <a>CONTACT</a>
+  </div>
 
 
 
-      </ul>
-    </div>
-  </nav>
 
 
-  <script>
-    function getCookie(cname) {
-      let name = cname + "=";
-      let decodedCookie = decodeURIComponent(document.cookie);
-      let ca = decodedCookie.split(';');
-      for (let i = 0; i < ca.length; i++) {
-        let c = ca[i];
-        while (c.charAt(0) == ' ') {
-          c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-          return c.substring(name.length, c.length);
-        }
-      }
-      return "";
-    }
 
-    // check if cookie 'login' is set
 
-    function deleteCookie() {
-      document.cookie = "login=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"
-    }
 
-    const user = atob(getCookie('login'));
-    var coisa = document.getElementById("coisa");
 
-    if (user != "") {
-      // if it is, set btnSair to visible
-      document.getElementById('btnSair').style.display = "";
-    }
 
-    if (user == 'gisele' || user == 'admin') {
-      coisa.setAttribute("class", "dropdown-item");
-    }
 
-    if (getCookie('login')) {
-      var nomePerfil = document.getElementById('perfilName');
-      nomePerfil.innerHTML = "Logado como: " + user;
-    } else {
-      var nomePerfil = document.getElementById('perfilName');
-      nomePerfil.innerHTML = "Faça login para ver o perfil"
-    }
 
-    // if cookie is set, set loginBtn to invisible
-    if (getCookie('login')) {
-      document.getElementById('loginBtn').style.display = "none";
-    }
-  </script>
+
+
+
+
+
+
+
 
   {% block content %}
   {% endblock %}
